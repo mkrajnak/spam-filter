@@ -1,0 +1,40 @@
+#!/bin/python
+# Antispam filter - project for BIS course at FIT BUT
+# Author: Martin Krajnak
+import sys
+from os import path
+
+def help():
+    print("Usage: antispam [<file1> <file2> ...]")
+
+
+def check_args(args):
+    if len(args) == 0:
+        help()
+
+
+def spam_print(email, reason):
+    print(email,"- SPAM -", reason)
+
+
+def ok_print(email):
+    print(email,"- OK")
+
+
+def check_spam(email, content):
+    if 'sex' in content:
+        spam_print(email, 'Contains: sex')
+    else:
+        ok_print(email)
+
+
+emails = sys.argv[1:]
+check_args(emails)
+
+for email in emails:
+    if not path.exists(email):
+        print(email, "is not a file, skipping")
+        continue
+    with open(email, 'rb') as mail:
+        content = mail.read().decode('utf-8')
+        check_spam(email,content)
