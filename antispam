@@ -4,6 +4,18 @@
 import sys
 from os import path
 
+# eml parser and deps
+from eml_parser import eml_parser
+import json # TODO delete, for debugging only
+import datetime
+
+# Required for json printing
+def json_serial(obj):
+    if isinstance(obj, datetime.datetime):
+        serial = obj.isoformat()
+        return serial
+
+
 def help():
     print("Usage: antispam [<file1> <file2> ...]")
 
@@ -32,9 +44,13 @@ emails = sys.argv[1:]
 check_args(emails)
 
 for email in emails:
-    if not path.exists(email):
-        print(email, "is not a file, skipping")
+    try:
+        with open(email, 'rb') as mail:
+            content = mail.read()
+            parsed_content = eml_parser.decode_email_b(content)
+            print(json.dumps(parsed_content, default=json_serial))
+            import ipdb; ipdb.set_trace()
+            check_spam(email,content)
+    except Exception as e:
+        print(email,"- FAIL - failed to open email file")
         continue
-    with open(email, 'rb') as mail:
-        content = mail.read().decode('utf-8')
-        check_spam(email,content)
