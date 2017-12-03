@@ -8,6 +8,7 @@ from os import path
 from eml_parser import eml_parser
 import json # TODO delete, for debugging only
 import datetime
+import email.message
 
 # Required for json printing
 def json_serial(obj):
@@ -39,18 +40,33 @@ def check_spam(email, content):
     else:
         ok_print(email)
 
+'''
+Open mail, parse eml, check if body contains message,
+@return message
+'''
+def get_message(email):
+    with open(email, 'rb') as mail:
+        content = mail.read()
+        parsed_content = eml_parser.decode_email_b(content, include_raw_body=True)
+        if 'body' in parsed_content.keys() and parsed_content['body'] != []:
+            return parsed_content['body'][0]['content']
+        else:
+            import email
 
+            return ''
+
+
+
+'''
+Main
+'''
 emails = sys.argv[1:]
 check_args(emails)
 
 for email in emails:
     try:
-        with open(email, 'rb') as mail:
-            content = mail.read()
-            parsed_content = eml_parser.decode_email_b(content)
-            print(json.dumps(parsed_content, default=json_serial))
-            import ipdb; ipdb.set_trace()
-            check_spam(email,content)
+        msg = get_message(email)
+        print(msg)
     except Exception as e:
         print(email,"- FAIL - failed to open email file")
         continue
