@@ -2,8 +2,7 @@
 # Antispam filter - project for BIS course at FIT BUT
 # Author: Martin Krajnak
 import sys
-from os import path
-
+import os
 # eml parser and deps
 from eml_parser import eml_parser
 import json # TODO delete, for debugging only
@@ -40,21 +39,64 @@ def check_spam(email, content):
     else:
         ok_print(email)
 
-'''
-Open mail, parse eml, check if body contains message,
-@return message
-'''
+
+def read_from_empty_line(email):
+    try:
+        with open(email,'r') as mail:
+            content = mail.readlines()
+    except:
+        with open(email,'r', encoding='latin-1') as mail:
+            content = mail.readlines()
+    index = 0
+    for i,line in enumerate(content):
+        if line == '\n':
+            index = i + 1
+            break
+    content = content[i:]
+    return ''.join(content)
+
+
+def debug_print(email, msg):
+    print('--------'+email+'--------')
+    print(msg)
+    print('--------'+email+'--------')
+
+
 def get_message(email):
+    '''
+    Open mail as a binary file pass it to eml_parser to get content
+    if body of received object is empty, try to reopen and to make sure we obtain
+    message. Of erorr ocurrs, try to read best effot with latin-1 encoding
+    @return message
+    '''
     with open(email, 'rb') as mail:
         content = mail.read()
         parsed_content = eml_parser.decode_email_b(content, include_raw_body=True)
-        if 'body' in parsed_content.keys() and parsed_content['body'] != []:
-            return parsed_content['body'][0]['content']
+
+    if 'body' in parsed_content.keys() and parsed_content['body'] != []:
+        if len(parsed_content['body']) > 1:
+            message = ''
+            for i, part in enumerate(parsed_content['body']):
+                message += parsed_content['body'][i]['content']
+            return ''.join(message)
         else:
-            import email
+            return parsed_content['body'][0]['content']
+    else:
+        return read_from_empty_line(email)
 
-            return ''
 
+def classify_message(full_path):
+    msg = get_message(full_path)
+    spam = True if 'spam' in full_path else False
+    return { 'msg': msg, 'spam' : spam }
+
+
+def walk_through_files(dir_name):
+    messages = []
+    for root, dirs, files in os.walk(dir_name, topdown=False):
+        for name in files:
+            messages.append(classify_message(os.path.join(root, name)))
+    import ipdb; ipdb.set_trace()
 
 
 '''
@@ -65,8 +107,12 @@ check_args(emails)
 
 for email in emails:
     try:
-        msg = get_message(email)
-        print(msg)
+        if os.path.isdir(email):
+            walk_through_files(email)
+        else:
+            msg = get_message(email)
+            debug_print(email, msg)
     except Exception as e:
+        import ipdb; ipdb.set_trace()
         print(email,"- FAIL - failed to open email file")
         continue
