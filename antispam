@@ -8,13 +8,9 @@ from eml_parser import eml_parser
 import json # TODO delete, for debugging only
 import datetime
 import email.message
-
-# Required for json printing
-def json_serial(obj):
-    if isinstance(obj, datetime.datetime):
-        serial = obj.isoformat()
-        return serial
-
+# classification libraries
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
 
 def help():
     print("Usage: antispam [<file1> <file2> ...]")
@@ -84,7 +80,9 @@ def get_message(email):
     else:
         return read_from_empty_line(email)
 
-
+'''
+create a dict containing message and classification spam -> True, ham -> False
+'''
 def classify_message(full_path):
     msg = get_message(full_path)
     spam = True if 'spam' in full_path else False
@@ -96,6 +94,16 @@ def walk_through_files(dir_name):
     for root, dirs, files in os.walk(dir_name, topdown=False):
         for name in files:
             messages.append(classify_message(os.path.join(root, name)))
+    return messages
+
+
+def learn_on_dataset(messages):
+    #TODO shufffle values
+    count_vectorizer = CountVectorizer()
+    counts = count_vectorizer.fit_transform([x['msg'] for x in messages])
+    classifier = MultinomialNB()
+    targets = [x['spam'] for x in messages]
+    classifier.fit(counts, targets)
     import ipdb; ipdb.set_trace()
 
 
@@ -108,11 +116,11 @@ check_args(emails)
 for email in emails:
     try:
         if os.path.isdir(email):
-            walk_through_files(email)
+            messages = walk_through_files(email)
+            learn_on_dataset(messages)
         else:
             msg = get_message(email)
             debug_print(email, msg)
     except Exception as e:
-        import ipdb; ipdb.set_trace()
         print(email,"- FAIL - failed to open email file")
         continue
