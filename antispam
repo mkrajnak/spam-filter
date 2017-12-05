@@ -3,6 +3,7 @@
 # Author: Martin Krajnak
 import sys
 import os
+from random import shuffle
 # eml parser and deps
 from eml_parser import eml_parser
 import json # TODO delete, for debugging only
@@ -11,6 +12,9 @@ import email.message
 # classification libraries
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.externals import joblib
+from sklearn.pipeline import Pipeline
+
 
 def help():
     print("Usage: antispam [<file1> <file2> ...]")
@@ -80,6 +84,7 @@ def get_message(email):
     else:
         return read_from_empty_line(email)
 
+
 '''
 create a dict containing message and classification spam -> True, ham -> False
 '''
@@ -98,13 +103,41 @@ def walk_through_files(dir_name):
 
 
 def learn_on_dataset(messages):
-    #TODO shufffle values
-    count_vectorizer = CountVectorizer()
-    counts = count_vectorizer.fit_transform([x['msg'] for x in messages])
-    classifier = MultinomialNB()
-    targets = [x['spam'] for x in messages]
-    classifier.fit(counts, targets)
-    import ipdb; ipdb.set_trace()
+    shuffle(messages)
+    msg = [x['msg'] for x in messages]
+    classification = [x['spam'] for x in messages]
+    pipeline = Pipeline([('vectorizer',CountVectorizer()),
+                         ('classifier',MultinomialNB())])
+    return pipeline.fit(msg, classification)
+
+
+def save_classifier(classifier):
+    joblib.dump(classifier, 'clasifier.pkl')
+
+
+def load_classifier():
+    return joblib.load('clasifier.pkl')
+
+
+def verify_mail(pipeline, msg):
+    predict = pipeline.predict([msg])
+    if len(predict) == 1 and predict[0]:
+        spam_print()
+    else:
+        ok_print()
+
+
+def pipeline_test(pipeline, folder):
+    msgs_to_validate = walk_through_files(folder)
+    msgs = [x['msg'] for x in msgs_to_validate]
+    predict = pipeline.predict(msgs)
+    good = 0
+    for i, message in enumerate(msgs_to_validate):
+        if message['spam'] == predict[i]:
+            good += 1
+    percentage = good/len(msgs_to_validate)*100
+    print('Sucess rate(%): '+str(percentage))
+
 
 
 '''
@@ -113,14 +146,17 @@ Main
 emails = sys.argv[1:]
 check_args(emails)
 
+if os.path.isdir(emails[0]):
+    #messages = walk_through_files(emails[0])
+    #pipeline = learn_on_dataset(messages)
+    pipeline = load_classifier()
+    pipeline_test(pipeline, emails[0])
+    #save_classifier(pipeline)
+
 for email in emails:
     try:
-        if os.path.isdir(email):
-            messages = walk_through_files(email)
-            learn_on_dataset(messages)
-        else:
-            msg = get_message(email)
-            debug_print(email, msg)
+        msg = get_message(email)
+        debug_print(email, msg)
     except Exception as e:
         print(email,"- FAIL - failed to open email file")
         continue
