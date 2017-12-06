@@ -6,9 +6,6 @@ import os
 from random import shuffle
 # eml parser and deps
 from eml_parser import eml_parser
-import json # TODO delete, for debugging only
-import datetime
-import email.message
 # classification libraries
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -34,13 +31,6 @@ def spam_print(email,reason=None):
 
 def ok_print(email):
     print(email,"- OK")
-
-
-def check_spam(email, content):
-    if 'sex' in content:
-        spam_print(email, 'Contains: sex')
-    else:
-        ok_print(email)
 
 
 def read_from_empty_line(email):
