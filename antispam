@@ -18,15 +18,18 @@ from sklearn.pipeline import Pipeline
 
 def help():
     print("Usage: antispam [<file1> <file2> ...]")
-
+    exit(0)
 
 def check_args(args):
     if len(args) == 0:
         help()
 
 
-def spam_print(email, reason):
-    print(email,"- SPAM -", reason)
+def spam_print(email,reason=None):
+    if reason:
+        print(email,"- SPAM -", reason)
+    else:
+        print(email,"- SPAM")
 
 
 def ok_print(email):
@@ -121,10 +124,7 @@ def load_classifier():
 
 def verify_mail(pipeline, msg):
     predict = pipeline.predict([msg])
-    if len(predict) == 1 and predict[0]:
-        spam_print()
-    else:
-        ok_print()
+    return predict[0]
 
 
 def pipeline_test(pipeline, folder):
@@ -145,18 +145,22 @@ Main
 '''
 emails = sys.argv[1:]
 check_args(emails)
+pipeline = load_classifier()
 
-if os.path.isdir(emails[0]):
-    #messages = walk_through_files(emails[0])
+#if os.path.isdir(emails[0]):
     #pipeline = learn_on_dataset(messages)
-    pipeline = load_classifier()
-    pipeline_test(pipeline, emails[0])
+    # pipeline_test(pipeline, emails[0])
     #save_classifier(pipeline)
 
 for email in emails:
     try:
         msg = get_message(email)
-        debug_print(email, msg)
+        # debug_print(email, msg)
+        if verify_mail(pipeline, msg):
+            spam_print(email)
+        else:
+            ok_print(email)
+
     except Exception as e:
         print(email,"- FAIL - failed to open email file")
         continue
