@@ -55,6 +55,26 @@ def debug_print(email, msg):
     print('--------'+email+'--------')
 
 
+
+def get_header(email):
+    with open(email, 'rb') as mail:
+        content = mail.read()
+        mail = eml_parser.decode_email_b(content)
+        if 'header' in mail.keys() and 'header' in mail['header'].keys():
+            return mail['header']['header']
+        else:
+            return False
+
+
+def is_czechoslovak(email):
+    header = get_header(email)
+    import ipdb; ipdb.set_trace()
+    if header and 'content-language' in header.keys():
+        if 'cs' in header['content-language'] or 'sk' in header['content-language']:
+            return True
+    return False
+
+
 def get_message(email):
     '''
     Open mail as a binary file pass it to eml_parser to get content
@@ -143,6 +163,7 @@ pipeline = load_classifier()
     #save_classifier(pipeline)
 
 for email in emails:
+    # lel = is_czechoslovak(email)
     try:
         msg = get_message(email)
         # debug_print(email, msg)
