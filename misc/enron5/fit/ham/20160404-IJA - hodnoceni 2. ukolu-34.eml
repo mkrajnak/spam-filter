@@ -1,0 +1,87 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.81 with SMTP id k78csp1015176lfe;
+        Mon, 4 Apr 2016 01:27:53 -0700 (PDT)
+X-Received: by 10.194.24.39 with SMTP id r7mr15894602wjf.86.1459758473105;
+        Mon, 04 Apr 2016 01:27:53 -0700 (PDT)
+Return-Path: <koci@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id za6si29949897wjc.241.2016.04.04.01.27.52
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 04 Apr 2016 01:27:53 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of koci@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of koci@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=koci@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u348RqbJ087927
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Mon, 4 Apr 2016 10:27:52 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u348Rqbu087925
+	for krajnakmatto@gmail.com; Mon, 4 Apr 2016 10:27:52 +0200 (CEST)
+	(envelope-from koci@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to koci@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u348Rpd0087910
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Mon, 4 Apr 2016 10:27:51 +0200 (CEST)
+Received: from kazi.fit.vutbr.cz (localhost [127.0.0.1])
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u348Rp1C084171
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Mon, 4 Apr 2016 10:27:51 +0200 (CEST)
+Received: (from koci@localhost)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.1/Submit) id u348RpFJ084157
+	for xkrajn02@stud.fit.vutbr.cz; Mon, 4 Apr 2016 10:27:51 +0200 (CEST)
+	(envelope-from koci)
+Date: Mon, 4 Apr 2016 10:27:51 +0200 (CEST)
+From: Koci Radek <koci@fit.vutbr.cz>
+Message-Id: <201604040827.u348RpFJ084157@kazi.fit.vutbr.cz>
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: IJA - hodnoceni 2. ukolu
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-1.003 required=7 tests=ALL_TRUSTED,AWL,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+xkrajn02: 5 bodu : 
+----
+
+Hodnoceni: xkrajn02: 5 : 
+
+=== stdout ===
+Buildfile: xkrajn02/build.xml
+
+=== log ===
+Trying to override old definition of task javac
+
+prepare:
+    [mkdir] Created dir: xkrajn02/build
+     [copy] Copying 1 file to xkrajn02/ija/ija2015/homework2
+
+compile:
+    [javac] Compiling 1 source file to xkrajn02/build
+
+test:
+     [java] JUnit version 4.12
+     [java] .Rules
+     [java] .Game
+     [java] .Player
+     [java] 
+     [java] Time: 0,01
+     [java] 
+     [java] OK (3 tests)
+     [java] 
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+----
+Pokud jste neziskali potrebny pocet bodu, postupujte podle informaci na wiki strankach predmetu.
+Radek Koci
+
+

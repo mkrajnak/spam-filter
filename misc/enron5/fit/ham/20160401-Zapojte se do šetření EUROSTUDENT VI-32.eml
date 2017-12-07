@@ -1,0 +1,93 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.81 with SMTP id k78csp628900lfe;
+        Fri, 1 Apr 2016 03:02:51 -0700 (PDT)
+X-Received: by 10.194.80.38 with SMTP id o6mr4245736wjx.57.1459504971298;
+        Fri, 01 Apr 2016 03:02:51 -0700 (PDT)
+Return-Path: <zpravy-is@ro.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id ip7si15976062wjb.98.2016.04.01.03.02.51
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 Apr 2016 03:02:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=zpravy-is@ro.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u31A2ora041580
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Fri, 1 Apr 2016 12:02:50 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u31A2o8v041579
+	for krajnakmatto@gmail.com; Fri, 1 Apr 2016 12:02:50 +0200 (CEST)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to zpravy-is@ro.vutbr.cz using -f
+Received: from ferret.cis.vutbr.cz (ferret.cis.vutbr.cz [147.229.3.145])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u31A2mxo041562
+	(version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 1 Apr 2016 12:02:48 +0200 (CEST)
+Received: from ent.ro.vutbr.cz (ent.ro.vutbr.cz [147.229.2.49])
+	by ferret.cis.vutbr.cz (8.14.9/8.14.7/VUT Brno) with ESMTP id u31A2mb0032295
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 1 Apr 2016 12:02:48 +0200 (CEST)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+Received: from ent.ro.vutbr.cz (localhost.localdomain [127.0.0.1])
+	by ent.ro.vutbr.cz (8.13.8/8.13.8) with ESMTP id u31A2mvh009440
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 1 Apr 2016 12:02:48 +0200
+Received: (from root@localhost)
+	by ent.ro.vutbr.cz (8.13.8/8.13.8/Submit) id u31A2mBI009439;
+	Fri, 1 Apr 2016 12:02:48 +0200
+Date: Fri, 1 Apr 2016 12:02:48 +0200
+Message-Id: <201604011002.u31A2mBI009439@ent.ro.vutbr.cz>
+MIME-Version: 1.0
+From: zpravy-is@ro.vutbr.cz
+Reply-to: zpravy-is@ro.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: =?utf-8?B?WmFwb2p0ZSBzZSBkbyDFoWV0xZllbsOtIEVVUk9TVFVERU5UIFZJ?=
+User-Agent: EmailSend VUTPortal3 shreckdog email_send.pl
+Content-type: text/plain; charset="utf-8"
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.67 on 147.229.3.145
+X-Spam-Status: No, score=0.004 required=7 tests=AWL,RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from base64 to 8bit by eva.fit.vutbr.cz id u31A2mxo041562
+X-Loop: to-krajnakmatto@gmail.com
+
+Vážená studentko, vážený studente, 
+
+byl(a) jste vybrán(a) pro účast v  šetření EUROSTUDENT VI.  Toto šetření postojů a životních podmínek vysokoškolských studentů probíhá v řadě evropských zemí a stejně jako v předchozích vlnách se k němu připojuje i Česká republika. Na základě Vašich odpovědí bude možné zjistit aktuální postoje a životní podmínky studentů studujících na vysokých školách v České republice v bakalářských a magisterských studijních programech.
+
+Šetření organizuje Ministerstvo školství mládeže a tělovýchovy ČR (www.msmt.cz) ve spolupráci se Studentskou komorou Rady vysokých škol (www.skrvs.cz).  Základní výsledky budou na stránkách MŠMT dostupné na podzim 2016.
+
+Dovolujeme si Vás požádat o vyplnění dotazníku, k němuž se dostanete kliknutím na níže uvedený odkaz a zadáním přístupového jména (e-mailové adresy) a hesla, které máte pro vstup do dotazníku k dispozici níže. Dotazník je plně anonymní, jeho vyplnění Vám zabere asi 30 minut a k částečně vyplněnému dotazníku se můžete kdykoli vrátit (je tedy možné vyplňování dotazníku přerušit a pokračovat později). 
+
+Odkaz: https://eurostudent.msmt.cz/
+
+Přístupové jméno: stu1411@vut.cz
+
+Heslo: IeF69b
+
+O kompletní vyplnění dotazníku prosíme do 30. dubna 2016.
+
+V případě jakýchkoli dotazů se neváhejte obrátit na správce systému na adrese eurostudent@msmt.cz.
+
+Děkujeme za Váš čas, který budete vyplnění dotazníku věnovat, a přejeme Vám mnoho úspěchů ve Vašem studiu.
+
+S přátelským pozdravem
+
+Jakub Fischer (odborný garant projektu a prorektor Vysoké školy ekonomické v Praze)
+
+Vojtěch Bartoš (prorektor Vysokého učení technického v Brně)
+
+
+
+
+
+VUT zpráva od: Informační systém VUT 
+Odpověď na tuto zprávu není možná. Zprávu odeslal automat.
+
+

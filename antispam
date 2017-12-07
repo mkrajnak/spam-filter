@@ -149,21 +149,31 @@ def pipeline_test(pipeline, folder):
     print('Sucess rate(%): '+str(percentage))
 
 
+'''
+Function responsible for learning
+'''
+def learn(path):
+    messages = walk_through_files(path)
+    pipeline = learn_on_dataset(messages)
+    # pipeline_test(pipeline, path)
+    save_classifier(pipeline)
+    exit(0)
+
 
 '''
 Main
 '''
 emails = sys.argv[1:]
 check_args(emails)
+
+# if os.path.isdir(emails[0]):
+#     learn(emails[0])
+
 pipeline = load_classifier()
 
-#if os.path.isdir(emails[0]):
-    #pipeline = learn_on_dataset(messages)
-    # pipeline_test(pipeline, emails[0])
-    #save_classifier(pipeline)
+
 
 for email in emails:
-    # lel = is_czechoslovak(email)
     try:
         msg = get_message(email)
         # debug_print(email, msg)

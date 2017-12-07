@@ -1,0 +1,86 @@
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.159.41.100 with SMTP id t91csp1954654uat;
+        Sat, 18 Nov 2017 07:35:33 -0800 (PST)
+X-Google-Smtp-Source: AGs4zMYKzpvgKPsVzL8x1CTVa+kHZb+LPDChbWb90RHNpr0L59YdNCE5iSauDwqVYZoP71U0+GKN
+X-Received: by 10.99.130.74 with SMTP id w71mr8251566pgd.31.1511019333054;
+        Sat, 18 Nov 2017 07:35:33 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1511019333; cv=none;
+        d=google.com; s=arc-20160816;
+        b=wiVLxPklbnOj4Pk0bICZ++kTC9FVMNKXjz2uRGeNj/MavDQ7h0FNsDfWEOK6LjzacP
+         chctq47qqOkPW8XVm5p4jd1mYSKRFWxnd6BV4AnmWBINixBQ3eobtxYCiWXiybGQZQPU
+         R/j3hWFbH6TmcwK2L7TfKfT/usZo6EiydcHfxtHrpm47lvPEkFjCcjeJeQYrphdBu8uj
+         PxVoTe9XPJrTouKarea6k7qejl5JXw2T7yjnWJob5GRr+4TPb6SjLf3wnyN/U82lVc3T
+         nTesQldBNG4omGb+WOeCGeWwRW/prwfs7T9pAlrX6gfxywV8X8FwLO0Q6elBq9lJFT48
+         MESg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:message-id:sender:from:to:subject:content-transfer-encoding
+         :mime-version:arc-authentication-results;
+        bh=3PhKgE0bA92BgN/Whjz+qBpZ9oZfEu4+9J7CcB1CMhw=;
+        b=q39Dijwqe1To8YzLzETdbzAsztp+hEGi+IfvNN9CkNAzAdLtrr+GiGtqTdvQk7gDik
+         bzEaWWENVNO8hJ0MUabGhTJ5zmXIw6mZMZH486mec/U9kxkUk7X7JZBjJFewj2Cnwegb
+         6Sd/nMD9tx9x33g92cr6EneZz2uDIiznSpJ2PbwOAB8QBlcWzuMFg/8Sz908oe5E+98i
+         k0K1nynCdGIBABx/PlJioGW2WWc7Pl/MCLuOS8Zjx+wF7w+EYbDGIX3d5gaXSOGD1WB5
+         SlTXmmVYKHY+AhF1Z2Tj+sD7xZKMG28gk7gdzCv4zTRfRYlll/ZNASMGBYjAbLUOJyKP
+         pOhQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of 4-864437-2381647-20706483383-g42dimrrg4@datadrivenemail.com designates 74.86.78.93 as permitted sender) smtp.mailfrom=4-864437-2381647-20706483383-G42DIMRRG4@datadrivenemail.com
+Return-Path: <4-864437-2381647-20706483383-G42DIMRRG4@datadrivenemail.com>
+Received: from mail01-30.datadrivenemail.com (mail01-30.datadrivenemail.com. [74.86.78.93])
+        by mx.google.com with ESMTPS id a28si4600734pgd.201.2017.11.18.07.35.31
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 18 Nov 2017 07:35:33 -0800 (PST)
+Received-SPF: pass (google.com: domain of 4-864437-2381647-20706483383-g42dimrrg4@datadrivenemail.com designates 74.86.78.93 as permitted sender) client-ip=74.86.78.93;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 4-864437-2381647-20706483383-g42dimrrg4@datadrivenemail.com designates 74.86.78.93 as permitted sender) smtp.mailfrom=4-864437-2381647-20706483383-G42DIMRRG4@datadrivenemail.com
+Received: from [10.255.95.157] (10.255.95.157) by mail01-30.datadrivenemail.com id h219l42cu5kb for <krajnakmatto@gmail.com>; Sat, 18 Nov 2017 15:33:12 +0000 (envelope-from <4-864437-2381647-20706483383-G42DIMRRG4@datadrivenemail.com>)
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Subject: Stovka zdarma od Rohlik.cz
+To: krajnakmatto@gmail.com
+From: =?utf-8?b?VG9tw6HFoSB6IFJvaGxpay5jeg==?= <zakaznici@rohlik.cz>
+Sender: =?utf-8?b?IlRvbcOhxaEgeiBSb2hsaWsuY3oiIDx6YWthem5pY2k9cm9obGlrLmN6?=
+ =?utf-8?q?=40r10=2Edatadrivenemail=2Ecom=3E?=
+Message-ID: <0.0.2D.950.1D360828B78FC1A.0@mail01-30.datadrivenemail.com>
+Date: Sat, 18 Nov 2017 15:33:12 +0000
+
+<html><head></head><body><!--?xml version=3D"1.0" encoding=3D"UTF-8"?-->
+
+<div>Kr=C3=A1sn=C3=BD mraziv=C3=BD ve=C4=8Der,&nbsp;</div><div><br></div><d=
+iv>chceme v=C3=A1m ud=C4=9Blat radost a proto jsme se rozhodli v=C3=A1m na =
+vyzkou=C5=A1en=C3=AD <a href=3D"http://www.rohlik.cz/?utm_source=3Dmixpanel=
+&utm_campaign=3Dakvi181117">Rohlik.cz</a> v=C4=9Bnovat sto korun! Sta=C4=8D=
+=C3=AD zadat k=C3=B3d VYZKOUSEJROHLIK na <a href=3D"https://www.rohlik.cz/p=
+oukaz/?utm_source=3Dmixpanel&utm_campaign=3Dakvi181117" target=3D"_blank">h=
+ttps://www.rohlik.cz/poukaz/</a>. K=C3=B3d je platn=C3=BD do konce tohoto v=
+=C3=ADkendu na prvn=C3=AD objedn=C3=A1vku na <a href=3D"http://www.rohlik.c=
+z/?utm_source=3Dmixpanel&utm_campaign=3Dakvi181117" target=3D"_blank">Rohli=
+k.cz</a>.&nbsp;
+</div><div><br></div><div>K tomu nav=C3=ADc:&nbsp;</div><div><br></div><div=
+>* Cel=C3=BD v=C3=ADkend je v hodinov=C3=BDch doru=C4=8Dovac=C3=ADch oknech=
+&nbsp;doprava zdarma</div><div>* Najdete u n=C3=A1s p=C5=99es 10 000 polo=
+=C5=BEek, to je 8x v=C3=ADce ne=C5=BE v b=C4=9B=C5=BEn=C3=A9m supermarketu<=
+/div><div>* M=C3=A1me spoustu kvaitn=C3=ADch potravin v=C4=8Detn=C4=9B <a h=
+ref=3D"https://www.rohlik.cz/tema/nemecke-potraviny?utm_source=3Dmixpanel&u=
+tm_campaign=3Dakvi181117" target=3D"_blank">n=C4=9Bm=C4=9Bck=C3=BDch</a></d=
+iv><div>* Roz=C5=A1=C3=AD=C5=99ili jsme sortiment <a href=3D"https://www.ro=
+hlik.cz/c300112909-marks-spencer?utm_source=3Dmixpanel&utm_campaign=3Dakvi1=
+81117" target=3D"_blank">Marks&amp;Spencer</a></div><div>* U=C5=BE nyn=C3=
+=AD u n=C3=A1s najdete spoustu <a href=3D"https://www.rohlik.cz/c300112085-=
+vanoce?utm_source=3Dmixpanel&utm_campaign=3Dakvi181117" target=3D"_blank">v=
+=C3=A1no=C4=8Dn=C3=ADho sortimentu a d=C3=A1rk=C5=AF</a></div><div>* Poda=
+=C5=99ilo se n=C3=A1m v=C3=BDrazn=C4=9B zlep=C5=A1it p=C5=99esnost doru=C4=
+=8Den=C3=AD, m=C5=AF=C5=BEete se na n=C3=A1s spolehnout!&nbsp;</div><div><b=
+r></div><div>V=C4=9B=C5=99=C3=ADm, =C5=BEe jsem V=C3=A1s pot=C4=9B=C5=A1il =
+a =C5=BEe V=C3=A1m uk=C3=A1=C5=BEeme, =C5=BEe <a href=3D"http://www.rohlik.=
+cz/?utm_source=3Dmixpanel&utm_campaign=3Dakvi181117" target=3D"_blank">Rohl=
+ik.cz</a> je velk=C3=BD pomocn=C3=ADk v p=C5=99edv=C3=A1no=C4=8Dn=C3=ADm sh=
+onu.&nbsp;
+</div><div><br></div><div>Tom=C3=A1=C5=A1 =C4=8Cupr</div><div>=C5=98editel =
+<a href=3D"http://www.rohlik.cz/?utm_source=3Dmixpanel&utm_campaign=3Dakvi1=
+81117" target=3D"_blank">Rohlik.cz</a></div><img src=3D"http://api.mixpanel=
+.com/track?data=3DeyJldmVudCI6ICIkY2FtcGFpZ25fb3BlbiIsICJwcm9wZXJ0aWVzIjoge=
+yJ0b2tlbiI6ICI4M2M5ZjFhN2U3N2JhMzYzM2ZkN2YxMTE2YzBlNTM4YyIsICJkaXN0aW5jdF9p=
+ZCI6ICI3NDQyMTciLCAidHlwZSI6ICJlbWFpbCIsICJjYW1wYWlnbl9pZCI6IDIzODE2NDd9fQ%=
+3D%3D&img=3D1" /></body></html>

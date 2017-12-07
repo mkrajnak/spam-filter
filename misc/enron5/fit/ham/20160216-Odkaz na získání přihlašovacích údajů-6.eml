@@ -1,0 +1,65 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.131 with SMTP id k125csp1780926lfe;
+        Tue, 16 Feb 2016 10:43:02 -0800 (PST)
+X-Received: by 10.28.103.197 with SMTP id b188mr20206884wmc.4.1455648182441;
+        Tue, 16 Feb 2016 10:43:02 -0800 (PST)
+Return-Path: <php@amccomp.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id f9si50602225wjs.71.2016.02.16.10.43.02
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 Feb 2016 10:43:02 -0800 (PST)
+Received-SPF: fail (google.com: domain of php@amccomp.cz does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of php@amccomp.cz does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=php@amccomp.cz;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u1GIh1ph085459
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Tue, 16 Feb 2016 19:43:01 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u1GIh1Q2085458
+	for krajnakmatto@gmail.com; Tue, 16 Feb 2016 19:43:01 +0100 (CET)
+	(envelope-from php@amccomp.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to php@amccomp.cz using -f
+Received: from dita.amccomp.cz (dita.amccomp.cz [80.79.24.71])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u1GIh1Ll085450
+	(version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Tue, 16 Feb 2016 19:43:01 +0100 (CET)
+Message-Id: <201602161843.u1GIh1Ll085450@eva.fit.vutbr.cz>
+Received: from linda.amccomp.cz ([80.79.24.30])
+	by dita.amccomp.cz (Kerio Connect 8.1.1)
+	for xkrajn02@stud.fit.vutbr.cz;
+	Tue, 16 Feb 2016 19:43:00 +0100
+Subject: Odkaz na =?UTF-8?B?esOtc2vDoW7DrSBwxZlpaGxh?=
+ =?UTF-8?B?xaFvdmFjw61jaCDDumRhasWv?=
+To: xkrajn02@stud.fit.vutbr.cz
+X-PHP-Originating-Script: 0:lostdata.php
+From: Fituska <fituska@gmail.com>
+Date: Tue, 16 Feb 2016 19:43:00 +0200
+X-Mailer: PHP
+X-Priority: 1
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-Spam-Status: No, score=2.173 required=7 tests=AWL,BAYES_00,DKIM_ADSP_CUSTOM_MED,FREEMAIL_FORGED_FROMDOMAIN,FREEMAIL_FROM,HEADER_FROM_DIFFERENT_DOMAINS,MSGID_FROM_MTA_HEADER,NML_ADSP_CUSTOM_MED,RCVD_IN_BRBL_LASTEXT,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from BASE64 to 8bit by eva.fit.vutbr.cz id u1GIh1Ll085450
+X-Loop: to-krajnakmatto@gmail.com
+
+Ze serveru https://fituska.eu byla odeslána žádost o získání přihlašovacích údajů (IP adresa žadatele: 147.229.216.50).
+
+Kliknutím na odkaz níže se dozvíte své přihlašovací jméno a bude Vám vygenerováno nové heslo.
+
+Odkaz: https://fituska.eu/lostdata.php?code=b4296687595bc9cb0c4694011a735fe3
+
+S pozdravem,
+
+    tým administrátorů fituska.eu
+
+

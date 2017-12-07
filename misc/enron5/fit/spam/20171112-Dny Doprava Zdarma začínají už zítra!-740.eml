@@ -1,0 +1,1881 @@
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.159.41.100 with SMTP id t91csp3991759uat;
+        Sun, 12 Nov 2017 03:03:36 -0800 (PST)
+X-Google-Smtp-Source: AGs4zMZrKMag6goH+mjYx7wr11eKJFRFg/rLKNmSTZ3bBZ3TdfOarNpklBcv8sOdNyIl9Jw+amTn
+X-Received: by 10.55.69.84 with SMTP id s81mr8663779qka.77.1510484616785;
+        Sun, 12 Nov 2017 03:03:36 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1510484616; cv=none;
+        d=google.com; s=arc-20160816;
+        b=LxnrwQEtyGcE7gqu/NJ9SpYveE41AEjsWnenNsvvDhfxU7Sjt8AdnQjV3Yx1OyaHSm
+         +mVukuYlETWabs9FBtNC3F0GhlfYQf5NfsR7p75McOW69fux0+1RkhR17h5rNKeqegNH
+         NTVr6BLSpXUqIgtTQD/DVXrKEYelpTfvNvAQL6vAdN/dLq3Eql3KBr7wuy92zATNJWp8
+         ++il3hmk/8z/HJyvOnMmN1toH+dsNtcoAmsC/4w0+y0FAh5wMk8qmsKnZOGhDm4eJzHn
+         PUz05+O5/H0tj4AC1SkJEqB/ssPu8Iu2zC140DpSonY39DSI4aQqwb44qyaEk7n2nsTh
+         W9+g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:list-unsubscribe-post:list-unsubscribe:list-id
+         :feedback-id:message-id:date:to:reply-to:from:subject:dkim-signature
+         :dkim-signature:arc-authentication-results;
+        bh=Qf9J7MiPRbRWORPFxkTTHbrwOejJjxwXcLhDst7AzVI=;
+        b=lP6lAr1GSUs/qatpSVquRoIWgPFXZVulN29rhS6R5P9G9kVKOyb4pQC8loi5p9NIlH
+         jGZdxPaUb1f0Mdpz506Pq2CCWjeFNoN+va7USx8a0Xn9Mm2tN1GI6wHtloKRQCie4Z3+
+         vjY+pC9I8s7svEGmYfXH5rLGxd8TH2ncv0xrygz6MYQOCT3HQlgrLGilgKN8+pGRKPi8
+         jcm3K43c4WoECVZixRki0cDdlT2FAs54P0xHqG8V3v4GXFGK8tvI1IA5YTn+pXVyv/YO
+         atB6fjuQqgRZo9Hrk/FDSnwnWEx3l9We9KMyegCQFzFYN50UZZXVYc4AV+MOHyrPRQOl
+         wzdw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@news.tipli.cz header.s=k1 header.b=rXgdNL0I;
+       dkim=pass header.i=@mcc.mcsv.net header.s=k1 header.b=estkn4oO;
+       spf=pass (google.com: domain of bounce-mc.us17_83586745.16357-krajnakmatto=gmail.com@mail93.suw17.mcsv.net designates 198.2.181.93 as permitted sender) smtp.mailfrom=bounce-mc.us17_83586745.16357-krajnakmatto=gmail.com@mail93.suw17.mcsv.net;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=news.tipli.cz
+Return-Path: <bounce-mc.us17_83586745.16357-krajnakmatto=gmail.com@mail93.suw17.mcsv.net>
+Received: from mail93.suw17.mcsv.net (mail93.suw17.mcsv.net. [198.2.181.93])
+        by mx.google.com with ESMTPS id 99si1300235qky.345.2017.11.12.03.03.36
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 12 Nov 2017 03:03:36 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-mc.us17_83586745.16357-krajnakmatto=gmail.com@mail93.suw17.mcsv.net designates 198.2.181.93 as permitted sender) client-ip=198.2.181.93;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@news.tipli.cz header.s=k1 header.b=rXgdNL0I;
+       dkim=pass header.i=@mcc.mcsv.net header.s=k1 header.b=estkn4oO;
+       spf=pass (google.com: domain of bounce-mc.us17_83586745.16357-krajnakmatto=gmail.com@mail93.suw17.mcsv.net designates 198.2.181.93 as permitted sender) smtp.mailfrom=bounce-mc.us17_83586745.16357-krajnakmatto=gmail.com@mail93.suw17.mcsv.net;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=news.tipli.cz
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=k1; d=news.tipli.cz;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:
+ Content-Type:MIME-Version; i=novinky@news.tipli.cz;
+ bh=Qf9J7MiPRbRWORPFxkTTHbrwOejJjxwXcLhDst7AzVI=;
+ b=rXgdNL0IOn2+RktNZ9zu2f+VdE7qCHqLlrzLtB3XRcpJ1QE708a/QHvUVnKb5MwYF8AAoemv422W
+   lAfWx8paEQiws9Yu2KobsegUKac6gJt/JLdr2R+Gi9tWJ9JWjw2RIq/iRJAplbGtMTkzTepvFCQu
+   rDHygfX5ImcJqtm1pHs=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=k1; d=mcc.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:Feedback-ID:List-ID:
+ List-Unsubscribe:Content-Type:MIME-Version;
+ bh=Qf9J7MiPRbRWORPFxkTTHbrwOejJjxwXcLhDst7AzVI=;
+ b=estkn4oOjvH9hBTmSiilBVbsearNcnN26jyLBzZjlokSVH7FKlo9KwAO2PAMEC33G9g/PcFMsKin
+   lORD1Sc317WYxG0jt02g5QzTK1RZxY2x+Q8TQ9cJNJXQQfIxizyuh2SsmTEYVQKLK+ovGprMYDS3
+   W/a+CQ3o2o+a2zbk108u7JqgkPv9VC3kgQAQA8z3mJRCH19nY+NWu+creKkOSr5Lm+AOk8g1LV/V
+   jzBUv32E36WtnxBxFzEzRZob6TySvyOIPImihkbG9lGn14jDVGDtsmVfw8cKw28xM7r0BvKZMrJm
+   sRepz/bAlQBC+qr6EKXM7vo/33f++8jQ6SJMYw==
+Received: from (127.0.0.1) by mail93.suw17.mcsv.net id h10l8g2akec3 for <krajnakmatto@gmail.com>; Sun, 12 Nov 2017 11:01:54 +0000 (envelope-from <bounce-mc.us17_83586745.16357-krajnakmatto=gmail.com@mail93.suw17.mcsv.net>)
+Subject: =?utf-8?Q?Dny=20Doprava=20Zdarma=20za=C4=8D=C3=ADnaj=C3=AD=20u=C5=BE=20z=C3=ADtra=21?=
+From: =?utf-8?Q?Tipli=20|=20V=C3=A1no=C4=8Dn=C3=AD=20akce?= <novinky@news.tipli.cz>
+Reply-To: =?utf-8?Q?Tipli=20|=20V=C3=A1no=C4=8Dn=C3=AD=20akce?= <novinky@news.tipli.cz>
+To: =?utf-8?Q?=20?= <krajnakmatto@gmail.com>
+Date: Sun, 12 Nov 2017 11:01:54 +0000
+Message-ID: <a3aca981f51432c9877ca31f1.8996700a82.20171112110121.03a9b21261.d7196e8a@mail93.suw17.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID03a9b212618996700a82**
+X-Campaign: mailchimpa3aca981f51432c9877ca31f1.03a9b21261
+X-campaignid: mailchimpa3aca981f51432c9877ca31f1.03a9b21261
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=a3aca981f51432c9877ca31f1&id=03a9b21261&e=8996700a82
+X-MC-User: a3aca981f51432c9877ca31f1
+Feedback-ID: 83586745:83586745.16357:us17:mc
+List-ID: a3aca981f51432c9877ca31f1mc list <a3aca981f51432c9877ca31f1.12169.list-id.mcsv.net>
+X-Accounttype: pr
+List-Unsubscribe: <https://tipli.us17.list-manage.com/unsubscribe?u=a3aca981f51432c9877ca31f1&id=b1b102b613&e=8996700a82&c=03a9b21261>, <mailto:unsubscribe-mc.us17_a3aca981f51432c9877ca31f1.03a9b21261-8996700a82@mailin1.us2.mcsv.net?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1982265900"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1982265900
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Spustili jsme V=C3=A1noce s Tipli - a=C5=BE do 12.12. ka=C5=BEd=C3=BD den=
+ exkluzivn=C3=AD akce a slevy pouze na Tipli. A nav=C3=ADc u=C5=BE z=C3=AD=
+tra startuj=C3=AD Dny Dopravy Zdarma!
+
+https://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877ca31=
+f1&id=3D0cf5e9a777&e=3D8996700a82
+https://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877ca31=
+f1&id=3D42d24b6c3f&e=3D8996700a82
+
+
+** Pozor! Startujeme u=C5=BE dnes
+------------------------------------------------------------
+Ka=C5=BEd=C3=BD den se m=C5=AF=C5=BEete t=C4=9B=C5=A1it na zv=C3=BD=C5=A1e=
+n=C3=BD cashback=2C exkluzivn=C3=AD slevov=C3=A9 kup=C3=B3ny=2C dopravu zd=
+arma nebo sout=C4=9B=C5=BEe o super ceny!
+V=C3=A1no=C4=8Dn=C3=AD sez=C3=B3na s Tipli.cz za=C4=8D=C3=ADn=C3=A1 ji=C5=
+=BE dnes. A=C5=BE do 12. prosince
+u n=C3=A1s najdete v=C5=BEdy n=C4=9Bco nav=C3=ADc!
+V=C3=ADce o akci V=C3=A1noce s Tipli =C2=BB (https://tipli.us17.list-manag=
+e.com/track/click?u=3Da3aca981f51432c9877ca31f1&id=3Df2634d9f6d&e=3D=
+8996700a82)
+https://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877ca31=
+f1&id=3D4ef5f3071c&e=3D8996700a82
+Nenechte si uj=C3=ADt 3 dny dopravy ZCELA ZDARMA ve v=C3=ADce ne=C5=BE 70=
+ obchodech a nav=C3=ADc odm=C4=9Bny z ka=C5=BEd=C3=A9ho n=C3=A1kupu na Tip=
+li.cz!
+Zobrazit obchody s DOPRAVOU ZDARMA =C2=BB (https://tipli.us17.list-manage.=
+com/track/click?u=3Da3aca981f51432c9877ca31f1&id=3D4d65178717&e=3D=
+8996700a82)
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+** Z=C3=ADskejte 10 K=C4=8D za p=C5=99id=C3=A1n=C3=AD dopl=C5=88ku!
+Odm=C4=9Bny V=C3=A1m s dopl=C5=88kem u=C5=BE nikdy neute=C4=8Dou.
+(https://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877ca3=
+1f1&id=3Dfd39d77559&e=3D8996700a82)
+** P=C5=98IDAT DOPLN=C4=9AK (https://tipli.us17.list-manage.com/track/clic=
+k?u=3Da3aca981f51432c9877ca31f1&id=3D57bb3962ff&e=3D8996700a82)
+** (https://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877=
+ca31f1&id=3D53157a3e63&e=3D8996700a82)
+** (https://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877=
+ca31f1&id=3D7c9379897b&e=3D8996700a82)
+** (https://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877=
+ca31f1&id=3D8a0178b410&e=3D8996700a82)
+** (https://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877=
+ca31f1&id=3Dfedbbcda3e&e=3D8996700a82)
+** Jak to funguje (https://tipli.us17.list-manage.com/track/click?u=3Da3ac=
+a981f51432c9877ca31f1&id=3D835a844944&e=3D8996700a82)
+| ** Pot=C5=99ebujete poradit? (https://tipli.us17.list-manage.com/track/c=
+lick?u=3Da3aca981f51432c9877ca31f1&id=3D53fc4b0f37&e=3D8996700a82)
+|  ** Nastaven=C3=AD odb=C4=9Bru e-mail=C5=AF (https://tipli.us17.list-man=
+age.com/track/click?u=3Da3aca981f51432c9877ca31f1&id=3D8bf6027256&e=3D=
+8996700a82)
+Pro odhl=C3=A1=C5=A1en=C3=AD podobn=C3=BDch e-mail=C5=AF ** klikn=C4=9Bte=
+ zde (https://tipli.us17.list-manage.com/unsubscribe?u=3Da3aca981f51432c98=
+77ca31f1&id=3Db1b102b613&e=3D8996700a82&c=3D03a9b21261)
+=2E
+
+Copyright =C2=A9 2017 Tipli s.r.o.=2C V=C5=A1echna pr=C3=A1va vyhrazena.
+ Tento e-mail jste obdr=C5=BEeli na z=C3=A1klad=C4=9B Va=C5=A1=C3=AD regis=
+trace na port=C3=A1lu Tipli.cz.
+
+Na=C5=A1e adresa je:
+Tipli s.r.o.
+Na Po=C5=99=C3=AD=C4=8D=C3=AD 1067/25
+Praha 110 00
+Czech Republic
+--_----------=_MCPart_1982265900
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-micros=
+oft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+=09<head>
+=09=09<!-- NAME: 1:3 COLUMN -->
+=09=09<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+=09=09<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial=
+-scale=3D1">
+=09=09<title>Dny Doprava Zdarma za=C4=8D=C3=ADnaj=C3=AD u=C5=BE z=C3=ADtra=
+!</title>
+
+    <style type=3D"text/css">
+=09=09p{
+=09=09=09margin:10px 0;
+=09=09=09padding:0;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09h1=2Ch2=2Ch3=2Ch4=2Ch5=2Ch6{
+=09=09=09display:block;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09img=2Ca img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09body=2C#bodyTable=2C#bodyCell{
+=09=09=09height:100%;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100%;
+=09=09}
+=09=09.mcnPreviewText{
+=09=09=09display:none !important;
+=09=09}
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09table{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cblockquote{
+=09=09=09mso-line-height-rule:exactly;
+=09=09}
+=09=09a[href^=3Dtel]=2Ca[href^=3Dsms]{
+=09=09=09color:inherit;
+=09=09=09cursor:default;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cbody=2Ctable=2Cblockquote{
+=09=09=09-ms-text-size-adjust:100%;
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09}
+=09=09.ExternalClass=2C.ExternalClass p=2C.ExternalClass td=2C.ExternalCla=
+ss div=2C.ExternalClass span=2C.ExternalClass font{
+=09=09=09line-height:100%;
+=09=09}
+=09=09a[x-apple-data-detectors]{
+=09=09=09color:inherit !important;
+=09=09=09text-decoration:none !important;
+=09=09=09font-size:inherit !important;
+=09=09=09font-family:inherit !important;
+=09=09=09font-weight:inherit !important;
+=09=09=09line-height:inherit !important;
+=09=09}
+=09=09#bodyCell{
+=09=09=09padding:10px;
+=09=09}
+=09=09.templateContainer{
+=09=09=09max-width:600px !important;
+=09=09}
+=09=09a.mcnButton{
+=09=09=09display:block;
+=09=09}
+=09=09.mcnImage{
+=09=09=09vertical-align:bottom;
+=09=09}
+=09=09.mcnTextContent{
+=09=09=09word-break:break-word;
+=09=09}
+=09=09.mcnTextContent img{
+=09=09=09height:auto !important;
+=09=09}
+=09=09.mcnDividerBlock{
+=09=09=09table-layout:fixed !important;
+=09=09}
+=09=09body=2C#bodyTable{
+=09=09=09background-color:#FAFAFA;
+=09=09}
+=09=09#bodyCell{
+=09=09=09border-top:0;
+=09=09}
+=09=09.templateContainer{
+=09=09=09border:0;
+=09=09}
+=09=09h1{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:22px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h3{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:20px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader{
+=09=09=09background-color:#fafafa;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:25px;
+=09=09=09padding-bottom:15px;
+=09=09}
+=09=09#templatePreheader .mcnTextContent=2C#templatePreheader .mcnTextCont=
+ent p{
+=09=09=09color:#656565;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:12px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader .mcnTextContent a=2C#templatePreheader .mcnTextCo=
+ntent p a{
+=09=09=09color:#656565;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateHeader{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:px;
+=09=09=09padding-bottom:0;
+=09=09}
+=09=09#templateHeader .mcnTextContent=2C#templateHeader .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateHeader .mcnTextContent a=2C#templateHeader .mcnTextContent=
+ p a{
+=09=09=09color:#2BAADF;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateBody{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:0;
+=09=09=09padding-bottom:0;
+=09=09}
+=09=09#templateBody .mcnTextContent=2C#templateBody .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateBody .mcnTextContent a=2C#templateBody .mcnTextContent p a{
+=09=09=09color:#2BAADF;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateColumns{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:2px solid #EAEAEA;
+=09=09=09padding-top:0;
+=09=09=09padding-bottom:px;
+=09=09}
+=09=09#templateColumns .columnContainer .mcnTextContent=2C#templateColumns=
+ .columnContainer .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateColumns .columnContainer .mcnTextContent a=2C#templateColum=
+ns .columnContainer .mcnTextContent p a{
+=09=09=09color:#2BAADF;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateFooter{
+=09=09=09background-color:#333333;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:9px;
+=09=09=09padding-bottom:9px;
+=09=09}
+=09=09#templateFooter .mcnTextContent=2C#templateFooter .mcnTextContent p{
+=09=09=09color:#656565;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:12px;
+=09=09=09line-height:150%;
+=09=09=09text-align:center;
+=09=09}
+=09=09#templateFooter .mcnTextContent a=2C#templateFooter .mcnTextContent=
+ p a{
+=09=09=09color:#656565;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09@media only screen and (min-width:768px){
+=09=09.templateContainer{
+=09=09=09width:600px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#bodyCell{
+=09=09=09padding-top:10px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.columnWrapper{
+=09=09=09max-width:100% !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImage{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCartContainer=2C.mcnCaptionTopContent=2C.mcnRecContentContainer=
+=2C.mcnCaptionBottomContent=2C.mcnTextContentContainer=2C.mcnBoxedTextCont=
+entContainer=2C.mcnImageGroupContentContainer=2C.mcnCaptionLeftTextContent=
+Container=2C.mcnCaptionRightTextContentContainer=2C.mcnCaptionLeftImageCon=
+tentContainer=2C.mcnCaptionRightImageContentContainer=2C.mcnImageCardLeftT=
+extContentContainer=2C.mcnImageCardRightTextContentContainer{
+=09=09=09max-width:100% !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer{
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupContent{
+=09=09=09padding:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCaptionLeftContentOuter .mcnTextContent=2C.mcnCaptionRightConten=
+tOuter .mcnTextContent{
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardTopImageContent=2C.mcnCaptionBlockInner .mcnCaptionTopC=
+ontent:last-child .mcnTextContent{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardBottomImageContent{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockInner{
+=09=09=09padding-top:0 !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockOuter{
+=09=09=09padding-top:9px !important;
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnTextContent=2C.mcnBoxedTextContentColumn{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardLeftImageContent=2C.mcnImageCardRightImageContent{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcpreview-image-uploader{
+=09=09=09display:none !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:22px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer .mcnTextContent=2C.mcnBoxedTextContent=
+Container .mcnTextContent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader{
+=09=09=09display:block !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader .mcnTextContent=2C#templatePreheader .mcnTextCont=
+ent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateHeader .mcnTextContent=2C#templateHeader .mcnTextContent p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateBody .mcnTextContent=2C#templateBody .mcnTextContent p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateColumns .columnContainer .mcnTextContent=2C#templateColumns=
+ .columnContainer .mcnTextContent p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateFooter .mcnTextContent=2C#templateFooter .mcnTextContent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}</style></head>
+    <body style=3D"height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-=
+size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA=
+;">
+=09=09<!--
+-->
+=09=09<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"=
+display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0p=
+x; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Spustili=
+ jsme V=C3=A1noce s Tipli - a=C5=BE do 12.12. ka=C5=BEd=C3=BD den exkluziv=
+n=C3=AD akce a slevy pouze na Tipli. A nav=C3=ADc u=C5=BE z=C3=ADtra start=
+uj=C3=AD Dny Dopravy Zdarma!</span><!--<![endif]-->
+=09=09<!--
+-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;pad=
+ding: 0;width: 100%;background-color: #FAFAFA;">
+                <tr>
+                    <td align=3D"center" valign=3D"top" id=3D"bodyCell" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;height: 100%;margin: 0;padding: 10px;width: 100%;bord=
+er-top: 0;">
+=09=09=09=09=09=09<!-- BEGIN TEMPLATE // -->
+=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09<table align=3D"center" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top" width=3D"600" style=
+=3D"width:600px;">
+=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" class=3D"templateContainer" style=3D"border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !important;">
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td valign=3D"top" id=3D"templatePreheader" style=
+=3D"background:#fafafa none no-repeat center/cover;mso-line-height-rule: e=
+xactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;backgroun=
+d-color: #fafafa;background-image: none;background-repeat: no-repeat;backg=
+round-position: center;background-size: cover;border-top: 0;border-bottom:=
+ 0;padding-top: 25px;padding-bottom: 15px;"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnImageBlock" style=3D"=
+min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-=
+rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnImageBlockOuter">
+            <tr>
+                <td valign=3D"top" style=3D"padding: 9px;mso-line-height-r=
+ule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" c=
+lass=3D"mcnImageBlockInner">
+                    <table align=3D"left" width=3D"100%" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"mcnImageContentContainer" style=
+=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">
+                        <tbody><tr>
+                            <td class=3D"mcnImageContent" valign=3D"top" s=
+tyle=3D"padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom=
+: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+
+                                    <a href=3D"https://tipli.us17.list-man=
+age.com/track/click?u=3Da3aca981f51432c9877ca31f1&id=3Dc558babc97&e=3D=
+8996700a82" title=3D"" class=3D"" target=3D"_blank" style=3D"mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                        <img align=3D"center" alt=3D"U=C5=
+=BEijte si ka=C5=BEd=C3=BD den n=C4=9Bco nav=C3=ADc a oslavte V=C3=A1noce=
+ s Tipli" src=3D"https://gallery.mailchimp.com/a3aca981f51432c9877ca31f1/i=
+mages/20f86e9f-91ab-413e-a039-363e2999eadb.png" width=3D"150" style=3D"max=
+-width: 150px;padding-bottom: 0;display: inline !important;vertical-align:=
+ bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-int=
+erpolation-mode: bicubic;" class=3D"mcnImage">
+                                    </a>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table></td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td valign=3D"top" id=3D"templateHeader" style=3D"=
+background:#ffffff none no-repeat center/cover;mso-line-height-rule: exact=
+ly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-co=
+lor: #ffffff;background-image: none;background-repeat: no-repeat;backgroun=
+d-position: center;background-size: cover;border-top: 0;border-bottom: 0;p=
+adding-top: px;padding-bottom: 0;"><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"100%" class=3D"mcnImageBlock" style=3D"min-width=
+: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0=
+pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnImageBlockOuter">
+            <tr>
+                <td valign=3D"top" style=3D"padding: 0px;mso-line-height-r=
+ule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" c=
+lass=3D"mcnImageBlockInner">
+                    <table align=3D"left" width=3D"100%" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"mcnImageContentContainer" style=
+=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">
+                        <tbody><tr>
+                            <td class=3D"mcnImageContent" valign=3D"top" s=
+tyle=3D"padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom=
+: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+
+                                    <a href=3D"https://tipli.us17.list-man=
+age.com/track/click?u=3Da3aca981f51432c9877ca31f1&id=3D9a464e928e&e=3D=
+8996700a82" title=3D"" class=3D"" target=3D"_blank" style=3D"mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                        <img align=3D"center" alt=3D"Slevy=
+=2C kup=C3=B3ny i sout=C4=9B=C5=BEe - to jsou V=C3=A1noce s Tipli!" src=3D=
+"https://gallery.mailchimp.com/a3aca981f51432c9877ca31f1/images/d78b286b-b=
+d3b-488a-803c-3afd05f3dc99.jpg" width=3D"600" style=3D"max-width: 600px;pa=
+dding-bottom: 0;display: inline !important;vertical-align: bottom;border:=
+ 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode=
+: bicubic;" class=3D"mcnImage">
+                                    </a>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table></td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td valign=3D"top" id=3D"templateBody" style=3D"ba=
+ckground:#ffffff none no-repeat center/cover;mso-line-height-rule: exactly=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-colo=
+r: #ffffff;background-image: none;background-repeat: no-repeat;background-=
+position: center;background-size: cover;border-top: 0;border-bottom: 0;pad=
+ding-top: 0;padding-bottom: 0;"><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%" class=3D"mcnDividerBlock" style=3D"min-width:=
+ 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0p=
+t;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout:=
+ fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            <h1 style=3D"text-align: center;display: block=
+;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 26p=
+x;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: n=
+ormal;"><span style=3D"color:#000000"><span style=3D"font-size:35px">Pozor=
+! Startujeme u=C5=BE dnes</span></span></h1>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            <div style=3D"text-align: center;"><span style=
+=3D"font-size:18px"><span style=3D"color:#444444">Ka=C5=BEd=C3=BD den se m=
+=C5=AF=C5=BEete t=C4=9B=C5=A1it na <strong>zv=C3=BD=C5=A1en=C3=BD cashback=
+=2C exkluzivn=C3=AD slevov=C3=A9 kup=C3=B3ny=2C dopravu zdarma nebo sout=
+=C4=9B=C5=BEe o super ceny!</strong></span></span></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            <div style=3D"text-align: center;"><span style=
+=3D"color:#444444"><span style=3D"font-size:18px">V=C3=A1no=C4=8Dn=C3=AD s=
+ez=C3=B3na s Tipli.cz za=C4=8D=C3=ADn=C3=A1 <strong>ji=C5=BE</strong><stro=
+ng></strong><strong>&nbsp;</strong>dnes. A=C5=BE do <strong>12. prosince</=
+strong><br>
+u n=C3=A1s najdete v=C5=BEdy <strong>n=C4=9Bco nav=C3=ADc!</strong></span>=
+</span></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 10px 18px 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnButtonBlock" style=3D"min-width: 100%;border-collapse: co=
+llapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnButtonBlockOuter">
+        <tr>
+            <td style=3D"padding-top: 0;padding-right: 18px;padding-bottom=
+: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" align=3D"center"=
+ class=3D"mcnButtonBlockInner">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mcnButtonContentContainer" style=3D"border-collapse: separate !impo=
+rtant;border-radius: 3px;background-color: #EF7836;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+                    <tbody>
+                        <tr>
+                            <td align=3D"center" valign=3D"middle" class=
+=3D"mcnButtonContent" style=3D"font-family: Arial;font-size: 24px;padding:=
+ 15px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;">
+                                <a class=3D"mcnButton " title=3D"V=C3=ADce=
+ o akci V=C3=A1noce s Tipli =C2=BB" href=3D"https://tipli.us17.list-manage=
+=2Ecom/track/click?u=3Da3aca981f51432c9877ca31f1&id=3Dccf3758577&e=3D=
+8996700a82" target=3D"_blank" style=3D"font-weight: bold;letter-spacing: normal;=
+line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;=
+mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;display: block;">V=C3=ADce o akci V=C3=A1noce s Tipli =C2=BB=
+</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 10px 18px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnImageBlock" style=3D"min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnImageBlockOuter">
+            <tr>
+                <td valign=3D"top" style=3D"padding: 0px;mso-line-height-r=
+ule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" c=
+lass=3D"mcnImageBlockInner">
+                    <table align=3D"left" width=3D"100%" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"mcnImageContentContainer" style=
+=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">
+                        <tbody><tr>
+                            <td class=3D"mcnImageContent" valign=3D"top" s=
+tyle=3D"padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom=
+: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+
+                                    <a href=3D"https://tipli.us17.list-man=
+age.com/track/click?u=3Da3aca981f51432c9877ca31f1&id=3D9663a335c9&e=3D=
+8996700a82" title=3D"" class=3D"" target=3D"_blank" style=3D"mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                        <img align=3D"center" alt=3D"Pozor=
+! U=C5=BE z=C3=ADtra za=C4=8D=C3=ADnaj=C3=AD Dny dopravy zdarma" src=3D"ht=
+tps://gallery.mailchimp.com/a3aca981f51432c9877ca31f1/images/e31e2cbe-2a23=
+-4e21-ba92-1bd8b69c2bf2.jpg" width=3D"600" style=3D"max-width: 600px;paddi=
+ng-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;h=
+eight: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bi=
+cubic;" class=3D"mcnImage">
+                                    </a>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 10px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            <div style=3D"text-align: center;"><span style=
+=3D"font-size:18px">Nenechte si uj=C3=ADt </span><span style=3D"font-size:=
+20px"><strong>3 dny dopravy ZCELA ZDARMA</strong></span><span style=3D"fon=
+t-size:18px"> ve v=C3=ADce ne=C5=BE <strong>70 obchodech</strong> a nav=C3=
+=ADc odm=C4=9Bny z ka=C5=BEd=C3=A9ho n=C3=A1kupu na Tipli.cz!</span></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 10px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnButtonBlock" style=3D"min-width: 100%;border-collapse: co=
+llapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnButtonBlockOuter">
+        <tr>
+            <td style=3D"padding-top: 0;padding-right: 18px;padding-bottom=
+: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" align=3D"center"=
+ class=3D"mcnButtonBlockInner">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mcnButtonContentContainer" style=3D"border-collapse: separate !impo=
+rtant;border-radius: 3px;background-color: #349694;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+                    <tbody>
+                        <tr>
+                            <td align=3D"center" valign=3D"middle" class=
+=3D"mcnButtonContent" style=3D"font-family: Arial;font-size: 22px;padding:=
+ 15px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;">
+                                <a class=3D"mcnButton " title=3D"Zobrazit=
+ obchody s DOPRAVOU ZDARMA =C2=BB" href=3D"https://tipli.us17.list-manage.=
+com/track/click?u=3Da3aca981f51432c9877ca31f1&id=3Dad7468f1ca&e=3D=
+8996700a82" target=3D"_blank" style=3D"font-weight: bold;letter-spacing: normal;l=
+ine-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;m=
+so-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;display: block;">Zobrazit obchody s DOPRAVOU ZDARMA =C2=BB</a=
+>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 20px 18px 10px;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px none #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td valign=3D"top" id=3D"templateColumns" style=3D=
+"background:#ffffff none no-repeat center/cover;mso-line-height-rule: exac=
+tly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-c=
+olor: #ffffff;background-image: none;background-repeat: no-repeat;backgrou=
+nd-position: center;background-size: cover;border-top: 0;border-bottom: 2p=
+x solid #EAEAEA;padding-top: 0;padding-bottom: px;">
+=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09=09<table align=3D"center" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" width=3D"20=
+0" style=3D"width:200px;">
+=09=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09=09=09=09=09<table align=3D"left" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"200" class=3D"columnWrapper" style=3D"bo=
+rder-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" class=3D"columnContain=
+er" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-web=
+kit-text-size-adjust: 100%;"></td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" width=3D"20=
+0" style=3D"width:200px;">
+=09=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09=09=09=09=09<table align=3D"left" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"200" class=3D"columnWrapper" style=3D"bo=
+rder-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" class=3D"columnContain=
+er" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-web=
+kit-text-size-adjust: 100%;"></td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" width=3D"20=
+0" style=3D"width:200px;">
+=09=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09=09=09=09=09<table align=3D"left" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"200" class=3D"columnWrapper" style=3D"bo=
+rder-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" class=3D"columnContain=
+er" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-web=
+kit-text-size-adjust: 100%;"></td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td valign=3D"top" id=3D"templateFooter" style=3D"=
+background:#333333 none no-repeat center/cover;mso-line-height-rule: exact=
+ly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-co=
+lor: #333333;background-image: none;background-repeat: no-repeat;backgroun=
+d-position: center;background-size: cover;border-top: 0;border-bottom: 0;p=
+adding-top: 9px;padding-bottom: 9px;"><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D"min-wid=
+th: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace:=
+ 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: brea=
+k-word;color: #656565;font-family: Helvetica;font-size: 12px;text-align: c=
+enter;">
+
+                            <pre style=3D"text-align: center;"><span style=
+=3D"color:#FFFFFF"><span style=3D"font-size:20px"><span style=3D"font-fami=
+ly:arial=2Chelvetica neue=2Chelvetica=2Csans-serif">
+&nbsp;
+</span></span></span><a href=3D"https://tipli.us17.list-manage.com/track/c=
+lick?u=3Da3aca981f51432c9877ca31f1&id=3Dde16bf67fa&e=3D8996700a82" target=
+=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;color: #656565;font-weight: normal;text=
+-decoration: underline;"><span style=3D"color:#FFFFFF"><span style=3D"font=
+-size:24px"><span style=3D"font-family:arial=2Chelvetica neue=2Chelvetica=
+=2Csans-serif"><strong>Z=C3=ADskejte 10 K=C4=8D&nbsp;za&nbsp;p=C5=99id=C3=
+=A1n=C3=AD&nbsp;dopl=C5=88ku!</strong></span></span>
+<span style=3D"font-size:17px"><span style=3D"font-family:arial=2Chelvetic=
+a neue=2Chelvetica=2Csans-serif">Odm=C4=9Bny V=C3=A1m s dopl=C5=88kem u=C5=
+=BE nikdy neute=C4=8Dou.
+</span></span></span></a><u><span style=3D"font-size:20px"><span style=3D"=
+font-family:arial=2Chelvetica neue=2Chelvetica=2Csans-serif"><a href=3D"ht=
+tps://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877ca31f1=
+&id=3D7ab258f4d5&e=3D8996700a82" style=3D"mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;fo=
+nt-weight: normal;text-decoration: underline;"><span style=3D"color:#FFFFF=
+F"><strong>P=C5=98IDAT DOPLN=C4=9AK</strong></span></a></span></span></u><=
+span style=3D"color:#FFFFFF">
+<span style=3D"font-size:20px"><span style=3D"font-family:arial=2Chelvetic=
+a neue=2Chelvetica=2Csans-serif">
+</span></span></span></pre>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnFollowBlock" style=3D"min-width: 100%;border-collapse: co=
+llapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnFollowBlockOuter">
+        <tr>
+            <td align=3D"center" valign=3D"top" style=3D"padding: 9px;mso-=
+line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;" class=3D"mcnFollowBlockInner">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" class=3D"mcnFollowContentContainer" style=3D"min-width: 100%;=
+border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td align=3D"center" style=3D"padding-left: 9px;padding-right: 9px=
+;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"min-width: 100%;border-collapse: collapse;mso-table-lsp=
+ace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;" class=3D"mcnFollowContent">
+                <tbody><tr>
+                    <td align=3D"center" valign=3D"top" style=3D"padding-t=
+op: 9px;padding-right: 9px;padding-left: 9px;mso-line-height-rule: exactly=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse;mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;">
+                            <tbody><tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;">
+                                    <!--[if mso]>
+                                    <table align=3D"center" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+                                    <tr>
+                                    <![endif]-->
+
+                                        <!--[if mso]>
+                                        <td align=3D"center" valign=3D"top=
+">
+                                        <![endif]-->
+
+
+                                            <table align=3D"left" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"display: inline;border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <tbody><tr>
+                                                    <td valign=3D"top" sty=
+le=3D"padding-right: 10px;padding-bottom: 9px;mso-line-height-rule: exactl=
+y;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class=3D"mcn=
+FollowContentItemContainer">
+                                                        <table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnFollowCon=
+tentItem" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"=
+>
+                                                            <tbody><tr>
+                                                                <td align=
+=3D"left" valign=3D"middle" style=3D"padding-top: 5px;padding-right: 10px;=
+padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                    <table=
+ align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                        <t=
+body><tr>
+
+                                                                         =
+       <td align=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFol=
+lowIconContent" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;">
+                                                                         =
+           <a href=3D"https://tipli.us17.list-manage.com/track/click?u=3Da=
+3aca981f51432c9877ca31f1&id=3Dbecf8fdcce&e=3D8996700a82" target=3D"_blank=
+" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;"><img src=3D"https://cdn-images.mailchimp.com/ic=
+ons/social-block-v2/light-facebook-48.png" style=3D"display: block;border:=
+ 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode=
+: bicubic;" height=3D"24" width=3D"24" class=3D""></a>
+                                                                         =
+       </td>
+
+
+                                                                        </=
+tr>
+                                                                    </tbod=
+y></table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+
+                                        <!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+
+                                        <!--[if mso]>
+                                        <td align=3D"center" valign=3D"top=
+">
+                                        <![endif]-->
+
+
+                                            <table align=3D"left" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"display: inline;border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <tbody><tr>
+                                                    <td valign=3D"top" sty=
+le=3D"padding-right: 10px;padding-bottom: 9px;mso-line-height-rule: exactl=
+y;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class=3D"mcn=
+FollowContentItemContainer">
+                                                        <table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnFollowCon=
+tentItem" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"=
+>
+                                                            <tbody><tr>
+                                                                <td align=
+=3D"left" valign=3D"middle" style=3D"padding-top: 5px;padding-right: 10px;=
+padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                    <table=
+ align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                        <t=
+body><tr>
+
+                                                                         =
+       <td align=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFol=
+lowIconContent" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;">
+                                                                         =
+           <a href=3D"https://tipli.us17.list-manage.com/track/click?u=3Da=
+3aca981f51432c9877ca31f1&id=3Dc3d57bdada&e=3D8996700a82" target=3D"_blank=
+" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;"><img src=3D"https://cdn-images.mailchimp.com/ic=
+ons/social-block-v2/light-twitter-48.png" style=3D"display: block;border:=
+ 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode=
+: bicubic;" height=3D"24" width=3D"24" class=3D""></a>
+                                                                         =
+       </td>
+
+
+                                                                        </=
+tr>
+                                                                    </tbod=
+y></table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+
+                                        <!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+
+                                        <!--[if mso]>
+                                        <td align=3D"center" valign=3D"top=
+">
+                                        <![endif]-->
+
+
+                                            <table align=3D"left" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"display: inline;border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <tbody><tr>
+                                                    <td valign=3D"top" sty=
+le=3D"padding-right: 10px;padding-bottom: 9px;mso-line-height-rule: exactl=
+y;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class=3D"mcn=
+FollowContentItemContainer">
+                                                        <table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnFollowCon=
+tentItem" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"=
+>
+                                                            <tbody><tr>
+                                                                <td align=
+=3D"left" valign=3D"middle" style=3D"padding-top: 5px;padding-right: 10px;=
+padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                    <table=
+ align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                        <t=
+body><tr>
+
+                                                                         =
+       <td align=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFol=
+lowIconContent" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;">
+                                                                         =
+           <a href=3D"https://tipli.us17.list-manage.com/track/click?u=3Da=
+3aca981f51432c9877ca31f1&id=3D2da2a1408c&e=3D8996700a82" target=3D"_blank=
+" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;"><img src=3D"https://cdn-images.mailchimp.com/ic=
+ons/social-block-v2/light-instagram-48.png" style=3D"display: block;border=
+: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mod=
+e: bicubic;" height=3D"24" width=3D"24" class=3D""></a>
+                                                                         =
+       </td>
+
+
+                                                                        </=
+tr>
+                                                                    </tbod=
+y></table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+
+                                        <!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+
+                                        <!--[if mso]>
+                                        <td align=3D"center" valign=3D"top=
+">
+                                        <![endif]-->
+
+
+                                            <table align=3D"left" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"display: inline;border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <tbody><tr>
+                                                    <td valign=3D"top" sty=
+le=3D"padding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class=3D"mcnFol=
+lowContentItemContainer">
+                                                        <table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnFollowCon=
+tentItem" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"=
+>
+                                                            <tbody><tr>
+                                                                <td align=
+=3D"left" valign=3D"middle" style=3D"padding-top: 5px;padding-right: 10px;=
+padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                    <table=
+ align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                        <t=
+body><tr>
+
+                                                                         =
+       <td align=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnFol=
+lowIconContent" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;">
+                                                                         =
+           <a href=3D"https://tipli.us17.list-manage.com/track/click?u=3Da=
+3aca981f51432c9877ca31f1&id=3D4ff49f110d&e=3D8996700a82" target=3D"_blank=
+" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;"><img src=3D"https://cdn-images.mailchimp.com/ic=
+ons/social-block-v2/light-youtube-48.png" style=3D"display: block;border:=
+ 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode=
+: bicubic;" height=3D"24" width=3D"24" class=3D""></a>
+                                                                         =
+       </td>
+
+
+                                                                        </=
+tr>
+                                                                    </tbod=
+y></table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+
+                                        <!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+
+                                    <!--[if mso]>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helve=
+tica;font-size: 12px;line-height: 150%;text-align: center;">
+
+                            <strong><a href=3D"https://tipli.us17.list-man=
+age.com/track/click?u=3Da3aca981f51432c9877ca31f1&id=3Da31b9a8e8a&e=3D=
+8996700a82" target=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-weig=
+ht: normal;text-decoration: underline;"><span style=3D"color:#FFFFFF">Jak=
+ to funguje</span></a><span style=3D"color:#FFFFFF"> | </span><a href=3D"h=
+ttps://tipli.us17.list-manage.com/track/click?u=3Da3aca981f51432c9877ca31f=
+1&id=3D44471de04c&e=3D8996700a82" target=3D"_blank" style=3D"mso-line-hei=
+ght-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;color: #656565;font-weight: normal;text-decoration: underline;"><span st=
+yle=3D"color:#FFFFFF">Pot=C5=99ebujete poradit?</span></a><span style=3D"c=
+olor:#FFFFFF"> | &nbsp;</span><a href=3D"https://tipli.us17.list-manage.co=
+m/track/click?u=3Da3aca981f51432c9877ca31f1&id=3D627015650c&e=3D=
+8996700a82" target=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-weight: no=
+rmal;text-decoration: underline;"><span style=3D"color:#FFFFFF">Nastaven=
+=C3=AD odb=C4=9Bru e-mail=C5=AF</span></a></strong>
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 10px 18px 25px;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 1px solid #EEEEEE;border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helve=
+tica;font-size: 12px;line-height: 150%;text-align: center;">
+
+                            <span style=3D"color:#FFFFFF">Pro odhl=C3=A1=
+=C5=A1en=C3=AD podobn=C3=BDch e-mail=C5=AF </span><a href=3D"https://tipli=
+=2Eus17.list-manage.com/unsubscribe?u=3Da3aca981f51432c9877ca31f1&id=3Db1b10=
+2b613&e=3D8996700a82&c=3D03a9b21261" target=3D"_blank" style=3D"mso-line-hei=
+ght-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;color: #656565;font-weight: normal;text-decoration: underline;"><span st=
+yle=3D"color:#FFFFFF">klikn=C4=9Bte zde</span></a><span style=3D"color:#FF=
+FFFF">.<br>
+<br>
+<em>Copyright =C2=A9 2017 Tipli s.r.o.=2C V=C5=A1echna pr=C3=A1va vyhrazen=
+a.</em><br>
+ Tento e-mail jste obdr=C5=BEeli na z=C3=A1klad=C4=9B Va=C5=A1=C3=AD regis=
+trace na port=C3=A1lu Tipli.cz.<br>
+<br>
+<strong>Na=C5=A1e adresa je:</strong><br>
+<div class=3D"vcard"><span class=3D"org fn">Tipli s.r.o.</span><div class=
+=3D"adr"><div class=3D"street-address">Na Po=C5=99=C3=AD=C4=8D=C3=AD 1067/=
+25</div><span class=3D"locality">Praha</span> <span class=3D"postal-code">=
+110 00</span> <div class=3D"country-name">Czech Republic</div></div><br><a=
+ href=3D"//tipli.us17.list-manage.com/vcard?u=3Da3aca981f51432c9877ca31f1&=
+id=3Db1b102b613" class=3D"hcard-download">Add us to your address book</a><=
+/div>
+</span>
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09<![endif]-->
+=09=09=09=09=09=09<!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    <img src=3D"https://tipli.us17.list-manage.com/track/open.php?u=3Da3ac=
+a981f51432c9877ca31f1&id=3D03a9b21261&e=3D8996700a82" height=3D"1" width=
+=3D"1"></body>
+</html>
+--_----------=_MCPart_1982265900--

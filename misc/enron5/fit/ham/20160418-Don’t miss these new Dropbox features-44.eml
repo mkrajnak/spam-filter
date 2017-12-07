@@ -1,0 +1,237 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.81 with SMTP id k78csp1358976lfe;
+        Mon, 18 Apr 2016 07:09:21 -0700 (PDT)
+X-Received: by 10.28.165.10 with SMTP id o10mr19512526wme.50.1460988561802;
+        Mon, 18 Apr 2016 07:09:21 -0700 (PDT)
+Return-Path: <0100015429b43588-0fbd51e9-7bdb-4df2-84b9-4945f4d02cc4-000000@email.dropboxmail.com>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id xb9si65484660wjc.63.2016.04.18.07.09.21
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 18 Apr 2016 07:09:21 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning 0100015429b43588-0fbd51e9-7bdb-4df2-84b9-4945f4d02cc4-000000@email.dropboxmail.com does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@dropboxmail.com;
+       dkim=pass header.i=@amazonses.com;
+       spf=softfail (google.com: domain of transitioning 0100015429b43588-0fbd51e9-7bdb-4df2-84b9-4945f4d02cc4-000000@email.dropboxmail.com does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=0100015429b43588-0fbd51e9-7bdb-4df2-84b9-4945f4d02cc4-000000@email.dropboxmail.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=dropboxmail.com
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u3IE9LgC074783
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Mon, 18 Apr 2016 16:09:21 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u3IE9LLA074782
+	for krajnakmatto@gmail.com; Mon, 18 Apr 2016 16:09:21 +0200 (CEST)
+	(envelope-from 0100015429b43588-0fbd51e9-7bdb-4df2-84b9-4945f4d02cc4-000000@email.dropboxmail.com)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to 0100015429b43588-0fbd51e9-7bdb-4df2-84b9-4945f4d02cc4-000000@email.dropboxmail.com using -f
+Received: from a10-124.smtp-out.amazonses.com (a10-124.smtp-out.amazonses.com [54.240.10.124])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u3IE9IeV074765
+	(version=TLSv1 cipher=AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Mon, 18 Apr 2016 16:09:19 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=4xk3hfhhqj3xfp6dkdzxlsmrnjuq3clc; d=dropboxmail.com;
+	t=1460988556;
+	h=Content-Type:MIME-Version:From:To:CC:Subject:Date:Message-ID;
+	bh=vvfc9jN9J9JcYq8CmnmLHoAmfLbNtqlJ9DSbXvbVIQ0=;
+	b=HMPZD4BU5D74j1K5OqCal3Vr6FAYuSqJdum165cu/mTNQY24HqHA5RhttnvxRYfF
+	McnDrJ3Pzj5odRU0O0DvfAtXYRBXw6PLw+F4GuXSzO7FGizbPIKcmq7PRpC9C2G5tob
+	Oe+VESnY1PpVOr2MoaatqcJ5iDuTKOoQUPAZPWRk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1460988556;
+	h=Content-Type:MIME-Version:From:To:CC:Subject:Date:Message-ID:Feedback-ID;
+	bh=vvfc9jN9J9JcYq8CmnmLHoAmfLbNtqlJ9DSbXvbVIQ0=;
+	b=CHZmeOfctZXkzSvjzLYlgsHydffF7KMRkwj06cFk2CPxF77V7N/RCgvxp/TmEqRb
+	CEsf/yL5KClIGn2JF/CioLISezZqHdUD3bVBuND80Z9n4k9KH6f/Z9EV2qV0PWzxCIK
+	fJOxD0ctL7exlP+yCWIEAWbQHlKx986rt2oweonQ=
+Content-Type: multipart/alternative;
+ boundary="===============2628116007940844603=="
+MIME-Version: 1.0
+From: Dropbox <no-reply@dropboxmail.com>
+To: xkrajn02@stud.fit.vutbr.cz
+CC: 
+Subject: =?utf-8?q?Don=E2=80=99t_miss_these_new_Dropbox_features?=
+Date: Mon, 18 Apr 2016 14:09:16 +0000
+Message-ID: <0100015429b43588-0fbd51e9-7bdb-4df2-84b9-4945f4d02cc4-000000@email.amazonses.com>
+X-Dropbox-Message-ID: 15647612329116358979
+X-SES-Outgoing: 2016.04.18-54.240.10.124
+Feedback-ID: 1.us-east-1.uUN5d9sk1K8bEZSQiKEFyDZoOChsAq1y3Ge0qhfYGbc=:AmazonSES
+X-Spam-Status: No, score=-2.174 required=7 tests=AWL,BAYES_00,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HTML_MESSAGE,RCVD_IN_DNSWL_NONE
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+--===============2628116007940844603==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+What's new in Dropbox?
+ =
+
+
+  =
+
+
+Work on Dropbox files together with Office Online
+Working with others on the same files? If they're Microsoft Office files sa=
+ved in Dropbox, now everyone can edit the same files at the same time =E2=
+=80=94right from a web browser=E2=80=94thanks to new co-authoring support f=
+or Office Online.
+ Learn more[1]
+
+ =
+
+  =
+
+Get new features to make teamwork easier
+Create a free team in Dropbox to make working together simple. You=E2=80=99=
+ll unlock new work features to help organize company information, centraliz=
+e work projects, and keep your team up to date.
+ Create a team[3]
+
+ =
+
+
+  =
+
+
+Turn feedback into conversations
+With comments, you can provide feedback on a file, right from your browser.=
+ Now feedback can become a conversation, with the ability to reply directly=
+ to individual comments .
+ Learn more[4]
+
+ =
+
+
+____________________________________________________
+Want to stop getting newsletters from Dropbox? Unsubscribe[5]
+Dropbox, Inc., PO Box 77767, San Francisco, CA 94107
+
+[1]: https://blogs.dropbox.com/dropbox/2016/01/new-microsoft-integrations/?=
+_tk=3Demail&_camp=3Dproduct-announce&_ad=3Dmsft-coauthoring&_net=3Ddigest
+[2]: https://www.dropbox.com/l/aUvS7aBucqLEhZBJOTLV7Q/team?text=3D1
+[3]: https://www.dropbox.com/l/Qs5CF30qbhYSBvwnyGJRkI/team?text=3D1
+[4]: https://www.dropbox.com/l/idxlrRh50grqXsH557OZUX/help/9016?text=3D1
+[5]: https://www.dropbox.com/l/7lVNHYKUTcZbDWMrlkQ3I51?text=3D1
+--===============2628116007940844603==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml"><body style=3D"padding: 0; wid=
+th: 100% !important; -webkit-text-size-adjust: 100%; margin: 0; -ms-text-si=
+ze-adjust: 100%;" marginheight=3D"0" marginwidth=3D"0"><table cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border-radius: 5px; color: #4e5860; -moz-=
+border-radius: 4px; padding: 30px 10px 10px 10px; background: #FAFAFA; max-=
+width: 650px; border: 1px #c1c1c1 solid; -webkit-border-radius: 4px; width:=
+ 100% !important; margin: auto; background-color: #FAFAFA;" border=3D"0" al=
+ign=3D"center"><tr><td align=3D"center">
+<table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-top: 1px solid #=
+c1c1c1; font: 12px Arial, Helvetica, sans-serif; border-bottom: 1px solid #=
+c1c1c1;" border=3D"0" width=3D"90%"><tr><td width=3D"33%" align=3D"left"></=
+td>
+<td width=3D"33%" style=3D"font-size: 0px;" align=3D"center" height=3D"65">=
+<img width=3D"32" alt=3D"" src=3D"https://cf.dropboxstatic.com/static/image=
+s/emails/glyph/glyph%402x.png"></td>
+<td width=3D"33%" align=3D"right"></td>
+</tr></table><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"85%"><tr style=3D"color: #3d454d; font-size: 13px; font-family:  Arial,=
+ Helvetica, sans-serif; line-height: 21px;"><td>
+<br><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">=
+<tr><td style=3D"font-size: 23px; line-height: 37px; font-wight: 300;" alig=
+n=3D"center">What's new in Dropbox?</td></tr></table><br><hr><br><br><a hre=
+f=3D"https://blogs.dropbox.com/dropbox/2016/01/new-microsoft-integrations/?=
+_tk=3Demail&amp;_camp=3Dproduct-announce&amp;_ad=3Dmsft-coauthoring&amp;_ne=
+t=3Ddigest"> <center><img width=3D"100%" style=3D"max-width: 200px;" src=3D=
+"https://www.dropbox.com/static/images/free_trial/slides-together@2x.png"><=
+/center></a><br><br><div style=3D"text-align: center;">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr>=
+<td style=3D"font-size: 18px; line-height: 26px; font-wight: 300;" align=3D=
+"center">Work on Dropbox files together with Office Online</td></tr></table=
+><br><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"=
+><tr><td style=3D"font-size: 14px; line-height: 21px; font-wight: 300;" ali=
+gn=3D"center">Working with others on the same files? If they're Microsoft O=
+ffice files saved in Dropbox, now everyone can <strong>edit the same files =
+at the same time</strong>=E2=80=94right from a web browser=E2=80=94thanks t=
+o new co-authoring support for Office Online.</td></tr></table><br></div>
+<center><a style=3D"border-radius: 3px; font-size: 15px; color: white; bord=
+er: 1px #1373b5 solid; box-shadow: inset 0 1px 0 #6db3e6, inset 1px 0 0 #48=
+a1e2; text-decoration: none; padding: 14px 7px 14px 7px; width: 150px; max-=
+width: 150px; font-family: proxima_nova, 'Open Sans', 'lucida grande', 'Seg=
+oe UI', arial, verdana, 'lucida sans unicode', tahoma, sans-serif; margin: =
+6px auto; display: block; background-color: #007ee6; text-align: center;" h=
+ref=3D"https://blogs.dropbox.com/dropbox/2016/01/new-microsoft-integrations=
+/?_tk=3Demail&amp;_camp=3Dproduct-announce&amp;_ad=3Dmsft-coauthoring&amp;_=
+net=3Ddigest">Learn more</a></center>
+<br><hr><br><a href=3D"https://www.dropbox.com/l/Lh5TcxbTP7tJYTX9SKUbil1/te=
+am"><center><img width=3D"100%" style=3D"max-width: 400px;" src=3D"https://=
+www.dropbox.com/static/images/fastrak-onboarding/welcome-to-the-team.png"><=
+/center></a><br><div style=3D"text-align: center;">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr>=
+<td style=3D"font-size: 18px; line-height: 26px; font-wight: 300;" align=3D=
+"center">Get new features to make teamwork easier</td></tr></table><br><tab=
+le cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td =
+style=3D"font-size: 14px; line-height: 21px; font-wight: 300;" align=3D"cen=
+ter">Create a free team in Dropbox to make working together simple. You=E2=
+=80=99ll <strong>unlock new work features</strong> to help organize company=
+ information, centralize work projects, and keep your team up to date. </td=
+></tr></table><br></div>
+<center><a style=3D"border-radius: 3px; font-size: 15px; color: white; bord=
+er: 1px #1373b5 solid; box-shadow: inset 0 1px 0 #6db3e6, inset 1px 0 0 #48=
+a1e2; text-decoration: none; padding: 14px 7px 14px 7px; width: 150px; max-=
+width: 150px; font-family: proxima_nova, 'Open Sans', 'lucida grande', 'Seg=
+oe UI', arial, verdana, 'lucida sans unicode', tahoma, sans-serif; margin: =
+6px auto; display: block; background-color: #007ee6; text-align: center;" h=
+ref=3D"https://www.dropbox.com/l/tS7UiUFN4dRXiqSNBxS7vd1/team">Create a tea=
+m</a></center>
+<br><hr><br><br><a href=3D"https://www.dropbox.com/l/idka8rkF1hpvEn3w8YWf5t=
+1/help/9016"><center><img width=3D"100%" style=3D"max-width: 170px;" src=3D=
+"https://www.dropbox.com/static/images/commenting/null_chats@2x.png"></cent=
+er></a><br><br><div style=3D"text-align: center;">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr>=
+<td style=3D"font-size: 18px; line-height: 26px; font-wight: 300;" align=3D=
+"center">Turn feedback into conversations</td></tr></table><br><table cellp=
+adding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D=
+"font-size: 14px; line-height: 21px; font-wight: 300;" align=3D"center">Wit=
+h comments, you can provide feedback on a file, right from your browser. No=
+w feedback can become a conversation, with the ability to <strong>reply dir=
+ectly to individual comments</strong>. </td></tr></table><br></div>
+<center><a style=3D"border-radius: 3px; font-size: 15px; color: white; bord=
+er: 1px #1373b5 solid; box-shadow: inset 0 1px 0 #6db3e6, inset 1px 0 0 #48=
+a1e2; text-decoration: none; padding: 14px 7px 14px 7px; width: 150px; max-=
+width: 150px; font-family: proxima_nova, 'Open Sans', 'lucida grande', 'Seg=
+oe UI', arial, verdana, 'lucida sans unicode', tahoma, sans-serif; margin: =
+6px auto; display: block; background-color: #007ee6; text-align: center;" h=
+ref=3D"https://www.dropbox.com/l/idka8rkF1hpvEn3w8YWf5t1/help/9016">Learn m=
+ore</a></center>
+<br><hr><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"10=
+0%"><tr><td align=3D"center" style=3D"padding: 20px 22px; border-collapse: =
+collapse; max-width: 650px;"><table cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"margin: auto;" border=3D"0"><tr><td align=3D"center" style=3D"width: =
+68px; border-right: 1px #bdc1c2 solid; height: 30px;"><a href=3D"https://ww=
+w.facebook.com/Dropbox"><img src=3D"https://cf.dropboxstatic.com/static/ima=
+ges/emails/fb.png"></a></td>
+<td align=3D"center" style=3D"width: 68px; border-right: 1px #bdc1c2 solid;=
+ height: 30px;"><a href=3D"https://twitter.com/dropboxbusiness"><img src=3D=
+"https://cf.dropboxstatic.com/static/images/emails/twitter.png"></a></td>
+<td style=3D"color: #adb1b4; font-size: 12px; padding-right: 25px; line-hei=
+ght: 14px; padding-left: 25px;">=C2=A9 2016 Dropbox</td>
+</tr></table></td></tr></table></td></tr></table><table cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td align=3D"center" style=
+=3D"font-size: 11px; color: #adb1b4; border-collapse: collapse; padding: 0p=
+x 22px 20px; -webkit-text-size-adjust: none; font-family:  Arial, Helvetica=
+, sans-serif; background-color: #F7F8F8;">Want to stop getting newsletters =
+from Dropbox? <a href=3D"https://www.dropbox.com/l/HYAS20noM2ZgkR8SobZjSA1"=
+>Unsubscribe</a><br>Dropbox, Inc., PO Box 77767, San Francisco, CA 94107</t=
+d></tr></table></td></tr></table></body></html><img width=3D"1" src=3D"http=
+s://www.dropbox.com/l/L2PPQpP9KEN20leeFo1oFI1" height=3D"1" />
+--===============2628116007940844603==--
+
+

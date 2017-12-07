@@ -1,0 +1,85 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.213 with SMTP id z204csp1552482vsc;
+        Mon, 15 May 2017 04:19:12 -0700 (PDT)
+X-Received: by 10.28.214.211 with SMTP id n202mr3407645wmg.105.1494847152788;
+        Mon, 15 May 2017 04:19:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1494847152; cv=none;
+        d=google.com; s=arc-20160816;
+        b=gr8DzeTXac2yzeUS04ryS2DVJlaOG0jbpNCNNeS3Hd2rcnT7EO4pDd6PA0NjHcn88w
+         ha2CuV+078x+5IIl5iZanxWrGzJL0ATZDmpKnkzhYJWNAZh7h/uGUDHEbUEFgBq4m6pK
+         h5gMHySuVTfAhInrjObEnDKAVTwDdZ4Nl/xlBnAfinxK8Y+HxPLsPhS7Xrb6Dap53j9O
+         CbU5JDJXLniPWvPBHMfZvkHNNMum+bDAySTPhpggqC9wjvNkvbyyb+uxebttnN9c/4pu
+         kWyi428ztGPQoxwpQ1rGBgynLQ8JToBLB6PnvidhJKgF7EKGrJw4i7befQwfy1ZgEcym
+         Ge3w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=dkim-signature:content-transfer-encoding:mime-version:user-agent
+         :date:message-id:subject:from:to:arc-authentication-results;
+        bh=w4KGMbuaQnMYCEG7XVSOfDIGtPtjTlgkJf3WB9xs8wo=;
+        b=RyOsZR2MoG4XJCOy08/0YQK41+X8pZcJS9WEDmc1hP3LByUkrKxcO1xUdeh0DCBsrn
+         4qUsGP9eGfqxXpON53PvD/zUnnDUteoVsP5vtiDNhwkvm/Bsxl7U4q5Ibc7r0M7ypDt6
+         nU2ciTmS4Tp9PdUbEw9MyhjiJL4XghKp5JL2KgRJNbXDW3O7ChIEipp1Rw9GShq40Y7V
+         7y5lcwcJ8tnx6r9hkMaNXPFtIzBm4M/C8+4VByejCOwAflKlU40APVYDuWG0sompKIfY
+         CEf7E2RcNixN1VeBysh+HhLMsbpvSCVpTPMMLlgXD+EHWmGIXjldbcn8p70qdG2jBJwF
+         ItmA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz;
+       spf=pass (google.com: best guess record for domain of rozmanj@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=rozmanj@fit.vutbr.cz
+Return-Path: <rozmanj@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id q78si10496972wme.139.2017.05.15.04.19.12
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 15 May 2017 04:19:12 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of rozmanj@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz;
+       spf=pass (google.com: best guess record for domain of rozmanj@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=rozmanj@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4FBJCFA007316
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Mon, 15 May 2017 13:19:12 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v4FBJCsK007315
+	for krajnakmatto@gmail.com; Mon, 15 May 2017 13:19:12 +0200 (CEST)
+	(envelope-from rozmanj@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to rozmanj@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4FBJBB4007309
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Mon, 15 May 2017 13:19:11 +0200 (CEST)
+Received: from [147.229.13.88] (pcrozmanj.fit.vutbr.cz [147.229.13.88])
+	(authenticated bits=0)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPSA id v4FBJBC1085151
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Mon, 15 May 2017 13:19:11 +0200 (CEST)
+To: xkrajn02@stud.fit.vutbr.cz
+From: Rozman Jaroslav <rozmanj@fit.vutbr.cz>
+Subject: ITY
+Message-ID: <8b02a8d4-e0a9-4eb1-63cf-3bf51825fdb2@fit.vutbr.cz>
+Date: Mon, 15 May 2017 13:19:11 +0200
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101
+ Thunderbird/45.8.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-2; format=flowed
+Content-Transfer-Encoding: 7bit
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fit.vutbr.cz; h=to:from:subject:message-id:date:mime-version:content-type:content-transfer-encoding; s=mx1; bh=w4KGMbuaQnMYCEG7XVSOfDIGtPtjTlgkJf3WB9xs8wo=; b=F6UDir2yo+zRc7E+tMGUzvMycDy97wl8lff0RizOKd6u4KlyAQVYvLBXtA0irjEKAzd7UY3gUhFpmpJubNiwI2uyL5lC5nBHpGPV2Rvs1KoGPx/lmlDVOQlLCp9RqYOrxyU/97VENQsoSZjvbEHOKE5mIWDjpB6pj18oMt+JhyU=
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-2.096 required=7 tests=ALL_TRUSTED,AWL,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+Dobry den,
+
+muzete ten dokument vytisknout, podepsat a donest me (pripadne pi. 
+Malaskove nebo dr. Krenovi)?
+
+Diky
+
+J. Rozman
+
+

@@ -1,0 +1,72 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.119.66 with SMTP id s63csp110517vsc;
+        Sat, 2 Jul 2016 16:03:50 -0700 (PDT)
+X-Received: by 10.194.222.137 with SMTP id qm9mr4733783wjc.80.1467500630456;
+        Sat, 02 Jul 2016 16:03:50 -0700 (PDT)
+Return-Path: <zpravy-is@ro.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id m69si746221wmb.96.2016.07.02.16.03.50
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 02 Jul 2016 16:03:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=zpravy-is@ro.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u62N3nMF085537
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Sun, 3 Jul 2016 01:03:49 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u62N3npJ085536
+	for krajnakmatto@gmail.com; Sun, 3 Jul 2016 01:03:49 +0200 (CEST)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to zpravy-is@ro.vutbr.cz using -f
+Received: from ferret.cis.vutbr.cz (ferret.cis.vutbr.cz [147.229.3.145])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u62N3nov085530
+	(version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Sun, 3 Jul 2016 01:03:49 +0200 (CEST)
+Received: from ent.ro.vutbr.cz (ent.ro.vutbr.cz [147.229.2.49])
+	by ferret.cis.vutbr.cz (8.14.9/8.14.7/VUT Brno) with ESMTP id u62N3njU052475
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Sun, 3 Jul 2016 01:03:49 +0200 (CEST)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+Received: from ent.ro.vutbr.cz (localhost.localdomain [127.0.0.1])
+	by ent.ro.vutbr.cz (8.13.8/8.13.8) with ESMTP id u62N3nak032602
+	for <xkrajn02@stud.fit.vutbr.cz>; Sun, 3 Jul 2016 01:03:49 +0200
+Received: (from root@localhost)
+	by ent.ro.vutbr.cz (8.13.8/8.13.8/Submit) id u62N3niY032601;
+	Sun, 3 Jul 2016 01:03:49 +0200
+Date: Sun, 3 Jul 2016 01:03:49 +0200
+Message-Id: <201607022303.u62N3niY032601@ent.ro.vutbr.cz>
+MIME-Version: 1.0
+From: zpravy-is@ro.vutbr.cz
+Reply-to: zpravy-is@ro.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: =?utf-8?B?VXBvem9ybsSbbsOtIG5hIHByb8WhbG91IGV4cGlyYWNpIFZhxaFlaG8gVlVUcGludSBhIGplaG8gem3Em251?=
+User-Agent: EmailSend VUTPortal3 shreckdog email_send.pl
+Content-type: text/plain; charset="utf-8"
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.67 on 147.229.3.145
+X-Spam-Status: No, score=-0.977 required=7 tests=AWL,RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from base64 to 8bit by eva.fit.vutbr.cz id u62N3nov085530
+X-Loop: to-krajnakmatto@gmail.com
+
+Vážená uživatelko, vážený uživateli,
+
+dne 03.07.2016 vypršel Váš VUTpin, který je určený pro přihlašování do externích aplikací VUT a wifi sítě.
+
+Automat Vám již změnil Váš VUTpin. Nový VUTpin naleznete na Intraportálu po přihlášení Vaším VUTheslem.
+
+S pozdravem
+Tým Centra výpočetních a informačních služeb VUT
+
+VUT zpráva od: Automat Informační systém 
+Odpověď na tuto zprávu není možná. Zprávu odeslal automat.
+
+

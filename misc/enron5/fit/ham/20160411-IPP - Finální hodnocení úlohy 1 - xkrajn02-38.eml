@@ -1,0 +1,194 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.81 with SMTP id k78csp1484438lfe;
+        Mon, 11 Apr 2016 07:43:28 -0700 (PDT)
+X-Received: by 10.194.77.15 with SMTP id o15mr27209061wjw.41.1460385808188;
+        Mon, 11 Apr 2016 07:43:28 -0700 (PDT)
+Return-Path: <krivka@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id e18si29170779wjx.104.2016.04.11.07.43.28
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 11 Apr 2016 07:43:28 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=krivka@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u3BEhRPK001431
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Mon, 11 Apr 2016 16:43:27 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u3BEhRFl001430
+	for krajnakmatto@gmail.com; Mon, 11 Apr 2016 16:43:27 +0200 (CEST)
+	(envelope-from krivka@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to krivka@fit.vutbr.cz using -f
+Received: from merlin.fit.vutbr.cz (merlin.fit.vutbr.cz [147.229.176.19])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id u3BEe8G7098842;
+	Mon, 11 Apr 2016 16:43:26 +0200 (CEST)
+Received: by merlin.fit.vutbr.cz (Postfix, from userid 601)
+	id 03FB950003A7D; Mon, 11 Apr 2016 16:41:40 +0200 (CEST)
+Date: Mon, 11 Apr 2016 16:41:39 +0200
+From: krivka@fit.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: IPP - =?utf-8?Q?Fin=C3=A1ln=C3=AD?=
+ =?utf-8?Q?_hodnocen=C3=AD?= =?utf-8?Q?_=C3=BAlohy?= 1 - xkrajn02
+Message-ID: <570bb7a3.lm1Ll3zh4d1UU3kh%krivka@fit.vutbr.cz>
+User-Agent: Heirloom mailx 12.4 7/29/08
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: No, score=-2.812 required=7 tests=AWL,BAYES_00,RP_MATCHES_RCVD,WEIRD_QUOTING
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+Hodnocení projektu IPP 2015/2016 - Úkol 1 / JSN / php / xkrajn02
+===============================================================
+
+Dobrý den,
+jelikož jste provedl/a odevzdání úlohy 1 projektu do IPP 2015/2016, zasíláme Vám následující zpětnou vazbu doplňující bodové hodnocení v IS FIT.
+
+Číselné hodnocení zde uvedené je v minibodech, jejichž převod na finální body se řídí několika pravidly:
+  1) minibody za dokumentaci přepočteme kurzem 100 minibodů = 1 bod
+  2) minibody za automatické hodnocení skriptu se vyhodnotí dle kurzu specifickém pro Vaši úlohu:
+        JSN	111 mb = 1 bod
+Nakonec následuje korelace a zaokrouhlení dle informací o hodnocení v obecném zadání.
+
+Hodnocené úlohy zatím nebyly testovány na plagiátorství (bude provedeno do prvního termínu zkoušky).
+
+Úloha byla nejdříve automaticky rozbalena z odevzdaného archivu a pak byly spuštěny testy na serveru Merlin. Hodnotící testy nebudou zveřejněny. Hodnocení v rámci dokumentace dále zahrnuje také hodnocení kvality zdrojových kódů, komentářů atd.
+
+V případě nesouhlasu s hodnocením je možné využít osobní reklamace ve vypsaných termínech (viz IS FIT, Termíny IPP, Reklamace hodnocení 1. úlohy). Projděte si i komentář termínu s pokyny. Na individuální elektronické dotazy bude reagováno s nižší prioritou.
+
+
+Hodnocení dokumentace:
+----------------------
+  Získané minibody: 185
+  Komentář k hodnocení: "CH - 15(Present simple should be used instead of P. continuous. There should be no comma before ""that"") ICH -0"
+
+Vysvětlivky zkratek v dokumentaci:
+  CH = pravopisné chyby, překlepy
+  FORMAT = špatný formát vzhledu dokumentu (nedodrženy požadavky)
+  SHORT = nesplňuje minimální požadavky na délku či obsah
+  STRUCT = nevhodně strukturováno (např. bez nadpisů)
+  MISSING = dokumentace nebyla odevzdána
+  COPY = text obsahuje úryvky ze zadání nebo cizí necitované materiály
+  STYLE = stylizace vět, nečitelnost, nesrozumitelnost
+  COMMENT = chybějící nebo nedostatečné komentáře ve zdrojovém textu
+  FILO = chybí či nedostatečná filosofie návrhu (abstraktní popis struktury programu, co následuje za čím)
+  SRCFORMAT = opravdu velmi špatná štábní kultura zdrojového kódu
+  LANG (jen pro informaci) = míchání jazyků (většinou anglické termíny v českém textu)
+  HOV (jen pro informaci) = hovorové nebo nevhodné slangové výrazy
+  PRED (jen pro informaci) = pozor na neslabičné předložky na konci řádků
+  FORM (jen pro informaci) = nepěkná úprava, nekonzistentní velikost a typ písma apod.
+  BLOK (jen pro informaci) = chybí zarovnaní do bloku místo méně pěkného zarovnání na prapor (doleva)
+  KAPTXT (jen pro informaci) = mezi nadpisem a jeho podnadpisem by měl být vždy nějaký text
+  MEZ (jen pro informaci) = za otevírající nebo před zavírající závorku mezera nepatří
+  ICH (jen pro informaci) = ich-forma (psaní v první osobě jednotného čísla) není většinou vhodná pro programovou dokumentaci
+  TERM = problematická terminologie (neobvyklá, nepřesná či přímo špatná)
+  SAZBA (jen pro informaci) = alespoň identifikátory proměnných a funkcí se patří sázet písmem s jednotnou šířkou písmen (např. font Courier)
+  OK = k dokumentaci byly maximálně minoritní připomínky
+
+
+Informace o rozbalení odevzdaného archívu:
+------------------------------------------
+Extracting xkrajn02/xkrajn02-JSN.zip archive..
+Archive:  xkrajn02-JSN.zip
+  inflating: jsn.php                 
+  inflating: JSN-doc.pdf             
+Setting read-right to *.php, *.class.php *.lib.php *.inc, and rozsireni...
+Checking file jsn.php as script filename...
+Script filename (jsn.php) is OK.
+
+
+Hodnocení skriptu (základní i rozšířené testy):
+-----------------------------------------------
+Následuje dvojtečkou oddělený seznam testů.
+  Jméno testu:Vaše hodnocení [mb]:[rozšíření]:Metadata testu:Komentář do konce řádku.
+Na konci naleznete celkový součet v nenormalizovaných minibodech.
+
+tests/basic/test01:10:[]:tests/basic/test01.cmd:test01: zkouska parametru --help (nekontroluje vystup na stdout)
+tests/basic/test02:0:[]:tests/basic/test02.cmd:test02: test parametru --help s jinym
+tests/basic/test03:10:[]:tests/basic/test03.cmd:test03: Zkouska --help vypisovaneho na stdout
+tests/jsn/test04:5:[]:tests/jsn/test04.cmd:test4: testXX: Zkouska nefunkcniho otevreni vstupniho souboru
+tests/jsn/test05:5:[]:tests/jsn/test05.cmd:test5: testXX: Zkouska nejzakladnejsiho vstupu s minimem parametru + --input s abs_path
+tests/jsn/test06:5:[]:tests/jsn/test06.cmd:test6: testXX: Zkouska nejzakladnejsiho vstupu s minimem parametru vcetne --input s abs_path a --output
+tests/jsn/test07:5:[]:tests/jsn/test07.cmd:test7: testXX: Zkouska nejzakladnejsiho vstupu s minimem parametru (s relativni cestou)
+tests/jsn/test08:5:[]:tests/jsn/test08.cmd:test8: testXX: Zkouska nejzakladnejsiho vstupu s minimem parametru (s relativni cestou 2)
+tests/jsn/test09:5:[]:tests/jsn/test09.cmd:test9: testXX: Zkouska nejzakladnejsiho vstupu s minimem parametru (se slozitejsi relativni cestou)
+tests/jsn/test10:10:[]:tests/jsn/test10.cmd:test10: testXX: pokus o vystup bez opravneni
+tests/jsn/test11:15:[]:tests/jsn/test11.cmd:test11: testXX: bez specialnich parametru
+tests/jsn/test12:15:[]:tests/jsn/test12.cmd:test12: testXX: parametr -s
+tests/jsn/test13:10:[]:tests/jsn/test13.cmd:test13: testXX: parametr -i
+tests/jsn/test14:10:[]:tests/jsn/test14.cmd:test14: testXX:  parametr -l
+tests/jsn/test15:20:[]:tests/jsn/test15.cmd:test15: testXX: kombinace -l -i -s
+tests/jsn/test16:20:[]:tests/jsn/test16.cmd:test16: testXX: parametr -r=root-element
+tests/jsn/test17:20:[]:tests/jsn/test17.cmd:test17: testXX: kombinace -s a -r
+tests/jsn/test18:20:[]:tests/jsn/test18.cmd:test18: testXX:  kombinace -i a -r
+tests/jsn/test19:20:[]:tests/jsn/test19.cmd:test19: testXX: kombinace -l a -r
+tests/jsn/test20:20:[]:tests/jsn/test20.cmd:test20: testXX: kombinace -r -l -i -s
+tests/jsn/test21:20:[]:tests/jsn/test21.cmd:test21: testXX: prazdny objekt
+tests/jsn/test22:15:[]:tests/jsn/test22.cmd:test22: testXX: prazdny objekt, negen. hlavicku
+tests/jsn/test23:15:[]:tests/jsn/test23.cmd:test23: testXX: prazdny objekt obaleny korenovym elementem
+tests/jsn/test24:15:[]:tests/jsn/test24.cmd:test24: testXX: prazdny objekt obaleny korenovym elementem bez hlavicky
+tests/jsn/test25:20:[]:tests/jsn/test25.cmd:test25: testXX: jednoduchy objekt s retezce, cislem a literalem
+tests/jsn/test26:20:[]:tests/jsn/test26.cmd:test26: testXX: jednoduchy objekt v korenovem elementu
+tests/jsn/test27:25:[]:tests/jsn/test27.cmd:test27: testXX: jednoduchy objekt s -r=r<oo>t => chyba
+tests/jsn/test28:25:[]:tests/jsn/test28.cmd:test28: testXX: jednoduche globalniho pole
+tests/jsn/test29:15:[]:tests/jsn/test29.cmd:test29: testXX: jednoduche globalni pole s korenovym elementem
+tests/jsn/test30:0:[]:tests/jsn/test30.cmd:test30: testXX: globalni pole s objektem s nepovolenym jmenem elementu
+tests/jsn/test31:0:[]:tests/jsn/test31.cmd:test31: testXX: Zpracovani globalniho pole obsahujiciho dalsi pole
+tests/jsn/test32:20:[]:tests/jsn/test32.cmd:test32: testXX: objekt s vnorenym polem
+tests/jsn/test33:20:[]:tests/jsn/test33.cmd:test33: testXX: slozitejsi objekt a parametry -n a -s
+tests/jsn/test34:20:[]:tests/jsn/test34.cmd:test34: testXX: slozitejsi objekt a parametry -s a -r=root
+tests/jsn/test35:20:[]:tests/jsn/test35.cmd:test35: testXX: slozitejsi objekt bez specialnich parametru
+tests/jsn/test36:20:[]:tests/jsn/test36.cmd:test36: testXX: slozitejsi objekt s parametrem -r="test-elem"
+tests/jsn/test37:0:[]:tests/jsn/test37.cmd:test37: testXX: slozitejsi priklad s korenovym elementem "ro-ot"
+tests/jsn/test38:20:[]:tests/jsn/test38.cmd:test38: testXX: jiny slozitejsi objekt s parametry -s a -r
+tests/jsn/test39:25:[]:tests/jsn/test39.cmd:test39: testXX: textova polozka "<west>&"</west>" s -c
+tests/jsn/test40:25:[]:tests/jsn/test40.cmd:test40: testXX: textova polozka "<west>&"</west>" (param -s)
+tests/jsn/test41:25:[]:tests/jsn/test41.cmd:test41: testXX: diakritika v textovem retezci
+tests/jsn/test42:25:[]:tests/jsn/test42.cmd:test42: testXX: diakritika v textovem retezci s parametrem -s a -c
+tests/jsn/test43:10:[]:tests/jsn/test43.cmd:test43: testXX: pole s poctem prvku
+tests/jsn/test44:15:[]:tests/jsn/test44.cmd:test44: testXX: pole s poctem prvku a jejich indexace
+tests/jsn/test45:20:[]:tests/jsn/test45.cmd:test45: testXX: pole s poctem prvku a jejich indexace od nuly
+tests/jsn/test46:10:[]:tests/jsn/test46.cmd:test46: testXX: prazdne pole a jeho velikost
+tests/jsn/test47:0:[]:tests/jsn/test47.cmd:test47: testXX: test opakovani volby --start
+tests/jsn/test48:20:[]:tests/jsn/test48.cmd:test48: testXX: objekt obsahujici nekolik poli a pole v poli (--start neni s -t)
+tests/jsn/test49:0:[]:tests/jsn/test49.cmd:test49: testXX: objekt obsahujici nekolik poli a pole v poli (-a, --start)
+tests/jsn/test50:0:[SKIPPED]:tests/jsn/test50.cmd:test50: testXX: JPD: objekt s polem o 99 polozkach (-t --padding -r=X)
+tests/jsn/test51:0:[SKIPPED]:tests/jsn/test51.cmd:test51: testXX: JPD: objekt s polem (-t --padding --start)
+tests/jsn/test52:0:[SKIPPED]:tests/jsn/test52.cmd:test52: testXX: JPD: objekt s polem obsahujicim dalsi zanorene pole (--padding -t -r=X)
+tests/jsn/test53:0:[SKIPPED]:tests/jsn/test53.cmd:test53: testXX: JPD: objekt s polem s polem jako polozka s dalsim polem (-t --padding -a)
+tests/jsn/test54:0:[SKIPPED]:tests/jsn/test54.cmd:test54: testXX: FLA: jednoduchy test rozsireni
+tests/jsn/test55:0:[SKIPPED]:tests/jsn/test55.cmd:test55: testXX: FLA: test rozsireni s dalsimi parametry
+tests/jsn/test56:0:[SKIPPED]:tests/jsn/test56.cmd:test56: testXX: FLA: test rozsireni vcetne razeni
+tests/jsn/test57:10:[]:tests/jsn/test57.cmd:test57: testXX: bez specialnich parametru (vc. pole s ruznymi hodnotami)
+tests/jsn/test58:10:[]:tests/jsn/test58.cmd:test58: testXX: parametr -s (vc. pole s retezci)
+tests/jsn/test59:10:[]:tests/jsn/test59.cmd:test59: testXX: parametr -i (vc. pole s cisly)
+tests/jsn/test60:10:[]:tests/jsn/test60.cmd:test60: testXX:  parametr -l (vc. pole s literaly)
+tests/jsn/test61:20:[]:tests/jsn/test61.cmd:test61: testXX: nepovolene znaky jmena elementu nahrazeny kratkym retezcem (-h)
+tests/jsn/test62:10:[]:tests/jsn/test62.cmd:test62: testXX: bezproblemove elementy, ale -h obsahuje nepovoleny znak, coz nevadi
+tests/jsn/test63:0:[SKIPPED]:tests/jsn/test63.cmd:test63: testXX: JER: chybejici carka
+tests/jsn/test64:0:[SKIPPED]:tests/jsn/test64.cmd:test64: testXX: JER: prebyvajici carka
+tests/jsn/test65:0:[SKIPPED]:tests/jsn/test65.cmd:test65: testXX: JER: chybejici a prebyvajici dvojtecka
+tests/jsn/test66:0:[SKIPPED]:tests/jsn/test66.cmd:test66: testXX: JER: chybejici slozena zavorka
+tests/jsn/test67:0:[SKIPPED]:tests/jsn/test67.cmd:test67: testXX: JER: chybejici hranata zavorka
+tests/jsn/test68:0:[SKIPPED]:tests/jsn/test68.cmd:test68: testXX: JER: chybejici slozena zavorka uvnitr pole
+tests/jsn/test69:0:[SKIPPED]:tests/jsn/test69.cmd:test69: testXX: JER: prebyvajici zavorky na konci
+tests/jsn/test70:0:[SKIPPED]:tests/jsn/test70.cmd:test70: testXX: JER: jednoducha jmena i hodnoty dvojic bez uvozovek
+tests/jsn/test71:0:[SKIPPED]:tests/jsn/test71.cmd:test71: testXX: JER: kombinace ruznych problemu na zotaveni
+tests/jsn/test72:5:[]:tests/jsn/test72.cmd:test72: testXX: Prejmenovany element pro pole, prazdne pole na vstupu
+tests/jsn/test73:5:[]:tests/jsn/test73.cmd:test73: testXX: Prejmenovany element pro pole, nekolikaprvkove pole na vstupu
+tests/jsn/test74:5:[]:tests/jsn/test74.cmd:test74: testXX: Prejmenovany element pro pole, nevalidni jmeno elementu
+ZAKLAD MINIBODU:780
+BONUS  MINIBODU:0
+CELKEM MINIBODU:780
+
+
+KONEC VÝPISU HODNOCENÍ
+
+

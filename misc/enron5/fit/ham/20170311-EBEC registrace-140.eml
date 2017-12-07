@@ -1,0 +1,69 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.134 with SMTP id z128csp478438vsc;
+        Sat, 11 Mar 2017 06:07:20 -0800 (PST)
+X-Received: by 10.223.160.143 with SMTP id m15mr22482918wrm.116.1489241240482;
+        Sat, 11 Mar 2017 06:07:20 -0800 (PST)
+Return-Path: <w153178@wl120-wv25.wedos.net>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id d10si3482615wmi.104.2017.03.11.06.07.20
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 11 Mar 2017 06:07:20 -0800 (PST)
+Received-SPF: neutral (google.com: 2001:67c:1220:8b0::93e5:b00e is neither permitted nor denied by best guess record for domain of w153178@wl120-wv25.wedos.net) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=fail header.i=@ebec.cz;
+       spf=neutral (google.com: 2001:67c:1220:8b0::93e5:b00e is neither permitted nor denied by best guess record for domain of w153178@wl120-wv25.wedos.net) smtp.mailfrom=w153178@wl120-wv25.wedos.net
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v2BE7JCJ007793
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Sat, 11 Mar 2017 15:07:19 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v2BE7JXq007791
+	for krajnakmatto@gmail.com; Sat, 11 Mar 2017 15:07:19 +0100 (CET)
+	(envelope-from w153178@wl120-wv25.wedos.net)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to w153178@wl120-wv25.wedos.net using -f
+Received: from wl120-wv25.wedos.net (wl120-wv25.wedos.net [46.28.106.63])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v2BE7GwE007773
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO);
+	Sat, 11 Mar 2017 15:07:16 +0100 (CET)
+Received: by wl120-wv25.wedos.net (Postfix, from userid 163178)
+	id CDC0832085A; Sat, 11 Mar 2017 15:07:15 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=ebec.cz;
+	s=key1.wedos-dkim; t=1489241235;
+	bh=vdQo3d86OPYHtL/E+ZXfHDeMCPYIwPtxWbnTSLg9Ro8=;
+	h=To:Subject:Date:From:Cc;
+	b=aV4sRCM+GdEBP40cBDMPzJqc1Okj3bsyFQ6vwh9vnbjQElRKDNO77Z4Uf0pSJWI+O
+	 47HsXDcB4K6YCv8KEYQutd9S9LCPbHiWKH6tS/dQqC4ul9rt7Pq47ZNaRD4wtB0KaS
+	 wxSqkZxNNh2lHQ9JbGTYFW9c9NUo6sCVKx/Mhz0I=
+To: =?UTF-8?B?QW5kcmVqIE9saXZlciBDaHVkw70=?= <xchudy03@stud.fit.vutbr.cz>,
+        Martin Kopec <xkopec42@stud.fit.vutbr.cz>,
+        Michal Cyprian   <xcypri01@stud.fit.vutbr.cz>,
+        =?UTF-8?B?TWFydGluIEtyYWrFiMOhaw==?=   <xkrajn02@stud.fit.vutbr.cz>
+Subject: EBEC registrace
+X-PHP-Originating-Script: 163178:Callback.php
+MIME-Version: 1.0
+X-Mailer: Nette Framework
+Date: Sat, 11 Mar 2017 15:07:15 +0100
+From: Registrace <noreply@ebec.cz>
+Cc: ebec.brno@gmail.com
+Message-ID: <1859ooxxao@www.ebec.cz>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: No, score=-1.095 required=7 tests=DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HEADER_FROM_DIFFERENT_DOMAINS,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+Výborně,
+právě proběhla registrace týmu 'ACK team'. Vedoucím je Andrej Oliver Chudý a členy jsou Martin Kopec, Michal Cyprian a Martin Krajňák.
+Nyní už stačí jen počkat na e-mail našeho tajemníka s dalšími instrukcemi. Budou poslány Vašemu vedoucímu.
+Jakékoliv dotazy a připomínky posílejte na ebec.brno@gmail.com . 
+
+Hodně zdaru,
+EBEC tým
+
+

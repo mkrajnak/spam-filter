@@ -1,0 +1,82 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.84.150 with SMTP id p22csp681529vsg;
+        Thu, 1 Jun 2017 02:02:48 -0700 (PDT)
+X-Received: by 10.223.160.68 with SMTP id l4mr471938wrl.130.1496307768898;
+        Thu, 01 Jun 2017 02:02:48 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1496307768; cv=none;
+        d=google.com; s=arc-20160816;
+        b=J5Qazg/m0GAZD86VxBHHKWUtyjFJbb3qtHGXMixsIFtaLCC0mlL1Sx5Tux23EfSHXC
+         kbcLG/ouUS58PQ4ZX6I+NLahKKZxIM0sYewvFS7AljpSpNiUKkXFlyjuSAWVQBKzUXPF
+         wYqx4wt4MNKDjqlPnj88rxF6Su1u1rIQ/NhXFncgZv6n9Rf5M3h7OiiqgPu1EV1bRKmK
+         3xCLyhrPnB6hYYpnK5bl7K5LVvKyO1Rs7K846eSlVj/dAKsFn1035oJoMSHecUhVYOBg
+         AsH9CequUklSO6qAmqdoKEcaNMP5YptWgBR2JnqSat5UnsCupm7rKLlj+q00Fr7+ssfa
+         96dA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:content-language:mime-version:user-agent
+         :date:message-id:subject:from:to:arc-authentication-results;
+        bh=xKYVGHUHttbbIYr5xcHLfs6NhK+XWTSg7SsPvjBp6gQ=;
+        b=twsZLte5ujcRaOPBq7D3mtNGWem7OT6r5zxS2jPlubLzz4+74FdvIKlpxMV1+yv0K5
+         oacgLNU7WNgbxdJhrkO1id5JUMNYQweUSzNNtn4EzIp6aix5OsxS8mfiqnCFk1ym8Vx4
+         3dlvhYLeVcFBlKlIHelzzDcwqByM3pcVuHHCGibhMIov1skeXp7Y+5UKhi04hiwCmzfC
+         FgOEqQp89MPlOIxOaFpL8EqvuvIg84nowC5ASGgrPet40UPARt9Uuh29SHv2rmCo3j4x
+         fIENldW4+VdbT49ZXIat+2rmGb9HJ3tK+dDxWYN9Iz8cMFsBTRtDihMmg7hMTuK/U0Fy
+         EVoA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of souskiva@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=souskiva@fit.vutbr.cz
+Return-Path: <souskiva@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id b16si29959571wmi.63.2017.06.01.02.02.48
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 01 Jun 2017 02:02:48 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of souskiva@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of souskiva@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=souskiva@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v5192mXA079281
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Thu, 1 Jun 2017 11:02:48 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v5192mBx079280
+	for krajnakmatto@gmail.com; Thu, 1 Jun 2017 11:02:48 +0200 (CEST)
+	(envelope-from souskiva@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to souskiva@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v5192lQN079274
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 1 Jun 2017 11:02:47 +0200 (CEST)
+Received: from [147.229.15.26] (pcsouskova.fit.vutbr.cz [147.229.15.26])
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id v5192lNK044829
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 1 Jun 2017 11:02:47 +0200 (CEST)
+To: =?UTF-8?Q?Kraj=c5=88=c3=a1k_Martin?= <xkrajn02@stud.fit.vutbr.cz>
+From: =?UTF-8?B?SXZhIFNvdcWha292w6E=?= <souskiva@fit.vutbr.cz>
+Subject: =?UTF-8?B?xb3DoWRvc3Q=?=
+Message-ID: <b422de83-c85b-84f9-bb17-4fcd0b862456@fit.vutbr.cz>
+Date: Thu, 1 Jun 2017 11:02:47 +0200
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.1.1
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-2; format=flowed
+Content-Language: cs
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: No, score=-0.746 required=7 tests=HELO_MISC_IP,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Loop: to-krajnakmatto@gmail.com
+
+Dobrý den,
+
+Va¹í ¾ádosti o odhlá¹ení ISZ nebylo vyhovìno z dùvodu splnìní kreditové 
+podmínky pro postup k SZZ, na který se odvoláváte. Dùvody pominuly.
+
+S pozdravem
+
+Iva Sou¹ková
+SO FIT
+
+

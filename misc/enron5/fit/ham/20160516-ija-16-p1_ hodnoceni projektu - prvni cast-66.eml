@@ -1,0 +1,131 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.32.9 with SMTP id g9csp1208210lfg;
+        Mon, 16 May 2016 02:33:30 -0700 (PDT)
+X-Received: by 10.28.48.203 with SMTP id w194mr17548419wmw.67.1463391209818;
+        Mon, 16 May 2016 02:33:29 -0700 (PDT)
+Return-Path: <koci@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id l124si19055605wml.71.2016.05.16.02.33.29
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 May 2016 02:33:29 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of koci@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz;
+       spf=pass (google.com: best guess record for domain of koci@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=koci@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u4G9XT3o027183
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Mon, 16 May 2016 11:33:29 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u4G9XTPo027182
+	for krajnakmatto@gmail.com; Mon, 16 May 2016 11:33:29 +0200 (CEST)
+	(envelope-from koci@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to koci@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u4G9XTRQ027167
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Mon, 16 May 2016 11:33:29 +0200 (CEST)
+Received: from kazi.fit.vutbr.cz (localhost [127.0.0.1])
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u4G9XSYN062580
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Mon, 16 May 2016 11:33:28 +0200 (CEST)
+Received: (from koci@localhost)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.1/Submit) id u4G9XS1Q062579
+	for xkrajn02@stud.fit.vutbr.cz; Mon, 16 May 2016 11:33:28 +0200 (CEST)
+	(envelope-from koci@fit.vutbr.cz)
+X-Authentication-Warning: kazi.fit.vutbr.cz: koci set sender to koci@fit.vutbr.cz using -f
+Date: Mon, 16 May 2016 11:33:28 +0200
+From: Koci Radek <koci@fit.vutbr.cz>
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: ija-16-p1: hodnoceni projektu - prvni cast
+Message-ID: <20160516093328.GA62572@fit.vutbr.cz>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="SUOF0GtieIMvvwua"
+Content-Disposition: inline
+User-Agent: Mutt/1.6.1 (2016-04-27)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fit.vutbr.cz; h=date:from:to:subject:message-id:mime-version:content-type; s=mx1; bh=hIkq2gc9A+7fG84apHq9rrcUGF4H7UHx7J08mdXtNK8=; b=KNTryx6JtDrADSgqmX+xie38tfPt9/l1LHqXm7eJZ87TgxqQkkUNta+M5tr+gNrewoKIQpgSDG08vJtTm3HcBGoUE2CvKEb1lylH/d6rWM5InFxgjyQLhX0+J/YIOjxaavcS5rv2zmLz5PCk0VT0vHHZQTBMR+aJ07uh+2gPIVk=
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-2.096 required=7 tests=ALL_TRUSTED,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+
+--SUOF0GtieIMvvwua
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Dobry den,
+
+byla ohodnocena formalni cast vaseho projektu z IJA. V priloze naleznete
+komentare k hodnoceni. Soucasti archivu je souhrne hodnoceni (soubor 
+report.rep) a soubor HODNOCENI-README s blizsim vysvetlenim 
+obsahu archivu.
+
+Hodnoceni tvori 20% celkoveho hodnoceni, 80% muzete ziskat pri prezentaci.
+Pripadne nejasnosti ci problemy s vyhodnocenim formalni casti vyresime
+behem prezentace, nepiste mi prosim dotazy e-mailem.
+
+Radek Koci
+
+--SUOF0GtieIMvvwua
+Content-Type: application/x-gtar-compressed
+Content-Disposition: attachment; filename="hodnoceni.tgz"
+Content-Transfer-Encoding: base64
+
+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
+PalKSwBQAAA=
+
+--SUOF0GtieIMvvwua--
+
+

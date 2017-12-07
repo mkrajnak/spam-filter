@@ -1,0 +1,82 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.81 with SMTP id k78csp1527934lfe;
+        Sat, 12 Mar 2016 04:23:31 -0800 (PST)
+X-Received: by 10.194.209.204 with SMTP id mo12mr15809984wjc.69.1457785411730;
+        Sat, 12 Mar 2016 04:23:31 -0800 (PST)
+Return-Path: <krivka@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id ci16si16560177wjb.126.2016.03.12.04.23.31
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 12 Mar 2016 04:23:31 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=krivka@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u2CCNVvR020217
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Sat, 12 Mar 2016 13:23:31 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u2CCNVHf020216
+	for krajnakmatto@gmail.com; Sat, 12 Mar 2016 13:23:31 +0100 (CET)
+	(envelope-from krivka@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to krivka@fit.vutbr.cz using -f
+Received: from merlin.fit.vutbr.cz (merlin.fit.vutbr.cz [147.229.176.19])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id u2CCMoSc019938;
+	Sat, 12 Mar 2016 13:23:30 +0100 (CET)
+Received: by merlin.fit.vutbr.cz (Postfix, from userid 601)
+	id E513C50161AA1; Sat, 12 Mar 2016 13:23:22 +0100 (CET)
+Date: Sat, 12 Mar 2016 13:23:22 +0100
+From: krivka@fit.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: IPP - =?utf-8?Q?Pokusn=C3=A9?= =?utf-8?Q?_hodnocen=C3=AD?=
+ =?utf-8?Q?_=C3=BAlohy?= 1 - xkrajn02
+Message-ID: <56e40a3a.de9dQEKf4mXuAXzH%krivka@fit.vutbr.cz>
+User-Agent: Heirloom mailx 12.4 7/29/08
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: No, score=-1.276 required=7 tests=AWL,BAYES_00,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+Dobrý den,
+jelikož jste provedl/a pokusné odevzdání rozpracované úlohy 1 projektu do IPP 2015/2016, zasíláme Vám zpětnou vazbu.
+
+Následující procentuální rozmezí hodnocení NENÍ finální hodnocení Vaší úlohy, ale má za úkol Vám poskytnout přibližnou zpětnou vazbu ohledně aktuální kvality Vaší implementace projektu. Před závěrečným testováním mohou být testy pozměněny například kvůli odhalení chyb v testech a doplněny o nové testy.
+Předběžné hodnocení úlohy také neobsahuje testování implementovaných rozšíření. Odevzdání bylo dobrovolné a námi zaslanou zpětnou vazbou Vám nevzniká žádný nárok na body za finální odevzdání úlohy. 
+
+Úloha byla nejdříve automaticky rozbalena z odevzdaného archivu (ve výpisu si všimněte případných hlášení chyb a varování, které pro finální odevzdání ve vlastním zájmu opravte) a pak byly spuštěny testy. Testovací příklady nebudou zveřejněny.
+Zpětná vazba obsahuje pouze výsledek od automatického testování skripty (tedy nezahrnuje hodnocení rozšíření, dokumentace, kvality zdrojových kódů, komentářů, plagiátorství či podvodné výstupy) na serveru Merlin.
+Reklamaci pokusného odevzdání nelze nárokovat.
+
+Především nečekané a velmi špatné mezivýsledky (0 až 10%) lze konzultovat s cvičícím.
+   Ing. Láznička (úlohy CLS, XQR; po domluvě emailem)
+   Ing. Kocman (úlohy CHA, XTD; po domluvě emailem)
+   Ing. Kučera (úlohy JMP, SYN; po domluvě emailem)
+   Dr. Křivka (úlohy DKA, JSN; viz http://merlin.fit.vutbr.cz/wiki/index.php/Konzultace-Krivka (na konzultaci IPP je možné zmenšit bloky na 10 minut) či domluva emailem)
+Individuální dotazy ke konkrétní úloze vždy směřujte ke správnému zodpovědnému cvičícímu, jinak nemusíte dostat odpověď.  Děkuji za pochopení.
+
+
+Hodnocení pokusného odevzdání skriptu:
+======================================
+
+Login studenta: xkrajn02
+Hodnocená úloha 1: JSN
+
+Dekomprimace archivu: OK
+
+Předběžné vyhodnocení za implementaci je v rozmezí 80-100 %.
+
+Gratulujeme k velmi dobrému mezivýsledku!
+Do předběžného hodnocení zatím nebyly započteny bonusové body.
+
+S pozdravem,
+Zbyněk Křivka
+
+

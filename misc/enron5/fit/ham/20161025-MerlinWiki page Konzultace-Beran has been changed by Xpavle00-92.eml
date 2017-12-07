@@ -1,0 +1,90 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.8.130 with SMTP id 124csp2305377vsi;
+        Mon, 24 Oct 2016 15:36:01 -0700 (PDT)
+X-Received: by 10.28.163.5 with SMTP id m5mr47695wme.58.1477348561457;
+        Mon, 24 Oct 2016 15:36:01 -0700 (PDT)
+Return-Path: <websrv@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id go9si18753830wjb.75.2016.10.24.15.36.01
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 24 Oct 2016 15:36:01 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of websrv@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of websrv@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=websrv@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u9OMa0op032804
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Tue, 25 Oct 2016 00:36:00 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u9OMa0wH032800
+	for krajnakmatto@gmail.com; Tue, 25 Oct 2016 00:36:00 +0200 (CEST)
+	(envelope-from websrv@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to websrv@fit.vutbr.cz using -f
+Received: from merlin.fit.vutbr.cz (merlin.fit.vutbr.cz [147.229.176.19])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id u9OMZxso032788
+	for <xkrajn02@stud.fit.vutbr.cz>; Tue, 25 Oct 2016 00:35:59 +0200 (CEST)
+Received: by merlin.fit.vutbr.cz (Postfix, from userid 109)
+	id E01AF500000AC; Tue, 25 Oct 2016 00:35:59 +0200 (CEST)
+To: Xkrajn02 <xkrajn02@stud.fit.vutbr.cz>
+Subject: MerlinWiki page Konzultace-Beran has been changed by Xpavle00
+X-PHP-Originating-Script: 365:UserMailer.php
+From: MerlinWiki <linux@fit.vutbr.cz>
+Reply-To: reply@not.possible
+Date: Tue, 25 Oct 2016 00:35:59 +0200
+Message-ID: <wikidb.580e8ccfd6f864.20988319@merlin.fit.vutbr.cz>
+X-Mailer: MediaWiki mailer
+MIME-Version: 1.0
+Content-type: text/plain; charset=UTF-8
+Content-transfer-encoding: 8bit
+X-Spam-Status: No, score=-2.797 required=7 tests=AWL,BAYES_00,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+Dear Xkrajn02,
+
+The MerlinWiki page Konzultace-Beran has been changed on 24 October 2016
+by Xpavle00, see
+http://merlin.fit.vutbr.cz/wiki/index.php/Konzultace-Beran for the
+current revision. 
+
+See
+http://merlin.fit.vutbr.cz/wiki/index.php?title=Konzultace-Beran&diff=next&oldid=32029
+to view this change.
+
+See
+http://merlin.fit.vutbr.cz/wiki/index.php?title=Konzultace-Beran&diff=0&oldid=32029
+for all changes since your last visit.
+
+Editor's summary: /* Consultations 2016/2017 */ 
+
+Contact the editor:
+mail:
+http://merlin.fit.vutbr.cz/wiki/index.php/Special:EmailUser/Xpavle00
+wiki: http://merlin.fit.vutbr.cz/wiki/index.php/User:Xpavle00
+
+There will be no other notifications in case of further activity unless
+you visit this page while logged in. You could also reset the
+notification flags for all your watched pages on your watchlist.
+
+Your friendly MerlinWiki notification system
+
+--
+To change your email notification settings, visit
+http://merlin.fit.vutbr.cz/wiki/index.php/Special:Preferences
+
+To change your watchlist settings, visit
+http://merlin.fit.vutbr.cz/wiki/index.php/Special:EditWatchlist
+
+To delete the page from your watchlist, visit
+http://merlin.fit.vutbr.cz/wiki/index.php?title=Konzultace-Beran&action=unwatch
+
+Feedback and further assistance:
+https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents
+
+

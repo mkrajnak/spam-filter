@@ -1,0 +1,95 @@
+X-Mozilla-Status: 0013
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.21.66 with SMTP id 63csp2416985vsv;
+        Wed, 14 Sep 2016 04:39:53 -0700 (PDT)
+X-Received: by 10.194.190.37 with SMTP id gn5mr2149081wjc.168.1473853193665;
+        Wed, 14 Sep 2016 04:39:53 -0700 (PDT)
+Return-Path: <vojnar@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id yx6si3789848wjb.207.2016.09.14.04.39.53
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 14 Sep 2016 04:39:53 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of vojnar@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz;
+       spf=pass (google.com: best guess record for domain of vojnar@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=vojnar@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u8EBdr1l048620
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Wed, 14 Sep 2016 13:39:53 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u8EBdrDY048619
+	for krajnakmatto@gmail.com; Wed, 14 Sep 2016 13:39:53 +0200 (CEST)
+	(envelope-from vojnar@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to vojnar@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u8EBdqdV048613
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Wed, 14 Sep 2016 13:39:52 +0200 (CEST)
+Received: from [147.229.14.237] (dhcpz237.fit.vutbr.cz [147.229.14.237])
+	(authenticated bits=0)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPSA id u8EBdqHD079821
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Wed, 14 Sep 2016 13:39:52 +0200 (CEST)
+Subject: Re: bakalarka
+To: =?UTF-8?Q?Kraj=c5=88=c3=a1k_Martin?= <xkrajn02@stud.fit.vutbr.cz>
+References: <20160913105652.9371673spi1r6es4@email.fit.vutbr.cz>
+From: Tomas Vojnar <vojnar@fit.vutbr.cz>
+Message-ID: <4c9fa236-6755-f116-c67f-c2f6d24f8c2f@fit.vutbr.cz>
+Date: Wed, 14 Sep 2016 13:39:52 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101
+ Thunderbird/45.2.0
+MIME-Version: 1.0
+In-Reply-To: <20160913105652.9371673spi1r6es4@email.fit.vutbr.cz>
+Content-Type: text/plain; charset=iso-8859-2; format=flowed
+Content-Transfer-Encoding: 8bit
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fit.vutbr.cz; h=subject:to:references:from:message-id:date:mime-version:in-reply-to:content-type:content-transfer-encoding; s=mx1; bh=vctacIZx9K5UcsE/b0mQVdufX2iTivYb1wKUI/t+ZGg=; b=vDUb6vjtLDc+EDmfQdSDUbGBAS9Caos1s9CKM0AVqwOv1SW9dVXdrJNskC8VVeutadzpnAMby9D+gM+zwxpzs+zZZia/ace7oJMC5sYww1ETUOlLkQroeCarQmweqhv5fUNmwR4S+JwwyyNL8W6q2dlMq5gvpRmEdTi4inWdnMA=
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-3.312 required=7 tests=ALL_TRUSTED,AWL,BAYES_00,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+Dobry den,
+
+na FITu mam opravdu roli koordinatora spoluprace s RH, coz zahrnuje i 
+BP/DP. Jsem rad, ze jste si vybral tema prave ve spolupraci s Red Hatem. 
+Co se tyce vedouciho, pokud mate nekoho, koho byste preferoval a kdo 
+aspon castecne souvisi s tematem, prosim oslovte ho. Mel by to byt 
+nekdo, kdo alespon castecne souvisi s tim, co delate (byt odborneho 
+vedouciho budete mit v Red Hatu). Vase tema je asi nejblize UPGM, 
+nicmene neni zcela uplne vyhranene. Pokud prozatim nemate preferenci, 
+muzete se obratit treba na nekoho v me skupine (napr. Milan Ceska jr.: 
+ceskam@fit.vutbr.cz, ktery nove nastoupil, ci nekdo z mych doktorandu).
+
+S pozdravem,
+Tomas Vojnar
+
+On 13/09/16 10:56, Krajòák Martin wrote:
+> Dobrý deò,
+>
+> dohodol som si bakalársku prácu v spoloènosti RedHat a bolo mi 
+> povedané ¾e sa mô¾em na Vás obráti» vo veci výberu vedúceho práce z FITu.
+>
+> Zadanie práce a kontakt na vedúceho práce je dostupné tu:
+> https://diplomky.redhat.com/topic/show/445/generic-embeddable-virtual-machine-like-entity-configuration-interface 
+>
+>
+> Ïakujem
+> MK
+
+
+-- 
+
+Faculty of Information Technology, Brno University of Technology
+Bozetechova 2, CZ-612 66 Brno, Czech Republic
+e-mail: vojnar@fit.vutbr.cz
+web: www.fit.vutbr.cz/~vojnar
+tel: +420541141202
+office: A215
+
+

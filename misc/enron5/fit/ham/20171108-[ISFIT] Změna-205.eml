@@ -1,0 +1,69 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.159.41.100 with SMTP id t91csp5779124uat;
+        Wed, 8 Nov 2017 11:47:03 -0800 (PST)
+X-Google-Smtp-Source: ABhQp+T7B8iL7vdpbScqVDjM+IpaLaVZl3aUch3PWUBiQxLmGBAr+0YICoNm6n6hjS5XeJK8dJqE
+X-Received: by 10.28.54.154 with SMTP id y26mr1378421wmh.15.1510170423235;
+        Wed, 08 Nov 2017 11:47:03 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1510170423; cv=none;
+        d=google.com; s=arc-20160816;
+        b=nAvG8sQ7cXbxha4BZZ8UzsikfDvFHIEJ16II9u6AunbodKGGN2vvrNFKXL/tFKVNAQ
+         SZxWPBZHcDjJZWb3sl/DC0/9hKSj4jBLUTqy+CqPIsKEO6Fm3DQwg8OTvgQ0aiFsEvsZ
+         V5pcZp+/8UlLoLSqEDaNF+e/TOeaL2/dNPqiRwvmYOegH0UcmjBxYE/GmCRT3ifwPrgL
+         ArV3s5GImv8EmgHTerjSjPbH+gSFf6Gm08K9+1agmj7kdNFgHtHp1PW1RADKLLF02nBX
+         S7xKDD7TR66FHqkUkQZqYjDmlqWZHHapA5umlPyA0Zuk1CHtjTaF0ifU4wvOEH+98huP
+         OUWw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:subject:from:to
+         :date:arc-authentication-results;
+        bh=IKbUZr9Twzn/WNc0ML7p6DXhqYmxNgXhVEFk9dn1WUc=;
+        b=ISX+iToqoeDE3OCUuk6TRBnrHlB3T4YFQaOIExsWVbSV83I1K6InAqbIi0TgaLXX7t
+         RhXD+Gf4tOZsJjJ/D2lmzsHdIwny2vlUqNCcCZlQcJkauClZLlR4XR4yOCdqPdipjarB
+         5vFLq/l19xagQZ9KMI2aT1A3yvv2UDkFygiEBTPbgY+A2cmvdDIxzjXxPXGh5xlgplYq
+         TyDT/F+Jl/O3+wxYf5C7p3yVJ4CsEkAE4+JhvBnK0hkU4blJA6LMdG4jmwsT16qH5JIf
+         4oipkqLUMYbd24FAvrQNaOdAhYwLBEn3kRD4q57NB78PZKosi2rJTrgh/Pk7AqUSxFVA
+         XzUA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=xkrajn02@stud.fit.vutbr.cz
+Return-Path: <xkrajn02@stud.fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id g15si4043923wrg.136.2017.11.08.11.47.02
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 Nov 2017 11:47:03 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=xkrajn02@stud.fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id vA8Jl2C3095034
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Wed, 8 Nov 2017 20:47:02 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id vA8Jl2V6095033
+	for krajnakmatto@gmail.com; Wed, 8 Nov 2017 20:47:02 +0100 (CET)
+	(envelope-from xkrajn02@stud.fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to xkrajn02@stud.fit.vutbr.cz using -f
+Received: from wis.fit.vutbr.cz (agata.fit.vutbr.cz [147.229.9.21])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id vA8Jl2jl095006
+	for <xkrajn02@stud.fit.vutbr.cz>; Wed, 8 Nov 2017 20:47:02 +0100 (CET)
+X-Received-From: phpmailer
+Date: Wed, 8 Nov 2017 20:47:02 +0100
+To: xkrajn02@stud.fit.vutbr.cz
+From: =?iso-8859-2?Q?Kraj=F2=E1k_Martin=2C_Bc=2E?= <xkrajn02@stud.fit.vutbr.cz>
+Subject: =?iso-8859-2?Q?[ISFIT]_Zm=ECna?=
+Message-ID: <20f15bb29277be92f5f71048deefb4cd@wis.fit.vutbr.cz>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.73pl]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-2"
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+BIS/2017Z: 0 b -> 12 b, nezap 2018-01-01, 4F
+
+
+
