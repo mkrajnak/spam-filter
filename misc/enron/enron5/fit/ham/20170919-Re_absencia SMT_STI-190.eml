@@ -1,0 +1,109 @@
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.159.54.231 with SMTP id p94csp3938528uap;
+        Mon, 18 Sep 2017 15:36:15 -0700 (PDT)
+X-Google-Smtp-Source: AOwi7QAUJ6as2FH8j6A0qd3INArAk0V5V5YLCqEwcMRe33udjtvacgbQQGxDp17x93QecsG7G/Tm
+X-Received: by 10.28.225.132 with SMTP id y126mr9553371wmg.119.1505774175801;
+        Mon, 18 Sep 2017 15:36:15 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1505774175; cv=none;
+        d=google.com; s=arc-20160816;
+        b=GMsXtNLdrbmneKjznaXb6HjlaF13lC/AYbQVbOMB4js7zrv2jtJg6JhpzscYDi+lyd
+         nLqELGx+qZy5EGTaEC9BkRDrbsQ4/lwyYbEIKeZEvdY+oou/UXJjqdZBoP0MLBNiI6tX
+         jReTp35P1UQnT89fL8UC2soc+EhSNUjhV++nPO4eIIP4jd7dQ9wfLPIZZ3+5hsaFcKXZ
+         Xy9kozu0otsNtyiH4c3+z4ihYlY8jmhfpMpReIV/7nc2qNerlZ3/2v5DQ6+FpE0EYLKP
+         4krzsQey5wcYpAj8nQIsJhiFBlqJ/bjfP2FH8FaCiKAKOJW6d+fyDMZFPgzEo9Fxdk/U
+         ZzUA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=dkim-signature:content-language:content-transfer-encoding
+         :in-reply-to:mime-version:user-agent:date:message-id:from:cc
+         :references:to:subject:arc-authentication-results;
+        bh=k8IdMlhzyOtfkxa5w33vyckruFDRt+le1oX5/+hXM4Q=;
+        b=xY0mS7IDySW347/tMs/+xXAFp5ocal/hSOt5PXlxbkp29Z6Xx3q0R/W17yuJvX/IvG
+         /i29k4V/TCbAZ2+eQl25PWgDoFDmkDwJZwXhRWv0AmDN7UAlBrEXqD+YrxI1NUI5pyWw
+         wCL7t1JQt9z3JMJ8MVXhZxSnaDy/CoKJkC9GJUA0oB8dJZLe40P1QoRsrWmWz5Zb8nFe
+         v1SFmmoO/aVVXNo+EkRsC4zRKaW2u3s8UEaYuJthf2vbXY+ZaZswBA9Ts2D0Pu3nf+Rw
+         gtSZn3XvKcTtvztVr2qE4LpLPUtrT6zmvYgmPeEAJ6scqeym9dKHmbLDZZNjVJSyMMTB
+         RksQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz header.s=mx1 header.b=bXLQYIpI;
+       spf=pass (google.com: best guess record for domain of vojnar@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=vojnar@fit.vutbr.cz
+Return-Path: <vojnar@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id l1si6735482wrl.371.2017.09.18.15.36.15
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 18 Sep 2017 15:36:15 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of vojnar@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz header.s=mx1 header.b=bXLQYIpI;
+       spf=pass (google.com: best guess record for domain of vojnar@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=vojnar@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v8IMaFcJ071156
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Tue, 19 Sep 2017 00:36:15 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v8IMaFTx071155
+	for krajnakmatto@gmail.com; Tue, 19 Sep 2017 00:36:15 +0200 (CEST)
+	(envelope-from vojnar@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to vojnar@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v8IMaEL9071149
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Tue, 19 Sep 2017 00:36:14 +0200 (CEST)
+Received: from [10.67.48.67] ([217.39.6.42])
+	(authenticated bits=0)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPSA id v8IMaD4l048295
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Tue, 19 Sep 2017 00:36:14 +0200 (CEST)
+Subject: Re: absencia SMT,STI
+To: =?UTF-8?Q?Kraj=c5=88=c3=a1k_Martin?= <xkrajn02@stud.fit.vutbr.cz>
+References: <20170918223338.64697hfdgol6fqg2@email.fit.vutbr.cz>
+Cc: Lukas Holik <holik@fit.vutbr.cz>, Adam Rogalewicz <rogalew@fit.vutbr.cz>
+From: Tomas Vojnar <vojnar@fit.vutbr.cz>
+Message-ID: <e6ee4d55-ec37-577e-bbeb-6452a701fd01@fit.vutbr.cz>
+Date: Mon, 18 Sep 2017 23:36:13 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
+ Thunderbird/52.2.1
+MIME-Version: 1.0
+In-Reply-To: <20170918223338.64697hfdgol6fqg2@email.fit.vutbr.cz>
+Content-Type: text/plain; charset=iso-8859-2; format=flowed
+Content-Transfer-Encoding: 8bit
+Content-Language: en-GB
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fit.vutbr.cz; h=subject:to:references:cc:from:message-id:date:mime-version:in-reply-to:content-type:content-transfer-encoding; s=mx1; bh=k8IdMlhzyOtfkxa5w33vyckruFDRt+le1oX5/+hXM4Q=; b=bXLQYIpItlVYkvI5fcy0M9Mvqjg2JOMetg10dqdxeBiksXaTnRzPWb7AxUdMocHlr5zAaZGuajDxKQoOgCM3VDaZWo6MShkFiuxFPayIZblQ2H6Au59/jFZ4oAOSi3NyQtBb7PvQ4uVR3oYSdn+jmo6YHbURmZlXibsYJpmNJv4=
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-3.996 required=7 tests=ALL_TRUSTED,BAYES_00,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+Dobry den,
+
+dekuji za omluvu. Ohledne SMT preposilam na kolegy Rogalewicze a Holika, 
+kteri tento kurz vedou.
+
+Tomas Vojnar
+
+On 09/18/2017 09:33 PM, Krajòák Martin wrote:
+> Vá¾ený pán profesor Vojnar,
+>
+> chcel by som sa Vám týmto ospravedlni» z neúèasti na predmetoch SMT a 
+> STI v prvom tý¾dni semestra. Z dôvodu úmrtia v rodine som neèakane 
+> nútený odcestova» na Slovensko.
+>
+> S pozdravom
+> Martin Krajòák
+
+
+-- 
+
+Faculty of Information Technology, Brno University of Technology
+Bozetechova 2, CZ-612 66 Brno, Czech Republic
+e-mail: vojnar@fit.vutbr.cz
+web: www.fit.vutbr.cz/~vojnar
+tel: +420541141202
+office: A215
+
+

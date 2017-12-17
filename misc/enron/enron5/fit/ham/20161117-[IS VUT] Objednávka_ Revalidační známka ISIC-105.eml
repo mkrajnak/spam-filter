@@ -1,0 +1,77 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.139.200 with SMTP id n191csp501324vsd;
+        Wed, 16 Nov 2016 17:52:25 -0800 (PST)
+X-Received: by 10.28.68.195 with SMTP id r186mr1101729wma.105.1479347545355;
+        Wed, 16 Nov 2016 17:52:25 -0800 (PST)
+Return-Path: <zpravy-is@ro.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id w4si529717wja.236.2016.11.16.17.52.24
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 16 Nov 2016 17:52:25 -0800 (PST)
+Received-SPF: pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=zpravy-is@ro.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id uAH1qNXI085798
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Thu, 17 Nov 2016 02:52:23 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id uAH1qNbS085797
+	for krajnakmatto@gmail.com; Thu, 17 Nov 2016 02:52:23 +0100 (CET)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to zpravy-is@ro.vutbr.cz using -f
+Received: from ferret.cis.vutbr.cz (ferret.cis.vutbr.cz [147.229.3.145])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id uAH1qM9v085791
+	(version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 17 Nov 2016 02:52:22 +0100 (CET)
+Received: from ent.ro.vutbr.cz (ent.ro.vutbr.cz [147.229.2.49])
+	by ferret.cis.vutbr.cz (8.14.9/8.14.7/VUT Brno) with ESMTP id uAH1qM7o078845
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 17 Nov 2016 02:52:22 +0100 (CET)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+Received: from ent.ro.vutbr.cz (localhost.localdomain [127.0.0.1])
+	by ent.ro.vutbr.cz (8.13.8/8.13.8) with ESMTP id uAH1qM30020108
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 17 Nov 2016 02:52:22 +0100
+Received: (from root@localhost)
+	by ent.ro.vutbr.cz (8.13.8/8.13.8/Submit) id uAH1qMQu020107;
+	Thu, 17 Nov 2016 02:52:22 +0100
+Date: Thu, 17 Nov 2016 02:52:22 +0100
+Message-Id: <201611170152.uAH1qMQu020107@ent.ro.vutbr.cz>
+MIME-Version: 1.0
+From: zpravy-is@ro.vutbr.cz
+Reply-to: zpravy-is@ro.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: =?utf-8?B?W0lTIFZVVF0gT2JqZWRuw6F2a2E6IFJldmFsaWRhxI1uw60gem7DoW1rYSBJU0lD?=
+User-Agent: EmailSend VUTPortal3 shreckdog email_send.pl
+Content-type: text/plain; charset="utf-8"
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.67 on 147.229.3.145
+X-Spam-Status: No, score=0.256 required=7 tests=AWL,RCVD_IN_BRBL_LASTEXT,RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from base64 to 8bit by eva.fit.vutbr.cz id uAH1qM9v085791
+X-Loop: to-krajnakmatto@gmail.com
+
+Vaše objednávka byla přijata.
+
+Informace potřebné pro provedení platby:
+      způsob platby: platba převodem z účtu vedeného u některé české banky
+             částka: 230 CZK
+  variabilní symbol: 5480175382
+         účet číslo: 27-7495740247/0100
+     vedený u banky: Komerční banka a.s., Náměstí Svobody 21, 63131 Brno
+
+Stav objednávky můžete sledovat na http://www.vutbr.cz/prukazy
+Platbu proveďte maximálně do 10 kalendářních dní od data odeslání objednávky. Nezaplacené objednávky budou po uplynutí této doby stornovány nezaplacením.
+U studentů prvních ročníků může dojít ke stornu dříve, podle termínu hromadného odeslání průkazů do tisku.
+V případě problému se zaplacením nebo objednávkou nás kontaktujte na isic@ro.vutbr.cz
+
+VUT zpráva od: Informační systém VUT 
+Odpověď na tuto zprávu není možná. Zprávu odeslal automat.
+
+

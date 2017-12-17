@@ -1,0 +1,95 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.159.54.231 with SMTP id p94csp505826uap;
+        Wed, 20 Sep 2017 00:56:17 -0700 (PDT)
+X-Google-Smtp-Source: AOwi7QCHgDCFfcgZKqWnRFFOhE+svQdDsZEYYikrm2KXEmC92GCbtfCwmOXMza3+cOMm1SdHU0ww
+X-Received: by 10.28.170.13 with SMTP id t13mr3035540wme.118.1505894177102;
+        Wed, 20 Sep 2017 00:56:17 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1505894177; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FeCFdVFvgxOUyHzp+finzMmdCjmnGGI27N4JoAGoQtwny1QeI/trDSkN0IQypjbz/F
+         jaDdxdVuTO2JBEWVQMsRQJDkwR6WnfPdAUfOSTQuj4vtwbee/5rFIc+6MjnCMa0Q923b
+         nOyR5OZQDQR4AC2GQo+uWYBeAaBvCAh2Wc2k65j0zG3aOCzEgA/g1O33eXeXmj7KIt3A
+         1gPWGdWYaCDc2GBUW930xdvYgWWNMyw3fAjdjGqIisoF1jO7MF1aWJ5nMQ7t2diWHRyl
+         INqAKfzvre0oFWmQ8p71fHoClKT7fCyGdDaO0KYQakSiQ//LglHWWy5dOlHtQXH2B104
+         9/vQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:date:message-id:user-agent:subject:to
+         :reply-to:from:mime-version:arc-authentication-results;
+        bh=pIHzbbj/1bAYVKteproGvO4f2IumER+eBth/E1Fs83Y=;
+        b=oG+86g1zTJNJ58KPRXdgmFCBeHdduR0Ji9QVYDqm9sTqBbqKo3ylCK1Ihj6pFuNtHl
+         YMMRbwl1UI/G7vKOU1hYM515RlxK7l3vNMKwNYXJ17G9FCB61BKG2AQ4NeycvqVga8BD
+         vdiXPu0q/fpCixAh/M/CRN8SK5sHJHSht7ZHLwySmVCMi02w3TrnCjzm7DprkjzsCnuG
+         ohFbaTcm47R/XpR+VXqa7ehYnWDruyb+yU6zvRv1bGaJw4W6ANKDfJbzYG8RTOmki94f
+         jXurL3BY7UeGG9Id6UUf5giUP4yd37d3cJl0E9IB3kQJgOz8JN2TXRNsmy79Qb5fsW5p
+         rxzQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=zpravy-is@ro.vutbr.cz
+Return-Path: <zpravy-is@ro.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id v188si908529wma.70.2017.09.20.00.56.16
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 20 Sep 2017 00:56:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=zpravy-is@ro.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v8K7uG5q078685
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Wed, 20 Sep 2017 09:56:16 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v8K7uGSR078684
+	for krajnakmatto@gmail.com; Wed, 20 Sep 2017 09:56:16 +0200 (CEST)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to zpravy-is@ro.vutbr.cz using -f
+Received: from ferret.cis.vutbr.cz (ferret.cis.vutbr.cz [147.229.3.145])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v8K7uFDI078678
+	(version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Wed, 20 Sep 2017 09:56:16 +0200 (CEST)
+Received: from emu.ro.vutbr.cz ([100.64.24.49])
+	by ferret.cis.vutbr.cz (8.14.9/8.14.7/VUT Brno) with ESMTP id v8K7uF9C073080
+	for <xkrajn02@stud.fit.vutbr.cz>; Wed, 20 Sep 2017 09:56:15 +0200 (CEST)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+X-Authentication-Warning: ferret.cis.vutbr.cz: Host [100.64.24.49] claimed to be emu.ro.vutbr.cz
+Received: by emu.ro.vutbr.cz (Postfix, from userid 1028)
+	id C402030629A4; Wed, 20 Sep 2017 09:56:15 +0200 (CEST)
+MIME-Version: 1.0
+From: zpravy-is@ro.vutbr.cz
+Reply-to: zpravy-is@ro.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: =?utf-8?B?W0lTIFZVVF0gT2JqZWRuw6F2a2E6IFJldmFsaWRhxI1uw60gem7DoW1rYSBJU0lD?=
+User-Agent: EmailSend VUTPortal3 emu email_send.pl
+Content-type: text/plain; charset="utf-8"
+Message-Id: <20170920075615.C402030629A4@emu.ro.vutbr.cz>
+Date: Wed, 20 Sep 2017 09:56:15 +0200 (CEST)
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.67 on 147.229.3.145
+X-Spam-Status: No, score=-1.225 required=7 tests=AWL,BAYES_00,RCVD_IN_BRBL_LASTEXT,RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from base64 to 8bit by eva.fit.vutbr.cz id v8K7uFDI078678
+X-Loop: to-krajnakmatto@gmail.com
+
+Vaše objednávka byla přijata.
+
+Informace potřebné pro provedení platby:
+      způsob platby: platba převodem z účtu vedeného u některé české banky
+             částka: 230 CZK
+  variabilní symbol: 5620175382
+         účet číslo: 27-7495740247/0100
+     vedený u banky: Komerční banka a.s., Náměstí Svobody 21, 63131 Brno
+
+Stav objednávky můžete sledovat na http://www.vutbr.cz/prukazy
+Platbu proveďte maximálně do 10 kalendářních dní od data odeslání objednávky. Nezaplacené objednávky budou po uplynutí této doby stornovány nezaplacením.
+U studentů prvních ročníků může dojít ke stornu dříve, podle termínu hromadného odeslání průkazů do tisku.
+V případě problému se zaplacením nebo objednávkou nás kontaktujte na isic@ro.vutbr.cz
+
+VUT zpráva od: Informační systém VUT  (id 777777)
+Odpověď je možná pomocí VUT zpráv - použijte prosím následující odkaz:
+https://www.vutbr.cz/intra/vut-zpravy?action=nova&odpoved_na=9328627
+
+

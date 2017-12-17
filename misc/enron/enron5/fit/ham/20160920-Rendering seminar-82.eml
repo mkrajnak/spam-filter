@@ -1,0 +1,410 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.21.66 with SMTP id 63csp1440910vsv;
+        Tue, 20 Sep 2016 06:17:24 -0700 (PDT)
+X-Received: by 10.194.113.41 with SMTP id iv9mr29121573wjb.97.1474377444390;
+        Tue, 20 Sep 2016 06:17:24 -0700 (PDT)
+Return-Path: <imilet@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id kd7si31905687wjc.151.2016.09.20.06.17.23
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 20 Sep 2016 06:17:24 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of imilet@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz;
+       spf=pass (google.com: best guess record for domain of imilet@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=imilet@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u8KDHNNe046782
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Tue, 20 Sep 2016 15:17:23 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u8KDHNnB046775
+	for krajnakmatto@gmail.com; Tue, 20 Sep 2016 15:17:23 +0200 (CEST)
+	(envelope-from imilet@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to imilet@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u8KDHABd046489
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK);
+	Tue, 20 Sep 2016 15:17:10 +0200 (CEST)
+Received: from [147.229.14.245] (dhcpz245.fit.vutbr.cz [147.229.14.245])
+	(authenticated bits=0)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPSA id u8KDH82B064930
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Tue, 20 Sep 2016 15:17:09 +0200 (CEST)
+To: xabela00@stud.fit.vutbr.cz, xabrah03@stud.fit.vutbr.cz,
+        xadame38@stud.fit.vutbr.cz, xadamo00@stud.fit.vutbr.cz,
+        xambro15@stud.fit.vutbr.cz, xandri03@stud.fit.vutbr.cz,
+        xangel02@stud.fit.vutbr.cz, xastak00@stud.fit.vutbr.cz,
+        xaubre02@stud.fit.vutbr.cz, xaugus09@stud.fit.vutbr.cz,
+        xbaasf00@stud.fit.vutbr.cz, xbabek01@stud.fit.vutbr.cz,
+        xbabja01@stud.fit.vutbr.cz, xbacov04@stud.fit.vutbr.cz,
+        xbakad00@stud.fit.vutbr.cz, xbakom01@stud.fit.vutbr.cz,
+        xbalag00@stud.fit.vutbr.cz, xbalaj02@stud.fit.vutbr.cz,
+        xbalaj03@stud.fit.vutbr.cz, xbalog03@stud.fit.vutbr.cz,
+        xbalvi00@stud.fit.vutbr.cz, xbambu04@stud.fit.vutbr.cz,
+        xbanca00@stud.fit.vutbr.cz, xbandi01@stud.fit.vutbr.cz,
+        xbankt00@stud.fit.vutbr.cz, xbarbo06@stud.fit.vutbr.cz,
+        xbaric01@stud.fit.vutbr.cz, xbaril01@stud.fit.vutbr.cz,
+        xbarna01@stud.fit.vutbr.cz, xbarna02@stud.fit.vutbr.cz,
+        xbarot00@stud.fit.vutbr.cz, xbarta42@stud.fit.vutbr.cz,
+        xbarto87@stud.fit.vutbr.cz, xbarto88@stud.fit.vutbr.cz,
+        xbartu03@stud.fit.vutbr.cz, xbarvi00@stud.fit.vutbr.cz,
+        xbasov01@stud.fit.vutbr.cz, xbayer08@stud.fit.vutbr.cz,
+        xbazik00@stud.fit.vutbr.cz, xbedna57@stud.fit.vutbr.cz,
+        xbedna59@stud.fit.vutbr.cz, xbedna60@stud.fit.vutbr.cz,
+        xbedna61@stud.fit.vutbr.cz, xbedna62@stud.fit.vutbr.cz,
+        xbedna63@stud.fit.vutbr.cz, xbelic06@stud.fit.vutbr.cz,
+        xbelou03@stud.fit.vutbr.cz, xbelov03@stud.fit.vutbr.cz,
+        xbenes40@stud.fit.vutbr.cz, xbenes41@stud.fit.vutbr.cz,
+        xbenna01@stud.fit.vutbr.cz, xberan38@stud.fit.vutbr.cz,
+        xberky02@stud.fit.vutbr.cz, xbezak01@stud.fit.vutbr.cz,
+        xbieli06@stud.fit.vutbr.cz, xbilos00@stud.fit.vutbr.cz,
+        xbilto00@stud.fit.vutbr.cz, xbilyk00@stud.fit.vutbr.cz,
+        xbinde02@stud.fit.vutbr.cz, xbirom01@stud.fit.vutbr.cz,
+        xbittn02@stud.fit.vutbr.cz, xblaho05@stud.fit.vutbr.cz,
+        xblask02@stud.fit.vutbr.cz, xblaze31@stud.fit.vutbr.cz,
+        xblizn01@stud.fit.vutbr.cz, xbobak01@stud.fit.vutbr.cz,
+        xbobci00@stud.fit.vutbr.cz, xbogar00@stud.fit.vutbr.cz,
+        xbogda02@stud.fit.vutbr.cz, xbohus01@stud.fit.vutbr.cz,
+        xbolva00@stud.fit.vutbr.cz, xbordo04@stud.fit.vutbr.cz,
+        xbotka00@stud.fit.vutbr.cz, xbotka01@stud.fit.vutbr.cz,
+        xbrada14@stud.fit.vutbr.cz, xbrada17@stud.fit.vutbr.cz,
+        xbrazd17@stud.fit.vutbr.cz, xbrest00@stud.fit.vutbr.cz,
+        xbreza00@stud.fit.vutbr.cz, xbrezi13@stud.fit.vutbr.cz,
+        xbrezi15@stud.fit.vutbr.cz, xbrezn00@stud.fit.vutbr.cz,
+        xbrida01@stud.fit.vutbr.cz, xbrine03@stud.fit.vutbr.cz,
+        xbrukn01@stud.fit.vutbr.cz, xbrust00@stud.fit.vutbr.cz,
+        xbrych08@stud.fit.vutbr.cz, xbucek13@stud.fit.vutbr.cz,
+        xbucha02@stud.fit.vutbr.cz, xbucht18@stud.fit.vutbr.cz,
+        xbucht25@stud.fit.vutbr.cz, xbudai00@stud.fit.vutbr.cz,
+        xbuday04@stud.fit.vutbr.cz, xbujno02@stud.fit.vutbr.cz,
+        xbulaw00@stud.fit.vutbr.cz, xbulyu00@stud.fit.vutbr.cz,
+        xbures27@stud.fit.vutbr.cz, xbures28@stud.fit.vutbr.cz,
+        xbures29@stud.fit.vutbr.cz, xbures30@stud.fit.vutbr.cz,
+        xburia21@stud.fit.vutbr.cz, xbursi06@stud.fit.vutbr.cz,
+        xburza00@stud.fit.vutbr.cz, xbutan00@stud.fit.vutbr.cz,
+        xbuzga00@stud.fit.vutbr.cz, xcagas01@stud.fit.vutbr.cz,
+        xcajan01@stud.fit.vutbr.cz, xcalam01@stud.fit.vutbr.cz,
+        xcecha04@stud.fit.vutbr.cz, xcecho03@stud.fit.vutbr.cz,
+        xcecho06@stud.fit.vutbr.cz, xcejch00@stud.fit.vutbr.cz,
+        xcerma34@stud.fit.vutbr.cz, xcerna06@stud.fit.vutbr.cz,
+        xcerno20@stud.fit.vutbr.cz, xcerny63@stud.fit.vutbr.cz,
+        xcerny66@stud.fit.vutbr.cz, xcerve19@stud.fit.vutbr.cz,
+        xcervi16@stud.fit.vutbr.cz, xcervi19@stud.fit.vutbr.cz,
+        xcervi21@stud.fit.vutbr.cz, xcervi22@stud.fit.vutbr.cz,
+        xcetlt00@stud.fit.vutbr.cz, xchabe00@stud.fit.vutbr.cz,
+        xchalu12@stud.fit.vutbr.cz, xchalu13@stud.fit.vutbr.cz,
+        xcharv16@stud.fit.vutbr.cz, xchatr00@stud.fit.vutbr.cz,
+        xchleb07@stud.fit.vutbr.cz, xchlub00@stud.fit.vutbr.cz,
+        xchoch05@stud.fit.vutbr.cz, xchomo01@stud.fit.vutbr.cz,
+        xchova17@stud.fit.vutbr.cz, xchrip00@stud.fit.vutbr.cz,
+        xchuch00@stud.fit.vutbr.cz, xchuda03@stud.fit.vutbr.cz,
+        xchudi01@stud.fit.vutbr.cz, xchudy03@stud.fit.vutbr.cz,
+        xchudy04@stud.fit.vutbr.cz, xchvil03@stud.fit.vutbr.cz,
+        xchyti11@stud.fit.vutbr.cz, xchytk02@stud.fit.vutbr.cz,
+        xcigan07@stud.fit.vutbr.cz, xcigas00@stud.fit.vutbr.cz,
+        xcilip00@stud.fit.vutbr.cz, xcillo00@stud.fit.vutbr.cz,
+        xcincu00@stud.fit.vutbr.cz, xcinko00@stud.fit.vutbr.cz,
+        xcisar07@stud.fit.vutbr.cz, xcizma04@stud.fit.vutbr.cz,
+        xcizma05@stud.fit.vutbr.cz, xcocul00@stud.fit.vutbr.cz,
+        xconka00@stud.fit.vutbr.cz, xcorbo00@stud.fit.vutbr.cz,
+        xcoufa08@stud.fit.vutbr.cz, xcubae00@stud.fit.vutbr.cz,
+        xculen02@stud.fit.vutbr.cz, xcunev00@stud.fit.vutbr.cz,
+        xcupak05@stud.fit.vutbr.cz, xcypri01@stud.fit.vutbr.cz,
+        xczern01@stud.fit.vutbr.cz, xdavid12@stud.fit.vutbr.cz,
+        xdebna01@stud.fit.vutbr.cz, xdekre00@stud.fit.vutbr.cz,
+        xdemca01@stud.fit.vutbr.cz, xdevec00@stud.fit.vutbr.cz,
+        xdittm00@stud.fit.vutbr.cz, xdivis11@stud.fit.vutbr.cz,
+        xdobia11@stud.fit.vutbr.cz, xdobro12@stud.fit.vutbr.cz,
+        xdobro18@stud.fit.vutbr.cz, xdocek07@stud.fit.vutbr.cz,
+        xdocek09@stud.fit.vutbr.cz, xdohna39@stud.fit.vutbr.cz,
+        xdokou12@stud.fit.vutbr.cz, xdolez67@stud.fit.vutbr.cz,
+        xdolez69@stud.fit.vutbr.cz, xdolez70@stud.fit.vutbr.cz,
+        xdolez71@stud.fit.vutbr.cz, xdolez72@stud.fit.vutbr.cz,
+        xdolon00@stud.fit.vutbr.cz, xdomin04@stud.fit.vutbr.cz,
+        xdomon00@stud.fit.vutbr.cz, xdonov00@stud.fit.vutbr.cz,
+        xdosed07@stud.fit.vutbr.cz, xdosli00@stud.fit.vutbr.cz,
+        xdospi01@stud.fit.vutbr.cz, xdosta45@stud.fit.vutbr.cz,
+        xdosta46@stud.fit.vutbr.cz, xdosta47@stud.fit.vutbr.cz,
+        xdoube03@stud.fit.vutbr.cz, xdraho11@stud.fit.vutbr.cz,
+        xdrape02@stud.fit.vutbr.cz, xdrdak01@stud.fit.vutbr.cz,
+        xdrevi00@stud.fit.vutbr.cz, xdrobn02@stud.fit.vutbr.cz,
+        xdronz00@stud.fit.vutbr.cz, xdubaj00@stud.fit.vutbr.cz,
+        xdubov00@stud.fit.vutbr.cz, xdubra03@stud.fit.vutbr.cz,
+        xdudaj01@stud.fit.vutbr.cz, xdudla00@stud.fit.vutbr.cz,
+        xdurco00@stud.fit.vutbr.cz, xduric03@stud.fit.vutbr.cz,
+        xduris04@stud.fit.vutbr.cz, xdusek25@stud.fit.vutbr.cz,
+        xduzal00@stud.fit.vutbr.cz, xdvora1t@stud.fit.vutbr.cz,
+        xdvora2d@stud.fit.vutbr.cz, xdvora2e@stud.fit.vutbr.cz,
+        xdykto00@stud.fit.vutbr.cz, xdzils00@stud.fit.vutbr.cz,
+        xeisne00@stud.fit.vutbr.cz, xermak00@stud.fit.vutbr.cz,
+        xestva00@stud.fit.vutbr.cz, xfaige00@stud.fit.vutbr.cz,
+        xfajku06@stud.fit.vutbr.cz, xfarka02@stud.fit.vutbr.cz,
+        xfarka05@stud.fit.vutbr.cz, xfedin00@stud.fit.vutbr.cz,
+        xfedor07@stud.fit.vutbr.cz, xfiala46@stud.fit.vutbr.cz,
+        xficek03@stud.fit.vutbr.cz, xfilak03@stud.fit.vutbr.cz,
+        xfilga01@stud.fit.vutbr.cz, xfisch04@stud.fit.vutbr.cz,
+        xfiser14@stud.fit.vutbr.cz, xfitzj00@stud.fit.vutbr.cz,
+        xfladr00@stud.fit.vutbr.cz, xflajs00@stud.fit.vutbr.cz,
+        xflore02@stud.fit.vutbr.cz, xflori09@stud.fit.vutbr.cz,
+        xfrank12@stud.fit.vutbr.cz, xfreib00@stud.fit.vutbr.cz,
+        xfryct00@stud.fit.vutbr.cz, xfryzj01@stud.fit.vutbr.cz,
+        xgabaj00@stud.fit.vutbr.cz, xgabrl01@stud.fit.vutbr.cz,
+        xgalaj02@stud.fit.vutbr.cz, xgalan02@stud.fit.vutbr.cz,
+        xgalda01@stud.fit.vutbr.cz, xgallo03@stud.fit.vutbr.cz,
+        xgazdi03@stud.fit.vutbr.cz, xgazdo02@stud.fit.vutbr.cz,
+        xgibis00@stud.fit.vutbr.cz, xglesn00@stud.fit.vutbr.cz,
+        xgozor00@stud.fit.vutbr.cz, xgrane00@stud.fit.vutbr.cz,
+        xgrepl05@stud.fit.vutbr.cz, xgreso00@stud.fit.vutbr.cz,
+        xgrnac00@stud.fit.vutbr.cz, xgrofc00@stud.fit.vutbr.cz,
+        xgross09@stud.fit.vutbr.cz, xgrzyb00@stud.fit.vutbr.cz,
+        xgulaj00@stud.fit.vutbr.cz, xgunis00@stud.fit.vutbr.cz,
+        xgyori00@stud.fit.vutbr.cz, xhaast00@stud.fit.vutbr.cz,
+        xhadzi01@stud.fit.vutbr.cz, xhaisv00@stud.fit.vutbr.cz,
+        xhajdi01@stud.fit.vutbr.cz, xhajek31@stud.fit.vutbr.cz,
+        xhajek43@stud.fit.vutbr.cz, xhalaj03@stud.fit.vutbr.cz,
+        xhalam14@stud.fit.vutbr.cz, xhalik02@stud.fit.vutbr.cz,
+        xhalin01@stud.fit.vutbr.cz, xhalju00@stud.fit.vutbr.cz,
+        xhallo00@stud.fit.vutbr.cz, xhamer02@stud.fit.vutbr.cz,
+        xhandz00@stud.fit.vutbr.cz, xhanus13@stud.fit.vutbr.cz,
+        xhanze10@stud.fit.vutbr.cz, xhanzl11@stud.fit.vutbr.cz,
+        xharag01@stud.fit.vutbr.cz, xhartm03@stud.fit.vutbr.cz,
+        xhauer02@stud.fit.vutbr.cz, xhavli43@stud.fit.vutbr.cz,
+        xhavra13@stud.fit.vutbr.cz, xhejda01@stud.fit.vutbr.cz,
+        xhejtm08@stud.fit.vutbr.cz, xhelda00@stud.fit.vutbr.cz,
+        xheldo00@stud.fit.vutbr.cz, xheles02@stud.fit.vutbr.cz,
+        xhelie00@stud.fit.vutbr.cz, xhersa00@stud.fit.vutbr.cz,
+        xhesko01@stud.fit.vutbr.cz, xheste00@stud.fit.vutbr.cz,
+        xhinkt00@stud.fit.vutbr.cz, xhlava42@stud.fit.vutbr.cz,
+        xhlipa00@stud.fit.vutbr.cz, xhlipa01@stud.fit.vutbr.cz,
+        xhnatp00@stud.fit.vutbr.cz, xhnatt00@stud.fit.vutbr.cz,
+        xhojny03@stud.fit.vutbr.cz, xholec07@stud.fit.vutbr.cz,
+        xholik13@stud.fit.vutbr.cz, xhomap00@stud.fit.vutbr.cz,
+        xhonsm00@stud.fit.vutbr.cz, xhonza03@stud.fit.vutbr.cz,
+        xhorac15@stud.fit.vutbr.cz, xhorak60@stud.fit.vutbr.cz,
+        xhorak61@stud.fit.vutbr.cz, xhorky23@stud.fit.vutbr.cz,
+        xhorna10@stud.fit.vutbr.cz, xhorni14@stud.fit.vutbr.cz,
+        xhosta04@stud.fit.vutbr.cz, xhrabo08@stud.fit.vutbr.cz,
+        xhrabo09@stud.fit.vutbr.cz, xhrana02@stud.fit.vutbr.cz,
+        xhrbot01@stud.fit.vutbr.cz, xhrdin10@stud.fit.vutbr.cz,
+        xhreha00@stud.fit.vutbr.cz, xhrnci11@stud.fit.vutbr.cz,
+        xhrstk02@stud.fit.vutbr.cz, xhruba08@stud.fit.vutbr.cz,
+        xhruba09@stud.fit.vutbr.cz, xhruda02@stud.fit.vutbr.cz,
+        xhrvol00@stud.fit.vutbr.cz, xhucko01@stud.fit.vutbr.cz,
+        xhudja00@stud.fit.vutbr.cz, xhudzi01@stud.fit.vutbr.cz,
+        xhujna01@stud.fit.vutbr.cz, xhulla00@stud.fit.vutbr.cz,
+        xhurta03@stud.fit.vutbr.cz, xhuspe00@stud.fit.vutbr.cz,
+        xhvizd01@stud.fit.vutbr.cz, xhypes00@stud.fit.vutbr.cz,
+        xhytyc00@stud.fit.vutbr.cz, xillic00@stud.fit.vutbr.cz,
+        xinhli00@stud.fit.vutbr.cz, xivanc03@stud.fit.vutbr.cz,
+        xjablo03@stud.fit.vutbr.cz, xjaklo02@stud.fit.vutbr.cz,
+        xjakub31@stud.fit.vutbr.cz, xjanci09@stud.fit.vutbr.cz,
+        xjanco06@stud.fit.vutbr.cz, xjanec28@stud.fit.vutbr.cz,
+        xjanic18@stud.fit.vutbr.cz, xjanic21@stud.fit.vutbr.cz,
+        xjanic22@stud.fit.vutbr.cz, xjanik20@stud.fit.vutbr.cz,
+        xjanke01@stud.fit.vutbr.cz, xjanot02@stud.fit.vutbr.cz,
+        xjanus08@stud.fit.vutbr.cz, xjanyi00@stud.fit.vutbr.cz,
+        xjares00@stud.fit.vutbr.cz, xjaros37@stud.fit.vutbr.cz,
+        xjasek12@stud.fit.vutbr.cz, xjasic00@stud.fit.vutbr.cz,
+        xjaska00@stud.fit.vutbr.cz, xjasov01@stud.fit.vutbr.cz,
+        xjausc00@stud.fit.vutbr.cz, xjavor18@stud.fit.vutbr.cz,
+        xjelen06@stud.fit.vutbr.cz, xjelen09@stud.fit.vutbr.cz,
+        xjelen10@stud.fit.vutbr.cz, xjelin42@stud.fit.vutbr.cz,
+        xjemel01@stud.fit.vutbr.cz, xjenco00@stud.fit.vutbr.cz,
+        xjerab21@stud.fit.vutbr.cz, xjezad00@stud.fit.vutbr.cz,
+        xjiran00@stud.fit.vutbr.cz, xjirus01@stud.fit.vutbr.cz,
+        xjonjo00@stud.fit.vutbr.cz, xjosca00@stud.fit.vutbr.cz,
+        xjudap00@stud.fit.vutbr.cz, xjuhas02@stud.fit.vutbr.cz,
+        xjurac05@stud.fit.vutbr.cz, xjurcz00@stud.fit.vutbr.cz,
+        xjuric22@stud.fit.vutbr.cz, xjuric25@stud.fit.vutbr.cz,
+        xjurko02@stud.fit.vutbr.cz, xjurne03@stud.fit.vutbr.cz,
+        xkabel06@stud.fit.vutbr.cz, xkabel07@stud.fit.vutbr.cz,
+        xkacer00@stud.fit.vutbr.cz, xkader13@stud.fit.vutbr.cz,
+        xkadle31@stud.fit.vutbr.cz, xkadle34@stud.fit.vutbr.cz,
+        xkadlu01@stud.fit.vutbr.cz, xkafka00@stud.fit.vutbr.cz,
+        xkajab00@stud.fit.vutbr.cz, xkakis00@stud.fit.vutbr.cz,
+        xkalet05@stud.fit.vutbr.cz, xkalus03@stud.fit.vutbr.cz,
+        xkamen00@stud.fit.vutbr.cz, xkamen06@stud.fit.vutbr.cz,
+        xkanda00@stud.fit.vutbr.cz, xkaple01@stud.fit.vutbr.cz,
+        xkarab02@stud.fit.vutbr.cz, xkaras31@stud.fit.vutbr.cz,
+        xkaras32@stud.fit.vutbr.cz, xkarli05@stud.fit.vutbr.cz,
+        xkarpi05@stud.fit.vutbr.cz, xkarto02@stud.fit.vutbr.cz,
+        xkasca02@stud.fit.vutbr.cz, xkazim00@stud.fit.vutbr.cz,
+        xkebis01@stud.fit.vutbr.cz, xkello00@stud.fit.vutbr.cz,
+        xkeryj00@stud.fit.vutbr.cz, xkhait00@stud.fit.vutbr.cz,
+        xkiral01@stud.fit.vutbr.cz, xkisel02@stud.fit.vutbr.cz,
+        xkissm01@stud.fit.vutbr.cz, xklaci00@stud.fit.vutbr.cz,
+        xklcom00@stud.fit.vutbr.cz, xkleck04@stud.fit.vutbr.cz,
+        xklemb00@stud.fit.vutbr.cz, xkleme11@stud.fit.vutbr.cz,
+        xklepa04@stud.fit.vutbr.cz, xklhuf00@stud.fit.vutbr.cz,
+        xklicj00@stud.fit.vutbr.cz, xklick01@stud.fit.vutbr.cz,
+        xklimo02@stud.fit.vutbr.cz, xklobu01@stud.fit.vutbr.cz,
+        xkloco00@stud.fit.vutbr.cz, xkluso01@stud.fit.vutbr.cz,
+        xknote11@stud.fit.vutbr.cz, xkobli06@stud.fit.vutbr.cz,
+        xkobyl01@stud.fit.vutbr.cz, xkocma04@stud.fit.vutbr.cz,
+        xkocna01@stud.fit.vutbr.cz, xkohou03@stud.fit.vutbr.cz,
+        xkohou07@stud.fit.vutbr.cz, xkohou08@stud.fit.vutbr.cz,
+        xkohut08@stud.fit.vutbr.cz, xkolar58@stud.fit.vutbr.cz,
+        xkolar62@stud.fit.vutbr.cz, xkolar64@stud.fit.vutbr.cz,
+        xkolbj00@stud.fit.vutbr.cz, xkolcu00@stud.fit.vutbr.cz,
+        xkolec07@stud.fit.vutbr.cz, xkoles06@stud.fit.vutbr.cz,
+        xkonar08@stud.fit.vutbr.cz, xkondu00@stud.fit.vutbr.cz,
+        xkonec72@stud.fit.vutbr.cz, xkopec42@stud.fit.vutbr.cz,
+        xkopec44@stud.fit.vutbr.cz, xkorce01@stud.fit.vutbr.cz,
+        xkosci00@stud.fit.vutbr.cz, xkosta10@stud.fit.vutbr.cz,
+        xkotas07@stud.fit.vutbr.cz, xkotel00@stud.fit.vutbr.cz,
+        xkotou04@stud.fit.vutbr.cz, xkotra01@stud.fit.vutbr.cz,
+        xkotri00@stud.fit.vutbr.cz, xkoupy00@stud.fit.vutbr.cz,
+        xkoval12@stud.fit.vutbr.cz, xkovar77@stud.fit.vutbr.cz,
+        xkovar79@stud.fit.vutbr.cz, xkozak15@stud.fit.vutbr.cz,
+        xkozel18@stud.fit.vutbr.cz, xkozlo04@stud.fit.vutbr.cz,
+        xkozub05@stud.fit.vutbr.cz, xkrajc17@stud.fit.vutbr.cz,
+        xkraji11@stud.fit.vutbr.cz, xkrajn01@stud.fit.vutbr.cz,
+        xkrajn02@stud.fit.vutbr.cz, xkrama04@stud.fit.vutbr.cz,
+        xkrasn06@stud.fit.vutbr.cz, xkrato35@stud.fit.vutbr.cz,
+        xkrato39@stud.fit.vutbr.cz, xkrejc55@stud.fit.vutbr.cz,
+        xkrest07@stud.fit.vutbr.cz, xkrhov02@stud.fit.vutbr.cz,
+        xkrist20@stud.fit.vutbr.cz, xkrivo01@stud.fit.vutbr.cz,
+        xkrizk02@stud.fit.vutbr.cz, xkrizr05@stud.fit.vutbr.cz,
+        xkropa06@stud.fit.vutbr.cz, xkrsak01@stud.fit.vutbr.cz,
+        xkrusi00@stud.fit.vutbr.cz, xkruta03@stud.fit.vutbr.cz,
+        xkrzem01@stud.fit.vutbr.cz, xkubal11@stud.fit.vutbr.cz,
+        xkubar01@stud.fit.vutbr.cz, xkubic19@stud.fit.vutbr.cz,
+        xkubic37@stud.fit.vutbr.cz, xkubic39@stud.fit.vutbr.cz,
+        xkubik29@stud.fit.vutbr.cz, xkubis15@stud.fit.vutbr.cz,
+        xkucer90@stud.fit.vutbr.cz, xkucer91@stud.fit.vutbr.cz,
+        xkulaj02@stud.fit.vutbr.cz, xkulic03@stud.fit.vutbr.cz,
+        xkurak00@stud.fit.vutbr.cz, xkvapi13@stud.fit.vutbr.cz,
+        xkysel12@stud.fit.vutbr.cz, xkyzli02@stud.fit.vutbr.cz,
+        xlabas00@stud.fit.vutbr.cz, xlachm03@stud.fit.vutbr.cz,
+        xlachn00@stud.fit.vutbr.cz, xlacik02@stud.fit.vutbr.cz,
+        xladrt00@stud.fit.vutbr.cz, xlainh00@stud.fit.vutbr.cz,
+        xlangm01@stud.fit.vutbr.cz, xlazno00@stud.fit.vutbr.cz,
+        xlengu00@stud.fit.vutbr.cz, xleono00@stud.fit.vutbr.cz,
+        xleont01@stud.fit.vutbr.cz, xlesol00@stud.fit.vutbr.cz,
+        xletov00@stud.fit.vutbr.cz, xlevpa00@stud.fit.vutbr.cz,
+        xlipja01@stud.fit.vutbr.cz, xlipka01@stud.fit.vutbr.cz,
+        xlisci01@stud.fit.vutbr.cz, xliska14@stud.fit.vutbr.cz,
+        xlitvi01@stud.fit.vutbr.cz, xloksa00@stud.fit.vutbr.cz,
+        xlukac09@stud.fit.vutbr.cz, xlukac10@stud.fit.vutbr.cz,
+        xluzny00@stud.fit.vutbr.cz, xlyson02@stud.fit.vutbr.cz,
+        xmacha62@stud.fit.vutbr.cz, xmacko10@stud.fit.vutbr.cz,
+        xmacur07@stud.fit.vutbr.cz
+From: =?UTF-8?B?VG9tw6HFoSBNaWxldA==?= <imilet@fit.vutbr.cz>
+Subject: Rendering seminar
+Message-ID: <12ad53dc-5ba5-3e56-ca24-d8e99d33ec11@fit.vutbr.cz>
+Date: Tue, 20 Sep 2016 15:16:48 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101
+ Thunderbird/45.2.0
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------------648336F5B8F61166E93CC220"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fit.vutbr.cz; h=to:from:subject:message-id:date:mime-version:content-type; s=mx1; bh=5zNWKKkP0Q5k1h37rGMjuyNa+FHENBX/4QBM27rRjrM=; b=ArgEspGXHgXHLZsyErigcxDnpcrONQJmMSX/AC9fH4TKw6IAigvW0xisRX2LlUg2ncS8AMxPaCrtgMP3TMcWUGGciWjcLKq1hisnev6VBhciOG/3u7a/+yQVvGUZdwDHASRWQ4AvXL5Cdq/dKqk28xyxxKj+h9DEhKIuulJXkWw=
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-2.116 required=7 tests=ALL_TRUSTED,AWL,BAYES_00,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HTML_MESSAGE,RP_MATCHES_RCVD,SORTED_RECIPS
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+This is a multi-part message in MIME format.
+--------------648336F5B8F61166E93CC220
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Vazeni studenti,
+letos opet s kolegy poradame zcela nepovinny a zdarma seminar zamereny 
+na programovani, rendering a vubec. Ve zkratce se bude jednat o veci, 
+ktere si myslime, ze v bezne vyuce chybi. Vyuku se snazime delat co 
+nejvice kontaktni a pro vas.
+Osnova bude nasledujici:
+
+  *   blok (cca 4 prednasky) o navrhu applikaci a design patternech
+    (kluci z praxe z Riganti)
+  *   nove C++ 11,14,17? (tips & tricks & templates)
+  *   CMake, (GIT) ...
+  *   OpenGL
+  *   Vulkan API ?
+  *   GPUEngine
+  *   Matematika pro 3D aplikace
+  *   - ...
+  * v dalsim semestru byva zpravidla jedna prednaska venovana tomu, jak
+    psat DP/BP
+
+Temata se mohou menit v zavislosti na vasich potrebach. Seminar je temer 
+povinny pro nase diplomanty a bakalarniky (rendering Q202).
+Vice se dozvite na nasi provizorni wiki 
+https://merlin.fit.vutbr.cz/wiki/index.php/Semin%C3%A1%C5%99 Poprosime 
+vsechny zajemce aby se upsali do sekce mailing list a pripadne stranku 
+sledovali (v pripade pozdejsiho nezajmu se zase odepiste). Seminare 
+budou probihat v patky, protoze kdo potrebuje jezdit domu, ze? Co se 
+casu tyce PROSIM o co nejrychlejsi zahlasovani 
+http://doodle.com/poll/44wwwd9pkbym4kzd Prvni hodinu cekame v patek 7.10.
+Na vase hlasy bude bran zretel, ale musime se vmestnat to nejake ucebny 
+a proto je mozne ze kapacity budou omezene.
+
+Za tym seminare amen,
+
+Tomas Starka
+
+
+--------------648336F5B8F61166E93CC220
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <p>Vazeni studenti, <br>
+      letos opet s kolegy poradame zcela nepovinny a zdarma seminar
+      zamereny na programovani, rendering a vubec. Ve zkratce se bude
+      jednat o veci, ktere si myslime, ze v bezne vyuce chybi. Vyuku se
+      snazime delat co nejvice kontaktni a pro vas. <br>
+      Osnova bude nasledujici: <br>
+    </p>
+    <ul>
+      <li> blok (cca 4 prednasky) o navrhu applikaci a design patternech
+        (kluci z praxe z Riganti) </li>
+      <li> nove C++ 11,14,17? (tips &amp; tricks &amp; templates)<br>
+      </li>
+      <li> CMake, (GIT) ... </li>
+      <li> OpenGL</li>
+      <li> Vulkan API ?<br>
+      </li>
+      <li> GPUEngine </li>
+      <li> Matematika pro 3D aplikace<br>
+      </li>
+      <li> - ... </li>
+      <li>v dalsim semestru byva zpravidla jedna prednaska venovana
+        tomu, jak psat DP/BP<br>
+      </li>
+    </ul>
+    <p>Temata se mohou menit v zavislosti na vasich potrebach. Seminar
+      je temer povinny pro nase diplomanty a bakalarniky (rendering
+      Q202). <br>
+      Vice se dozvite na nasi provizorni wiki <a
+        href="https://merlin.fit.vutbr.cz/wiki/index.php/Semin%C3%A1%C5%99">https://merlin.fit.vutbr.cz/wiki/index.php/Semin%C3%A1%C5%99</a>
+      Poprosime vsechny zajemce aby se upsali do sekce mailing list a
+      pripadne stranku sledovali (v pripade pozdejsiho nezajmu se zase
+      odepiste). Seminare budou probihat v patky, protoze kdo potrebuje
+      jezdit domu, ze? Co se casu tyce PROSIM o co nejrychlejsi
+      zahlasovani <a href="http://doodle.com/poll/44wwwd9pkbym4kzd">http://doodle.com/poll/44wwwd9pkbym4kzd</a>
+      Prvni hodinu cekame v patek 7.10. <br>
+      Na vase hlasy bude bran zretel, ale musime se vmestnat to nejake
+      ucebny a proto je mozne ze kapacity budou omezene. <br>
+       <br>
+      Za tym seminare amen, <br>
+       <br>
+      Tomas Starka</p>
+  </body>
+</html>
+
+--------------648336F5B8F61166E93CC220--
+
+

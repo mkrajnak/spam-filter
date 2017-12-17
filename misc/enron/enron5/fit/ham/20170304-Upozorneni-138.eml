@@ -1,0 +1,71 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.203 with SMTP id z194csp450442vsc;
+        Fri, 3 Mar 2017 15:08:03 -0800 (PST)
+X-Received: by 10.223.135.47 with SMTP id a44mr2419079wra.197.1488582483232;
+        Fri, 03 Mar 2017 15:08:03 -0800 (PST)
+Return-Path: <aleph_fit@lib.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id e8si16537716wra.1.2017.03.03.15.08.02
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Mar 2017 15:08:03 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of aleph_fit@lib.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of aleph_fit@lib.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=aleph_fit@lib.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v23N82G6057909
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Sat, 4 Mar 2017 00:08:02 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v23N827R057908
+	for krajnakmatto@gmail.com; Sat, 4 Mar 2017 00:08:02 +0100 (CET)
+	(envelope-from aleph_fit@lib.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to aleph_fit@lib.vutbr.cz using -f
+Received: from ferret.cis.vutbr.cz (ferret.cis.vutbr.cz [147.229.3.145])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v23N82GX057901
+	(version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Sat, 4 Mar 2017 00:08:02 +0100 (CET)
+Received: from castor.lib.vutbr.cz (castor.lib.vutbr.cz [147.229.2.74])
+	by ferret.cis.vutbr.cz (8.14.9/8.14.7/VUT Brno) with ESMTP id v23N80sP094151
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Sat, 4 Mar 2017 00:08:01 +0100 (CET)
+	(envelope-from aleph_fit@lib.vutbr.cz)
+Received: from cougar.lib.vutbr.cz (cougar.lib.vutbr.cz [147.229.2.138])
+	by castor.lib.vutbr.cz (8.13.8/8.13.8) with ESMTP id v23N80rK027148;
+	Sat, 4 Mar 2017 00:08:00 +0100
+To: xkrajn02@stud.fit.vutbr.cz
+From: aleph_fit@lib.vutbr.cz
+Subject: Upozorneni
+Date: Sat, 4 Mar 2017 00:08:00 +0100
+Message-ID: <20170303_230800_082653.aleph_fit@lib.vutbr.cz>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.67 on 147.229.3.145
+X-Spam-Status: No, score=0.648 required=7 tests=RCVD_IN_BRBL_LASTEXT,RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+
+Vážená čtenářko, vážený čtenáři,
+
+Upozorňujeme Vás, že máte v knihovně následující výpujčky:
+
+Čárový kód: Autor                Název                               Sig. 1     Sig. 2     Půjčeno do:
+---------  --------             --------                            --------   --------   --------  
+4338180535 Vysoké učení tech... FITkit 2.0                          | 8102748  8102748    06/03/2017
+
+
+Od dnešního dne za 2 dny vyprší výpůjční doba některých dokumentů. Knihy musíte 
+buď vrátit, nebo se můžete pokusit prodloužit si je pomocí webového katalogu 
+http://primo.vutbr.cz (po přihlášení v menu Můj účet).
+
+S pozdravem,
+Knihovna FIT VUT v Brně
+
+
+

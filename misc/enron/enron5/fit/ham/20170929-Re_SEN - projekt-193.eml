@@ -1,0 +1,128 @@
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.159.63.10 with SMTP id h10csp556345uaj;
+        Fri, 29 Sep 2017 02:57:42 -0700 (PDT)
+X-Google-Smtp-Source: AOwi7QC1aPPyVSsSL9WCZaQ4lTszg2Zcq12T5zYLuKzqDOwtVmLT2gMhG8TsAWQEBfObmUAXNGMj
+X-Received: by 10.28.228.213 with SMTP id b204mr3354262wmh.157.1506679062722;
+        Fri, 29 Sep 2017 02:57:42 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1506679062; cv=none;
+        d=google.com; s=arc-20160816;
+        b=tiLX8OrJHchKfEEjEwjhIo3FNXW2M4Lcz0JxhcMD2Q12woJibnNH2YucZT+Vw9yBgH
+         eHZIjLalcU8ZDku5Nc7/GqZPgm42iPsFeQJLkLjjNABHWQ/nWLYEbzzHZZEQbIE4mPP6
+         jp/7Bp7b4TtCQWR4D4Twn5o8xDYFGgQjZSXKMieQrYRpvWn4pRGJH3oEDEC3qjXtFG6Q
+         mlij021Fmu4c5NgtMSfhzqaQE4FFuI/0lpUQ9a7hDFCWYiZpSf2PDb/f3j0YW22KwHUI
+         P4BFcrYFxy+0Gu2+lyTMMlUX+vFdrCo4F9K9J36pV1pU8XTN/MMXZHwiFjbdhSjvJ24o
+         wLzQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:dkim-signature:mime-version:user-agent
+         :reply-to:references:in-reply-to:message-id:date:subject:to:from
+         :arc-authentication-results;
+        bh=zbfP809iOaVNJS1ZuJnNGc0kKzedJOFd34eHGE3mJ9M=;
+        b=CuNCxXpzn7+C3oTNOuuHiqxBEdDdBJ4z1WFTqc+kuaYKqFxPQMIvv/2a/ZkABxTs9V
+         k2/qpqkKLB4Sp3SBllZHwqK8u7pGm2LGXS1XPqsFgusMsOO/jAty8dPGLUupBbvs7onl
+         l7OB7CdL7NIcj+frTo7tWuy6yqUZ3DBDxr/p59vh3CKL4Hnzk0OnROG3elgXAP84cTwN
+         MoL+9U/U3Qo/WMshjBN4O5IJBRSZN+cFeK5+0er2QHnUvJU8GimYkhxqKH2HBUuRnyhM
+         h0eRWzG5anXnl5Y9L/mTNArPrSibn9cqYrMk87cO/npbkNj+WgH2O9CmAb73ioyfo3Lm
+         XhRg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@fit.vutbr.cz header.s=mx1 header.b=GEl/fBBL;
+       spf=pass (google.com: best guess record for domain of igoldmann@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=igoldmann@fit.vutbr.cz
+Return-Path: <igoldmann@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id n16si1122039wrb.189.2017.09.29.02.57.42
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 29 Sep 2017 02:57:42 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of igoldmann@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@fit.vutbr.cz header.s=mx1 header.b=GEl/fBBL;
+       spf=pass (google.com: best guess record for domain of igoldmann@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=igoldmann@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v8T9vg2d078560
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Fri, 29 Sep 2017 11:57:42 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v8T9vgvc078559
+	for krajnakmatto@gmail.com; Fri, 29 Sep 2017 11:57:42 +0200 (CEST)
+	(envelope-from igoldmann@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to igoldmann@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v8T9vffQ078553
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 29 Sep 2017 11:57:41 +0200 (CEST)
+Received: from [192.168.1.7] (108.127.broadband11.iol.cz [90.178.127.108])
+	(authenticated bits=0)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPSA id v8T9vfWN038658
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 29 Sep 2017 11:57:41 +0200 (CEST)
+From: =?utf-8?q?Tom=c3=a1=c5=a1=20Goldmann?= <igoldmann@fit.vutbr.cz>
+To: =?utf-8?q?Kraj=c5=88=c3=a1k=20Martin?= <xkrajn02@stud.fit.vutbr.cz>
+Subject: Re: SEN - projekt
+Date: Fri, 29 Sep 2017 09:57:41 +0000
+Message-Id: <emb4f4263b-43db-44b8-9d4d-92ce3ffe7033@idefixdg>
+In-Reply-To: <20170928191608.41743re4vr3ct9p4@email.fit.vutbr.cz>
+References: <20170928191608.41743re4vr3ct9p4@email.fit.vutbr.cz>
+Reply-To: =?utf-8?q?Tom=c3=a1=c5=a1=20Goldmann?= <igoldmann@fit.vutbr.cz>
+User-Agent: eM_Client/7.1.30794.0
+Mime-Version: 1.0
+Content-Type: text/plain; format=flowed; charset=utf-8
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fit.vutbr.cz; h=from:to:subject:date:message-id:in-reply-to:references:reply-to:mime-version:content-type:content-transfer-encoding; s=mx1; bh=LLkUedIBdIt/sNK9crQG3x231VI0BeGBRzqKRglAz9w=; b=GEl/fBBLJ9GdcdMjjWT///cf8UacrMi7FcF2tpapXnVciBwZsyf9ee7w3a2DmBwefoMSHUVhWij4OmrVZcKP13cNSYitIOnVWuzTbe72wuQMuSAZdbDK09NNgiU619G7iHUPUinPj5yIVTrkUXVoY5jE4XSsaUlfbPoMTxRKlSk=
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-3.996 required=7 tests=ALL_TRUSTED,BAYES_00,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by eva.fit.vutbr.cz id v8T9vffQ078553
+X-Loop: to-krajnakmatto@gmail.com
+
+Dobrý den pane Krajňák,
+
+pokud rozšíříte senzoriku na autíčku o další senzor (například o 
+akcelerometr pro odometrii) a  "zkulturníte" aplikaci, klidně můžete 
+vaši práci použít. Zkuste se zamyslet, jak by to šlo rozšířit a ještě mi 
+napsat. Především bych chtěl, aby pásové vozidlo mělo ještě mělo alespoň 
+jeden další senzor.
+
+Pokud byste to nechal tak, tak bych vám to taky uznal, ale s bodovou 
+srážkou.
+
+S pozdravem
+Tomáš Goldmann
+
+------ Původní zpráva ------
+Od: "Krajňák Martin" <xkrajn02@stud.fit.vutbr.cz>
+Komu: igoldmann@fit.vutbr.cz
+Odesláno: 28.09.2017 19:16:08
+Předmět: SEN - projekt
+
+>Vážený Ing. Goldmann,
+>
+>po stredajšej prednáške, kde ste vravel o možnosti uznania projektov  
+>ma napadlo, že mám doma odložený projekt, ktorému som sa venoval ešte  
+>počas strednej školy. Jedná sa o model pásového vozidla ovládaného  
+>Android aplikáciou, ktorý som postavil vrámci praktickej časti  
+>odbornej zložky mojej maturitnej skúšky.
+>
+>Hardvérovú časť tvorilo Arduino Mega 2560 so shieldom na napájanie a  
+>ovládanie motorov Adafruit, bluetooth modul a ultrazvukový senzor,  
+>ktorý som využíval na meranie vzdialenosti k najbližšej prekážke  
+>(meranie sa dalo spustiť z aplikácie). Model ďalej disponuje LEN  
+>svetlami, ktoré sú taktiež ovládané z aplikácie, ktorú som vytvoril  
+>čisto pre toto vozidlo.
+>
+>Prikladám fotky modelu a niekoľko screenshotov aplikácie. Aplikácia  
+>vyzerá asi trošku horšie, začo sa ospravedlňujem, keďže je to asi prvé  
+>GUI, ktoré som v živote programoval.
+>
+>Model by mal byť plne funkčný ale momentálne ho nemám v Brne, ak by to  
+>nebolo možné uznať ako projekt do predmetu SEN, tak by som aspoň  
+>využil Arduino, kedže ste spomínali že ich je menej.
+>
+>S pozdravom
+>Martin Krajňák
+
+
+

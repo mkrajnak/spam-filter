@@ -1,0 +1,275 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.213 with SMTP id z204csp1961279vsc;
+        Tue, 16 May 2017 00:01:39 -0700 (PDT)
+X-Received: by 10.223.147.97 with SMTP id 88mr6020529wro.134.1494918099550;
+        Tue, 16 May 2017 00:01:39 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1494918099; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ewHes8ey7wLRtF/aZM9h1yQsFIGvjVNTNd16NNs1LNbGm15awf+uh52VBzqu2KbnqD
+         cmqPqjz33AdDN/tY6OHYooGn1iJZbJEa2Nt/MlAjZovX4WoXHLvu2faxK7ixTCGANC6B
+         IQ70POAJjPZirrbKHiR6DkILSN2P2erH87+AMnQSsiSi5T9H/toejpl8q1L7Zbl0DdHc
+         Wh538Z3wYuyeBIlo3saXUV/3FkqIu33AX2lTprhRpkB6vBX4n1X0/R9/pUL4CYzjKK5i
+         R+ueP0Y/M83YHz33YyoAZDomLDlFlVpg4i93+XZdlAA4UfyZNDtW4tyUYnXUqNwwFuBy
+         dYRw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:spamdiagnosticmetadata:spamdiagnosticoutput
+         :content-language:accept-language:message-id:date:thread-index
+         :thread-topic:subject:to:from:dkim-signature
+         :arc-authentication-results;
+        bh=ufhDZAI75vDnneDJB/mDLC46JqTdf0bZFOOV6RLhfh4=;
+        b=VckljgvgT2nrAzOnTe7WJpHdBCNwa6L/CnmEs01r++QjZzOtjKv1uYEHUg+XZ1cb0P
+         cl7jEWO0pMU776C7F/rQz1w0DoFJv7tSIWa7FuILyNC0L1jDqZSck0s8iIhhpU93vyDJ
+         ne5oercDn3WJR9vEhzatmNNTrsd4EgJeiXdtedlSv8IhVbiLmroU83OAXgXL+Km7vVu8
+         cnTYSVZ4WkhUYEEs3ImY7NGV6Nz3WZh8AUg449umx7M9/twOwOWS6AcGmtmfr0/TrZm+
+         6bwCHsgUYJvXdS6HNzByskoq4rdWGlysbt/LETlISrXIeMWfQ1m+Biarh7Cywmj8bIY5
+         t+Nw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@Honeywell.com;
+       spf=neutral (google.com: 2001:67c:1220:8b0::93e5:b00e is neither permitted nor denied by domain of martina.reslova@honeywell.com) smtp.mailfrom=Martina.Reslova@honeywell.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=honeywell.com
+Return-Path: <Martina.Reslova@honeywell.com>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id k131si12758885wmf.162.2017.05.16.00.01.39
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 May 2017 00:01:39 -0700 (PDT)
+Received-SPF: neutral (google.com: 2001:67c:1220:8b0::93e5:b00e is neither permitted nor denied by domain of martina.reslova@honeywell.com) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@Honeywell.com;
+       spf=neutral (google.com: 2001:67c:1220:8b0::93e5:b00e is neither permitted nor denied by domain of martina.reslova@honeywell.com) smtp.mailfrom=Martina.Reslova@honeywell.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=honeywell.com
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4G71c0G032841
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Tue, 16 May 2017 09:01:38 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v4G71cXc032840
+	for krajnakmatto@gmail.com; Tue, 16 May 2017 09:01:38 +0200 (CEST)
+	(envelope-from Martina.Reslova@Honeywell.com)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to Martina.Reslova@Honeywell.com using -f
+Received: from NAM03-DM3-obe.outbound.protection.outlook.com (mail-dm3nam03on0114.outbound.protection.outlook.com [104.47.41.114])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4G71YY8032814
+	(version=TLSv1.2 cipher=AES256-SHA256 bits=256 verify=FAIL);
+	Tue, 16 May 2017 09:01:36 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=Honeywell.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=ufhDZAI75vDnneDJB/mDLC46JqTdf0bZFOOV6RLhfh4=;
+ b=eNvx/3zmUFvzeFiz9Kda7J98469sNCyAa2r9hxaR3TNZaZtIOU26oG5gJ1LPdpUnRj8nSC/OGWBVQds57SwW6Vo1sy2hVORHJDHIF5N0gvXr5PMgHE/+X6GdGeAhVMrM39NUzxMD0gSdDNuw+tdqIuB7sdsmNYshfILqTpoJgtA=
+Received: from BN3PR0701MB1640.namprd07.prod.outlook.com (10.163.39.143) by
+ BN3PR0701MB1640.namprd07.prod.outlook.com (10.163.39.143) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1084.16; Tue, 16 May 2017 07:01:33 +0000
+Received: from BN3PR0701MB1640.namprd07.prod.outlook.com ([10.163.39.143]) by
+ BN3PR0701MB1640.namprd07.prod.outlook.com ([10.163.39.143]) with mapi id
+ 15.01.1084.025; Tue, 16 May 2017 07:01:32 +0000
+From: "Reslova, Martina" <Martina.Reslova@Honeywell.com>
+To: "xchudy03@stud.fit.vutbr.cz" <xchudy03@stud.fit.vutbr.cz>,
+        "xkopec42@stud.fit.vutbr.cz" <xkopec42@stud.fit.vutbr.cz>,
+        "xcypri01@stud.fit.vutbr.cz" <xcypri01@stud.fit.vutbr.cz>,
+        "xkrajn02@stud.fit.vutbr.cz" <xkrajn02@stud.fit.vutbr.cz>,
+        "pe.uhrin@gmail.com" <pe.uhrin@gmail.com>,
+        "daniel.uhricek@gypri.cz"
+	<daniel.uhricek@gypri.cz>,
+        "kubasimurda@seznam.cz" <kubasimurda@seznam.cz>,
+        "alisa.tesarova@seznam.cz" <alisa.tesarova@seznam.cz>,
+        "xvykyd06@stud.feec.vutbr.cz" <xvykyd06@stud.feec.vutbr.cz>,
+        "xsterc02@stud.feec.vutbr.cz" <xsterc02@stud.feec.vutbr.cz>,
+        "xbarvi00@stud.fit.vutbr.cz" <xbarvi00@stud.fit.vutbr.cz>,
+        "xkriva25@stud.feec.vutbr.cz" <xkriva25@stud.feec.vutbr.cz>,
+        "ligockiroman@icloud.com" <ligockiroman@icloud.com>,
+        "xcibik00@stud.feec.vutbr.cz" <xcibik00@stud.feec.vutbr.cz>,
+        "paco16@centrum.sk" <paco16@centrum.sk>,
+        "xsafon00@stud.feec.vutbr.cz"
+	<xsafon00@stud.feec.vutbr.cz>
+Subject: Lab Tour_Honeywell
+Thread-Topic: Lab Tour_Honeywell
+Thread-Index: AdK2o2osCFhVxkO4R/ODLO+5VnMAlw==
+Date: Tue, 16 May 2017 07:01:32 +0000
+Message-ID: <BN3PR0701MB1640DBD43DDDCBAFB8B1DD4CE0E60@BN3PR0701MB1640.namprd07.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: stud.fit.vutbr.cz; dkim=none (message not signed)
+ header.d=none;stud.fit.vutbr.cz; dmarc=none action=none
+ header.from=Honeywell.com;
+x-originating-ip: [199.64.75.27]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;BN3PR0701MB1640;7:JqO+ZTJ/jcZv2tu1pCdmqd8RUATgE1VzP3Iw/j41swfaHm9FgYZUW8siNOOTsuPv41n5SUMfwV4c2zIWtLJkAMT2Sx4ee3SryGAM0pB41ld8PBH89kUkBHrAUol1PBtPrIk7d2nRj3qPCUaeA+os3VMyOFDJpGjtWTs5JaaYx/V0J1m71dGC22xbnip02S9S6voqkwcLNV0YWUJkVcFdRBwLkEUUepRqofxOhQ85z1Ns/ya0UyYcQb+BjcFT8Uag/EBSoqH4awoQMVk2kCiYjKjBIul8+soNOJ9jknlL3IfI2GBHRQfWlCmx5JvSA0/nVQYkop0T7KtG6Vgf2C7+Rg==;20:ml0HvgmM+cASnVTE4DkRgJhl+6EcJRQ6wdvnUu96kINlKoJvnrEVo09kvho6FG+FGvrm8FUSnqk1Vldq/mJz67uAPnoNAz+tsz+O4mpDWgXpGmqAbOOhNIwiPuOk+cLeurif9l0xRpAFtK0h75EvQdBBon4yDX77ovFbJM7L/qTdEnaxy0lX3o28Z47R51DcBWIVx6EXJDH/L/eoCaTaarCRIMa26E6nOXxdQkoKJBipz8ss6xhgfD/7rNSQba6B
+x-ms-office365-filtering-correlation-id: d37804d9-ed6a-4d27-8338-08d49c2962b9
+x-ms-office365-filtering-ht: Tenant
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(2017030254075)(48565401081)(201703131423075)(201703031133081)(201702281549075);SRVR:BN3PR0701MB1640;
+x-recptdomain: NotTLSDomain
+x-atp-bypass: TRUE
+x-microsoft-antispam-prvs: <BN3PR0701MB164095D38A99E5E0AA6E1C4AE0E60@BN3PR0701MB1640.namprd07.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(245940628509109)(148322886591682)(31418570063057)(60409825278598)(93747276172241)(21748063052155)(136903163479899);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(6040450)(601004)(2401047)(8121501046)(5005006)(10201501046)(93006095)(93001095)(3002001)(6055026)(6041248)(20161123560025)(20161123564025)(20161123555025)(20161123558100)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123562025)(6072148);SRVR:BN3PR0701MB1640;BCL:0;PCL:0;RULEID:;SRVR:BN3PR0701MB1640;
+x-forefront-prvs: 03094A4065
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(39860400002)(39840400002)(39450400003)(39410400002)(39400400002)(39850400002)(6436002)(6506006)(99286003)(236005)(8656002)(53936002)(54896002)(38730400002)(6306002)(9686003)(189998001)(39060400002)(606005)(55016002)(54356999)(8666007)(66066001)(7696004)(33656002)(2900100001)(8676002)(50986999)(77096006)(7116003)(5660300001)(122556002)(81166006)(3280700002)(8936002)(81156014)(3660700001)(7906003)(790700001)(102836003)(6116002)(3846002)(2501003)(478600001)(7416002)(86362001)(72206003)(25786009)(7736002)(74316002)(2906002)(2201001)(921003)(1121003);DIR:OUT;SFP:1102;SCL:1;SRVR:BN3PR0701MB1640;H:BN3PR0701MB1640.namprd07.prod.outlook.com;FPR:;SPF:None;MLV:ovrnspm;PTR:InfoNoRecords;LANG:cs;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_BN3PR0701MB1640DBD43DDDCBAFB8B1DD4CE0E60BN3PR0701MB1640_"
+MIME-Version: 1.0
+X-OriginatorOrg: Honeywell.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 16 May 2017 07:01:32.6566
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 96ece526-9c7d-48b0-8daf-8b93c90a5d18
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR0701MB1640
+X-Spam-Status: No, score=-0.119 required=7 tests=DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HTML_MESSAGE,RCVD_IN_DNSWL_NONE,RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+--_000_BN3PR0701MB1640DBD43DDDCBAFB8B1DD4CE0E60BN3PR0701MB1640_
+Content-Type: text/plain; charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+Hezk=FD den v=B9em,
+
+r=E1da bych  v=E1s touto cestou pozvala na sl=EDbenou n=E1v=B9t=ECvu na=B9i=
+ch laborato=F8=ED v Honeywellu. Vzhledem k tomu, =BEe nezn=E1m va=B9e =E8as=
+ov=E9 preference a tak=E9 p=F8edpokl=E1d=E1m, =BEe ne =FApln=EC v=B9ichni m=
+=E1te stale z=E1jem se lab tour z=FA=E8astnit, navrhuji dva term=EDny a pro=
+s=EDm, abyste mi do 22.5. poznamenali va=B9e preference<https://doodle.com/=
+poll/xk36q5vk333cd4tg>. Pokud by =BE=E1dn=FD term=EDn nevyhovoval, napi=B9t=
+e mi.
+
+Moc d=ECkuji a t=EC=B9=EDm se na setk=E1n=ED.
+
+S pozdravem a p=F8=E1n=EDm hezk=E9ho dne,
+
+Martina Re=B9lov=E1
+University Relations Specialist
+Honeywell | Contracted on behalf of Honeywell Staffing Team
+Mobile: +420 734 182 376
+
+martina.reslova@honeywell.com
+www.honeywell.com<http://www.honeywell.com/>
+www.honeywell.jobs.cz
+Twitter: @HoneywellNow<https://twitter.com/HoneywellNow>
+
+
+--_000_BN3PR0701MB1640DBD43DDDCBAFB8B1DD4CE0E60BN3PR0701MB1640_
+Content-Type: text/html; charset="iso-8859-2"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:m=3D"http://sc=
+hemas.microsoft.com/office/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-=
+html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+2">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hezk=FD den v=B9em,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">r=E1da bych&nbsp; v=E1s touto cestou pozvala na sl=
+=EDbenou n=E1v=B9t=ECvu na=B9ich laborato=F8=ED v Honeywellu. Vzhledem k to=
+mu, =BEe nezn=E1m va=B9e =E8asov=E9 preference a tak=E9 p=F8edpokl=E1d=E1m,=
+ =BEe ne =FApln=EC v=B9ichni m=E1te stale z=E1jem se lab tour z=FA=E8astnit=
+, navrhuji dva term=EDny
+ a pros=EDm, abyste mi <b>do 22.5. <a href=3D"https://doodle.com/poll/xk36q=
+5vk333cd4tg">
+poznamenali va=B9e preference</a></b>. Pokud by =BE=E1dn=FD term=EDn nevyho=
+voval, napi=B9te mi.<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal">Moc d=ECkuji a t=EC=B9=EDm se na setk=E1n=ED.<o:p></=
+o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal">S pozdravem a p=F8=E1n=EDm hezk=E9ho dne,<o:p></o:p>=
+</p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"background:white"><b><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#7F7F7F">Martina R=
+e=B9lov=E1</span></b><span style=3D"font-size:10.0pt;font-family:&quot;Aria=
+l&quot;,sans-serif;color:#7F7F7F"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#7F7F7F">University Re=
+lations Specialist</span><span style=3D"font-size:9.0pt;font-family:&quot;A=
+rial&quot;,sans-serif;color:#333333"><br>
+</span><b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans=
+-serif;color:red">Honeywell</span></b><b><span style=3D"font-size:9.0pt;fon=
+t-family:&quot;Arial&quot;,sans-serif;color:#707070">
+</span></b><b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,=
+sans-serif;color:#7F7F7F">|</span></b><span style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;color:#7F7F7F"> Contracted on behalf of =
+Honeywell Staffing Team<br>
+Mobile: &#43;420 734 182 376<br>
+<br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:gray">martina.reslova@honeywell.com<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"background:white"><a href=3D"http://www.hon=
+eywell.com/" target=3D"_blank"><span style=3D"font-size:9.0pt;font-family:&=
+quot;Arial&quot;,sans-serif;color:gray">www.honeywell.com</span></a><u><spa=
+n style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:g=
+ray"><o:p></o:p></span></u></p>
+<p class=3D"MsoNormal" style=3D"background:white"><u><span style=3D"font-si=
+ze:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray">www.honeywell=
+.jobs.cz</span></u><span style=3D"font-size:9.0pt;font-family:&quot;Arial&q=
+uot;,sans-serif;color:gray"><br>
+Twitter: </span><a href=3D"https://twitter.com/HoneywellNow"><span style=3D=
+"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray">@Hone=
+ywellNow</span></a><span style=3D"font-size:9.0pt;font-family:&quot;Arial&q=
+uot;,sans-serif;color:gray"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN3PR0701MB1640DBD43DDDCBAFB8B1DD4CE0E60BN3PR0701MB1640_--
+
+

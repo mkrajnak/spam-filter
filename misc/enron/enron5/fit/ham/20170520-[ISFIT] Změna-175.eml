@@ -1,0 +1,68 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.213 with SMTP id z204csp651847vsc;
+        Sat, 20 May 2017 02:22:02 -0700 (PDT)
+X-Received: by 10.28.191.145 with SMTP id o17mr9690351wmi.20.1495272122015;
+        Sat, 20 May 2017 02:22:02 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1495272121; cv=none;
+        d=google.com; s=arc-20160816;
+        b=bKR6sJOC4v5tAOCXs7LiaUH4fjmXpW+9NJ3gRJonC0zf42aF1KJA4sMcRgROK/JlXo
+         7unmBcWqNZviy3CbsjztDM/PYPz0qS43h7lqbCPV179fv/p/eQYyc79OpULMN22BSG+j
+         FmJb+9WAp8W3FxOlV1yBTLoMIbUgMuPlxHN2BbWYpw3AphCeR9WpVIQ1+bWdNn6Blc+f
+         0ORtyQtuWOK0jAEksquq2t/3AN81Ys+qDj6KNQE0sCVFsp6auA8UWmY0cMMzaMo3Qysu
+         R/0pb+fmyi3ajKUyJO37pcyN/lh0Fju9OttYGHdP7eHhqwW+RI2hGLPA0lY3nsTpuJWU
+         6uHg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:subject:from:to
+         :date:arc-authentication-results;
+        bh=gHjDEVw/1k3VGRNmQQgA4+qUi5OQQG1Fz96CXLoPBzk=;
+        b=Kg/zBajMfdxrVPQ2KEVOtULWgzwa5Gdg1wsdbMO3ohlU29sgQ1ZOsJX0X/Pl2UXYPK
+         X4Mjha7Q+9ektUJaNw51pfodrZNF0En0oOT9Ng+LHVjhYj/jluDUpg2MgyYDRYtqPxj2
+         dTJKTWu3t6H65p4bALuXFgQIMp2y+a2tzCKs06gFZj2kJ220mvC0BREVvgdu/ubqY0f4
+         YLLBcfackrhX2vRKSxcrXDTNhuIZ5X7oA4wJjS6D5C+984UAgDBihkJbJzp7qvM4uLSZ
+         GfY13pkNDMEvraHU12evNjZAPXapPb67M0wSTAD9oGeJemzPymLhSuWQOoEWdwYadyeo
+         b6XQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=xkrajn02@stud.fit.vutbr.cz
+Return-Path: <xkrajn02@stud.fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id x7si5818317wrd.117.2017.05.20.02.22.01
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 20 May 2017 02:22:01 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=xkrajn02@stud.fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4K9M14Z072588
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Sat, 20 May 2017 11:22:01 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v4K9M1T0072587
+	for krajnakmatto@gmail.com; Sat, 20 May 2017 11:22:01 +0200 (CEST)
+	(envelope-from xkrajn02@stud.fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to xkrajn02@stud.fit.vutbr.cz using -f
+Received: from wis.fit.vutbr.cz (agata.fit.vutbr.cz [147.229.9.21])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id v4K9M1QH072579
+	for <xkrajn02@stud.fit.vutbr.cz>; Sat, 20 May 2017 11:22:01 +0200 (CEST)
+X-Received-From: phpmailer
+Date: Sat, 20 May 2017 11:22:01 +0200
+To: xkrajn02@stud.fit.vutbr.cz
+From: =?iso-8859-2?Q?Kraj=F2=E1k_Martin?= <xkrajn02@stud.fit.vutbr.cz>
+Subject: =?iso-8859-2?Q?[ISFIT]_Zm=ECna?=
+Message-ID: <cae40346811083390507de8d37f8d16e@wis.fit.vutbr.cz>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.73pl]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-2"
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+ITW/2016L: 48 b -> 58 b, zap 2017-05-05, 3E
+
+
+

@@ -1,0 +1,74 @@
+X-Mozilla-Status: 0003
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.21.66 with SMTP id 63csp217997vsv;
+        Fri, 9 Sep 2016 02:43:55 -0700 (PDT)
+X-Received: by 10.28.10.21 with SMTP id 21mr2126827wmk.3.1473414235849;
+        Fri, 09 Sep 2016 02:43:55 -0700 (PDT)
+Return-Path: <bounce+80a7d6.978c-xkrajn02=stud.fit.vutbr.cz@mailgun.org>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id r12si2158999wjw.290.2016.09.09.02.43.55
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 09 Sep 2016 02:43:55 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+80a7d6.978c-xkrajn02=stud.fit.vutbr.cz@mailgun.org does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@mailgun.org;
+       spf=softfail (google.com: domain of transitioning bounce+80a7d6.978c-xkrajn02=stud.fit.vutbr.cz@mailgun.org does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=bounce+80a7d6.978c-xkrajn02=stud.fit.vutbr.cz@mailgun.org
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u899ht8K069935
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Fri, 9 Sep 2016 11:43:55 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u899htmY069934
+	for krajnakmatto@gmail.com; Fri, 9 Sep 2016 11:43:55 +0200 (CEST)
+	(envelope-from bounce+80a7d6.978c-xkrajn02=stud.fit.vutbr.cz@mailgun.org)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to bounce+80a7d6.978c-xkrajn02=stud.fit.vutbr.cz@mailgun.org using -f
+Received: from mail-s85.mailgun.info (mail-s85.mailgun.info [184.173.153.213])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id u899hsSA069928
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 9 Sep 2016 11:43:54 +0200 (CEST)
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg;
+ t=1473414233; h=Content-Transfer-Encoding: Mime-Version: Content-Type:
+ Subject: From: To: Message-Id: Date: Sender;
+ bh=3nbmwOqCerprpOkxJ93kKLwf/vjDtFCFzocEcgmpbJo=; b=LuW135X9OVNHDjEgMmsKgVtIWyWV1fxnRhzSsog9Yat2jY3gpGccbWwijJozLQi7HovBxQHE
+ Xc37AbbIPa8PF3YTQJIc1MDowE9cwIo5z6Ro/0p5QWPdRFWJ6LVswR/AEmGhSEVn7Da85PkX
+ 5V9VvBNG8I7OWw1yVSz2+KPiQ5o=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=mailgun.org; s=mg; q=dns;
+ h=Sender: Date: Message-Id: To: From: Subject: Content-Type:
+ Mime-Version: Content-Transfer-Encoding;
+ b=YdbKfZai/w0BW9m5/xurdh1KYojZCZn08wF1sJ4X9yNTrRv3mxLbq+1X25AFRW/3IoEwyx
+ UUBZHzoR+LQL3Xd217pgTq92VIjD2V6vkt3xFMlu3cIcYgMytsM4TApaE6g+2LGRKWTKUMKP
+ Ckb3Xoupo5TswLiodaV1YnhiTNyko=
+Sender: noreply@sandbox25943.mailgun.org
+Date: Fri, 09 Sep 2016 09:43:53 +0000
+X-Mailgun-Sending-Ip: 184.173.153.213
+X-Mailgun-Sid: WyJiMGIzZCIsICJ4a3Jham4wMkBzdHVkLmZpdC52dXRici5jeiIsICI5NzhjIl0=
+Received: by luna.mailgun.net with HTTP; Fri, 09 Sep 2016 09:43:49 +0000
+Message-Id: <20160909094349.87545.26566.3046F725@sandbox25943.mailgun.org>
+To: xkrajn02@stud.fit.vutbr.cz
+From: Thesis Management System <noreply@sandbox25943.mailgun.org>
+Subject: [Red Hat theses] Please confirm your registration
+Content-Type: text/plain; charset="utf-8"
+Mime-Version: 1.0
+X-Spam-Status: No, score=-0.85 required=7 tests=AWL,BAYES_00,DKIM_SIGNED,DKIM_VALID,RCVD_IN_DNSWL_NONE,RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from base64 to 8bit by eva.fit.vutbr.cz id u899hsSA069928
+X-Loop: to-krajnakmatto@gmail.com
+
+Your login details:
+
+Your name: Martin Krajňák
+Your password*: imkraj+ť+
+
+Please confirm your registration by clicking on the following link:
+https://diplomky.redhat.com/confirm/DN6yGl4eGvERE0OJG4IdRILod8AwArWl3sCCaIufDYq
+
+
+------
+* Please delete this email after you have confirmed for security purposes.
+
+

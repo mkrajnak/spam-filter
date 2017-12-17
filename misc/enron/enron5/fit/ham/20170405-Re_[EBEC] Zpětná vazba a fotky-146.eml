@@ -1,0 +1,337 @@
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.134 with SMTP id z128csp142308vsc;
+        Wed, 5 Apr 2017 00:32:18 -0700 (PDT)
+X-Received: by 10.223.170.216 with SMTP id i24mr24463807wrc.153.1491377538839;
+        Wed, 05 Apr 2017 00:32:18 -0700 (PDT)
+Return-Path: <ebec.brno@gmail.com>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id k44si27890735wrc.135.2017.04.05.00.32.18
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Apr 2017 00:32:18 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning ebec.brno@gmail.com does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com;
+       spf=softfail (google.com: domain of transitioning ebec.brno@gmail.com does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=ebec.brno@gmail.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gmail.com
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v357WIQw033117
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Wed, 5 Apr 2017 09:32:18 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v357WI4E033116
+	for krajnakmatto@gmail.com; Wed, 5 Apr 2017 09:32:18 +0200 (CEST)
+	(envelope-from ebec.brno@gmail.com)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to ebec.brno@gmail.com using -f
+Received: from mail-pg0-f41.google.com (mail-pg0-f41.google.com [74.125.83.41])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v357WFk0033093
+	(version=TLSv1.2 cipher=AES256-GCM-SHA384 bits=256 verify=FAIL);
+	Wed, 5 Apr 2017 09:32:16 +0200 (CEST)
+Received: by mail-pg0-f41.google.com with SMTP id 21so3741934pgg.1;
+        Wed, 05 Apr 2017 00:32:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=r7lX81G7J/BH7kjjQ1MQ1iP55lblZkfo60oQ5voiZ6Q=;
+        b=h6qHqxoDHtqgdUUcf8yaC+O1S9Vlh+U1bTV2ta0LY4aJr9CV4TOyrzH9joZ8JyCZPm
+         IKeMNDF4quCVkrr3b9C3S9zEU/SvXCBCBMJaURnzmI/gcHqdZ1SkjQ/AYJ6v5UOoVzLF
+         HisRVywK9WyqbeVrxsfFclJGhUhdGfJUlwu/mXhIBZaTsbQ++qMTq9UXpFfTpFPBybtC
+         3XzjtvXR8kDsb3+cMclqW0g6Kb/r+k3SbwyDSQ+V7jOwLvxWuOq6pBk7Gl3x1gjwhyGu
+         9zBYaFZbBKni4Xl2lJ/qey1sUhzJsiZvjzebVtoeFrxupmwpRbDXOpxOOH+weTXABBrv
+         yPrQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=r7lX81G7J/BH7kjjQ1MQ1iP55lblZkfo60oQ5voiZ6Q=;
+        b=GUW8fs45vizPIIHtmJFYGx4JSCfyfra0IRU/ZxV1+sb9F+r1VEEc8DisjqzOw6+Xbw
+         UGWMnE/Kcn4Vq9r/ROvbu2ZxHgCutOcPLZ/VxdCTGmGSKDiIgwGEAowaLXMj9wxywytt
+         zSqMalVONJI81k2oP88vyYKYKB89OK+saGIOZBeGKggIht5QbEnyzHlJnlIspMQAmohh
+         mCkRLg0sX3cj0vf1MQ09MuNDJAqFNBxnxx53ZvjqgrJJqU9fExBBY/DXJ3xYx/uiFIu8
+         UJwSFdM+cjXonsnnB8q3P2LnypdaiA1Qe/x3gK87UAidPiO5yAQYBNTnd9LnyaJmXwV6
+         zDJg==
+X-Gm-Message-State: AFeK/H3+W4tlaUTZBPAXZ73rNlme6rxYvEoha/y0dVqBL/0zgnXYZmCO5L141az8JquGNYNWPm77GPmF072RPg==
+X-Received: by 10.98.62.82 with SMTP id l79mr27816253pfa.164.1491377534105;
+ Wed, 05 Apr 2017 00:32:14 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.100.151.164 with HTTP; Wed, 5 Apr 2017 00:31:53 -0700 (PDT)
+In-Reply-To: <CA+hPQSR3yRY_WzWyHR2mSYOUACxQeUh5v1vvjw+PrY0J=xVHYg@mail.gmail.com>
+References: <CA+hPQSR3yRY_WzWyHR2mSYOUACxQeUh5v1vvjw+PrY0J=xVHYg@mail.gmail.com>
+From: EBEC Brno <ebec.brno@gmail.com>
+Date: Wed, 5 Apr 2017 09:31:53 +0200
+Message-ID: <CA+hPQSTpsti8-tsF6cE_WD0K90mdXoOJDVHnj7H9=4OK5VdU3Q@mail.gmail.com>
+Subject: =?UTF-8?B?UmU6IFtFQkVDXSBacMSbdG7DoSB2YXpiYSBhIGZvdGt5?=
+To: xchudy03@stud.fit.vutbr.cz, Kuba Simurda <kubasimurda@seznam.cz>,
+        xlazar06@stud.fit.vutbr.cz, xkopec42@stud.fit.vutbr.cz,
+        =?UTF-8?B?RGFuaWVsIFVoxZnDrcSNZWs=?= <daniel.uhricek@gypri.cz>,
+        152829@vutbr.cz, xcypri01@stud.fit.vutbr.cz, pe.uhrin@gmail.com,
+        xstrit07@stud.feec.vutbr.cz, xkrajn02@stud.fit.vutbr.cz,
+        =?UTF-8?B?QWxlbmEgVGVzYcWZb3bDoQ==?= <Alisa.tesarova@seznam.cz>,
+        Richard Malatin <rico1202@gmail.com>,
+        =?UTF-8?B?S3VsZGEgSmnFmcOt?= <xkulda00@stud.fit.vutbr.cz>,
+        =?UTF-8?B?QW5kcmVqIEJsacW+xYjDoWs=?= <xblizn01@stud.fit.vutbr.cz>,
+        Albert Uchytil <xuchyt03@stud.fit.vutbr.cz>,
+        xsemml01@stud.fit.vutbr.cz, xhrvol00@stud.fit.vutbr.cz,
+        pepo142@gmail.com,
+        =?UTF-8?Q?Kate=C5=99ina_Bortlov=C3=A1?= <175608@vutbr.cz>,
+        xdevec00@stud.fit.vutbr.cz, xpawlu00@stud.fit.vutbr.cz,
+        145304@vutbr.cz, xhinkt00@stud.fit.vutbr.cz,
+        xmasek15@stud.fit.vutbr.cz
+Content-Type: multipart/alternative; boundary=94eb2c113682257f1d054c6664a6
+X-Spam-Status: No, score=-0.116 required=7 tests=AWL,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,HTML_OBFUSCATE_05_10,RCVD_IN_DNSWL_NONE,RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+--94eb2c113682257f1d054c6664a6
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ahoj! =F0=9F=98=8A
+
+P=C5=99ipom=C3=ADn=C3=A1m, =C5=BEe u=C5=BE zb=C3=BDvaj=C3=AD jen dva dny na=
+ vypln=C4=9Bn=C3=AD FEEDBACK FORMUL=C3=81=C5=98E
+<https://docs.google.com/forms/d/e/1FAIpQLScnexG3ikTaQk5dIseJ_jHjqTCo8iDgXF=
+L_Ia-dSn_PMaHuaA/viewform?usp=3Dsf_link>
+.
+
+Pokud u=C5=BE m=C3=A1=C5=A1 spln=C4=9Bno, jm=C3=A9nem cel=C3=A9ho organiza=
+=C4=8Dn=C3=ADho t=C3=BDmu d=C4=9Bkuji.
+
+Nela
+
+*Nela Kadan=C3=ADkov=C3=A1*
+*BEST Brno | participant responsible for EBEC Brno 2017*
+Board of European Students of Technology *|* *best.vutbr.cz
+<http://www.best.vutbr.cz/> **|* *www.best.eu.org* <http://www.best.eu.org/=
+>
+
+European BEST Engineering Competition *| www.ebec.cz
+<http://www.ebec.cz/> | **www.facebook.com/ebecbrno
+<http://www.facebook.com/ebecbrno>*
+GSM: *+420 777 433 194 <+420%20777%20433%20194> **|* email:
+ebec.brno@gmail.com, nela.kadanikova@best.eu.org
+
+Dne 31. b=C5=99ezna 2017 19:35 EBEC Brno <ebec.brno@gmail.com> napsal(a):
+
+> Ahoj! =F0=9F=98=8A
+>
+> EBEC je za n=C3=A1mi a jm=C3=A9nem cel=C3=A9ho t=C3=BDmu organiz=C3=A1tor=
+=C5=AF z BESTu bych T=C4=9B r=C3=A1da
+> poprosila o vypln=C4=9Bn=C3=AD FEEDBACK FORMUL=C3=81=C5=98E
+> <https://docs.google.com/forms/d/e/1FAIpQLScnexG3ikTaQk5dIseJ_jHjqTCo8iDg=
+XFL_Ia-dSn_PMaHuaA/viewform?usp=3Dsf_link>
+>  nejpozd=C4=9Bji *do p=C3=A1tku 7. dubna*. Zabere Ti nanejv=C3=BD=C5=A1 1=
+0 minut a pom=C5=AF=C5=BEete
+> tak pozdvihnout p=C5=99=C3=AD=C5=A1t=C3=AD EBEC na vy=C5=A1=C5=A1=C3=AD =
+=C3=BArove=C5=88.
+>
+> Po vypln=C4=9Bn=C3=AD formul=C3=A1=C5=99e se Ti zobraz=C3=AD fotky ze v=
+=C5=A1ech kol EBECu.
+>
+> D=C4=9Bkujeme a u=C5=BEij si v=C3=ADkend!
+>
+> Za t=C3=BDm organiz=C3=A1tor=C5=AF,
+>
+> Nela
+> *Nela Kadan=C3=ADkov=C3=A1*
+> *BEST Brno | participant responsible for EBEC Brno 2017*
+> Board of European Students of Technology *|* *best.vutbr.cz
+> <http://www.best.vutbr.cz/> **|* *www.best.eu.org*
+> <http://www.best.eu.org/>
+> European BEST Engineering Competition *| www.ebec.cz
+> <http://www.ebec.cz/> | **www.facebook.com/ebecbrno
+> <http://www.facebook.com/ebecbrno>*
+> GSM: *+420 777 433 194 <+420%20777%20433%20194> **|* email:
+> ebec.brno@gmail.com, nela.kadanikova@best.eu.org
+>
+
+--94eb2c113682257f1d054c6664a6
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Ahoj!=C2=A0=F0=9F=98=8A<div><br></div><div>P=C5=99ipom=C3=
+=ADn=C3=A1m, =C5=BEe u=C5=BE zb=C3=BDvaj=C3=AD jen dva dny na vypln=C4=9Bn=
+=C3=AD=C2=A0<a href=3D"https://docs.google.com/forms/d/e/1FAIpQLScnexG3ikTa=
+Qk5dIseJ_jHjqTCo8iDgXFL_Ia-dSn_PMaHuaA/viewform?usp=3Dsf_link" target=3D"_b=
+lank" style=3D"font-size:large">FEEDBACK FORMUL=C3=81=C5=98E</a>.=C2=A0</di=
+v><div><br></div><div>Pokud u=C5=BE m=C3=A1=C5=A1 spln=C4=9Bno, jm=C3=A9nem=
+ cel=C3=A9ho organiza=C4=8Dn=C3=ADho t=C3=BDmu d=C4=9Bkuji.=C2=A0</div><div=
+><br></div><div>Nela</div></div><div class=3D"gmail_extra"><br clear=3D"all=
+"><div><div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><d=
+iv dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"=
+><div dir=3D"ltr">
+<div><div style=3D"font-size:12.8px"><font color=3D"#666666"><b><font size=
+=3D"2">Nela Kadan=C3=ADkov=C3=A1</font></b><br></font></div><div style=3D"f=
+ont-size:12.8px"><font size=3D"1" color=3D"#666666"><b>BEST Brno | particip=
+ant responsible for EBEC Brno 2017</b></font></div><div style=3D"font-size:=
+12.8px"><font size=3D"1"><span style=3D"color:rgb(80,0,80);font-family:aria=
+l,helvetica,sans-serif;line-height:20px"><font color=3D"#3d85c6">B</font></=
+span><span style=3D"font-family:arial,helvetica,sans-serif;color:rgb(153,15=
+3,153);line-height:20px">oard</span><span style=3D"font-family:arial,helvet=
+ica,sans-serif;color:rgb(153,153,153);line-height:20px">=C2=A0</span><span =
+style=3D"font-family:arial,helvetica,sans-serif;color:rgb(153,153,153);line=
+-height:20px">of</span><span style=3D"font-family:arial,helvetica,sans-seri=
+f;color:rgb(153,153,153);line-height:20px">=C2=A0</span><span style=3D"colo=
+r:rgb(80,0,80);font-family:arial,helvetica,sans-serif;line-height:20px"><fo=
+nt color=3D"#6aa84f">E</font></span><span style=3D"font-family:arial,helvet=
+ica,sans-serif;color:rgb(153,153,153);line-height:20px">uropean</span><span=
+ style=3D"color:rgb(80,0,80);font-family:arial,helvetica,sans-serif;line-he=
+ight:20px"><font color=3D"#999999">=C2=A0</font><font color=3D"#e69138">S</=
+font></span><span style=3D"font-family:arial,helvetica,sans-serif;color:rgb=
+(153,153,153);line-height:20px">tudents of</span><span style=3D"font-family=
+:arial,helvetica,sans-serif;color:rgb(11,83,148);line-height:20px">=C2=A0</=
+span><span style=3D"color:rgb(80,0,80);font-family:arial,helvetica,sans-ser=
+if;line-height:20px"><font color=3D"#3d85c6">T</font></span><span style=3D"=
+font-family:arial,helvetica,sans-serif;line-height:20px"><font color=3D"#99=
+9999">echnology=C2=A0</font></span></font><b><font color=3D"#666666"><font =
+color=3D"#666666" size=3D"1">|</font></font></b><font size=3D"1"><span styl=
+e=3D"font-family:arial,helvetica,sans-serif;line-height:20px"><font color=
+=3D"#999999">=C2=A0</font></span></font><b><font color=3D"#666666"><font co=
+lor=3D"#666666"><font color=3D"#666666" style=3D"font-size:x-small;font-fam=
+ily:arial,helvetica,sans-serif"><a href=3D"http://www.best.vutbr.cz/" style=
+=3D"color:rgb(17,85,204)" target=3D"_blank"><font color=3D"#666666">best.vu=
+tbr.cz</font></a>=C2=A0</font><span style=3D"font-size:x-small;font-family:=
+arial,helvetica,sans-serif"><font color=3D"#666666"></font></span></font></=
+font></b><b style=3D"font-size:12.8px"><font color=3D"#666666"><font color=
+=3D"#666666" size=3D"1">|</font></font></b><font size=3D"1"><span style=3D"=
+font-family:arial,helvetica,sans-serif;line-height:20px"><font color=3D"#99=
+9999">=C2=A0</font><a href=3D"http://www.best.eu.org/" style=3D"color:rgb(1=
+7,85,204)" target=3D"_blank"><b><font color=3D"#666666">www.best.eu.org</fo=
+nt></b></a><font color=3D"#999999">=C2=A0</font></span></font></div><div st=
+yle=3D"font-size:12.8px"><span style=3D"font-size:x-small;font-family:arial=
+,helvetica,sans-serif;line-height:20px"><font color=3D"#ff9900">E</font></s=
+pan><span style=3D"color:rgb(153,153,153);font-size:x-small;font-family:ari=
+al,helvetica,sans-serif;line-height:20px">uropean</span><span style=3D"font=
+-size:x-small;font-family:arial,helvetica,sans-serif;line-height:20px"><fon=
+t color=3D"#999999">=C2=A0</font><font color=3D"#ff9900">B</font><font colo=
+r=3D"#999999">EST=C2=A0</font><font color=3D"#ff9900">E</font><font color=
+=3D"#999999">ngineering=C2=A0</font><font color=3D"#ff9900">C</font><font c=
+olor=3D"#999999">ompetition</font></span><span style=3D"font-size:x-small;f=
+ont-family:arial,helvetica,sans-serif;line-height:20px"><font color=3D"#999=
+999">=C2=A0</font></span><font color=3D"#666666"><b style=3D"font-size:12.8=
+px"><font size=3D"1">|</font>=C2=A0<span style=3D"font-size:x-small;font-fa=
+mily:arial,helvetica,sans-serif"><a href=3D"http://www.ebec.cz/" style=3D"c=
+olor:rgb(17,85,204)" target=3D"_blank"><font color=3D"#666666">www.ebec.cz<=
+/font></a>=C2=A0|=C2=A0</span></b></font><b style=3D"color:rgb(102,102,102)=
+;font-family:arial,helvetica,sans-serif;font-size:x-small"><a href=3D"http:=
+//www.facebook.com/ebecbrno" style=3D"color:rgb(17,85,204)" target=3D"_blan=
+k">www.facebook.com/ebecbrno</a></b><b><font color=3D"#666666"><font color=
+=3D"#666666"><span style=3D"font-size:x-small;font-family:arial,helvetica,s=
+ans-serif"><br></span></font></font></b></div><div style=3D"font-size:12.8p=
+x"><span style=3D"color:rgb(153,153,153);font-family:arial,helvetica,sans-s=
+erif;font-size:x-small">GSM:=C2=A0</span><b style=3D"font-family:arial,helv=
+etica,sans-serif;font-size:x-small"><font color=3D"#666666"><a href=3D"tel:=
++420%20777%20433%20194" value=3D"+420775392763" style=3D"color:rgb(17,85,20=
+4)" target=3D"_blank">+420 777 433 194</a>=C2=A0</font></b><b style=3D"font=
+-size:12.8px"><font color=3D"#666666">|</font></b><b style=3D"color:rgb(153=
+,153,153);font-family:arial,helvetica,sans-serif;font-size:x-small">=C2=A0<=
+/b><span style=3D"color:rgb(153,153,153);font-size:x-small;font-family:aria=
+l,helvetica,sans-serif">email: <a href=3D"mailto:ebec.brno@gmail.com" targe=
+t=3D"_blank">ebec.brno@gmail.com</a>,=C2=A0<a href=3D"mailto:nela.kadanikov=
+a@best.eu.org" target=3D"_blank">nela.kadanikova@best.eu.org</a></span></di=
+v></div></div></div></div></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">Dne 31. b=C5=99ezna 2017 19:35 EBEC Brno <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:ebec.brno@gmail.com" target=3D"_blank"=
+>ebec.brno@gmail.com</a>&gt;</span> napsal(a):<br><blockquote class=3D"gmai=
+l_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left=
+:1ex"><div dir=3D"ltr"><span style=3D"font-size:12.8px">Ahoj!=C2=A0</span>=
+=F0=9F=98=8A<div style=3D"font-size:12.8px"><br></div><div style=3D"font-si=
+ze:12.8px">EBEC je za n=C3=A1mi a jm=C3=A9nem cel=C3=A9ho t=C3=BDmu organiz=
+=C3=A1tor=C5=AF z BESTu bych T=C4=9B r=C3=A1da poprosila o vypln=C4=9Bn=C3=
+=AD=C2=A0<font size=3D"4"><a href=3D"https://docs.google.com/forms/d/e/1FAI=
+pQLScnexG3ikTaQk5dIseJ_jHjqTCo8iDgXFL_Ia-dSn_PMaHuaA/viewform?usp=3Dsf_link=
+" target=3D"_blank">FEEDBACK FORMUL=C3=81=C5=98E</a>=C2=A0</font>nejpozd=C4=
+=9Bji=C2=A0<b>do p=C3=A1tku 7. dubna</b>. Zabere Ti nanejv=C3=BD=C5=A1 10 m=
+inut a pom=C5=AF=C5=BEete tak pozdvihnout p=C5=99=C3=AD=C5=A1t=C3=AD EBEC n=
+a vy=C5=A1=C5=A1=C3=AD =C3=BArove=C5=88.=C2=A0</div><div style=3D"font-size=
+:12.8px"><br></div><div style=3D"font-size:12.8px">Po vypln=C4=9Bn=C3=AD fo=
+rmul=C3=A1=C5=99e se Ti zobraz=C3=AD=C2=A0<font size=3D"4">fotky=C2=A0</fon=
+t>ze v=C5=A1ech kol EBECu.</div><div style=3D"font-size:12.8px"><br></div><=
+div style=3D"font-size:12.8px">D=C4=9Bkujeme a u=C5=BEij si v=C3=ADkend!</d=
+iv><div style=3D"font-size:12.8px"><br></div><div style=3D"font-size:12.8px=
+">Za t=C3=BDm organiz=C3=A1tor=C5=AF,</div><div style=3D"font-size:12.8px">=
+<br></div><div style=3D"font-size:12.8px">Nela</div><div><div class=3D"m_-1=
+180432825278297432gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><=
+div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr">
+<div><div style=3D"font-size:12.8px"><font color=3D"#666666"><b><font size=
+=3D"2">Nela Kadan=C3=ADkov=C3=A1</font></b><br></font></div><div style=3D"f=
+ont-size:12.8px"><font size=3D"1" color=3D"#666666"><b>BEST Brno | particip=
+ant responsible for EBEC Brno 2017</b></font></div><div style=3D"font-size:=
+12.8px"><font size=3D"1"><span style=3D"color:rgb(80,0,80);font-family:aria=
+l,helvetica,sans-serif;line-height:20px"><font color=3D"#3d85c6">B</font></=
+span><span style=3D"font-family:arial,helvetica,sans-serif;color:rgb(153,15=
+3,153);line-height:20px">oard</span><span style=3D"font-family:arial,helvet=
+ica,sans-serif;color:rgb(153,153,153);line-height:20px">=C2=A0</span><span =
+style=3D"font-family:arial,helvetica,sans-serif;color:rgb(153,153,153);line=
+-height:20px">of</span><span style=3D"font-family:arial,helvetica,sans-seri=
+f;color:rgb(153,153,153);line-height:20px">=C2=A0</span><span style=3D"colo=
+r:rgb(80,0,80);font-family:arial,helvetica,sans-serif;line-height:20px"><fo=
+nt color=3D"#6aa84f">E</font></span><span style=3D"font-family:arial,helvet=
+ica,sans-serif;color:rgb(153,153,153);line-height:20px">uropean</span><span=
+ style=3D"color:rgb(80,0,80);font-family:arial,helvetica,sans-serif;line-he=
+ight:20px"><font color=3D"#999999">=C2=A0</font><font color=3D"#e69138">S</=
+font></span><span style=3D"font-family:arial,helvetica,sans-serif;color:rgb=
+(153,153,153);line-height:20px">tudents of</span><span style=3D"font-family=
+:arial,helvetica,sans-serif;color:rgb(11,83,148);line-height:20px">=C2=A0</=
+span><span style=3D"color:rgb(80,0,80);font-family:arial,helvetica,sans-ser=
+if;line-height:20px"><font color=3D"#3d85c6">T</font></span><span style=3D"=
+font-family:arial,helvetica,sans-serif;line-height:20px"><font color=3D"#99=
+9999">echnology=C2=A0</font></span></font><b><font color=3D"#666666"><font =
+color=3D"#666666" size=3D"1">|</font></font></b><font size=3D"1"><span styl=
+e=3D"font-family:arial,helvetica,sans-serif;line-height:20px"><font color=
+=3D"#999999">=C2=A0</font></span></font><b><font color=3D"#666666"><font co=
+lor=3D"#666666"><font color=3D"#666666" style=3D"font-size:x-small;font-fam=
+ily:arial,helvetica,sans-serif"><a href=3D"http://www.best.vutbr.cz/" style=
+=3D"color:rgb(17,85,204)" target=3D"_blank"><font color=3D"#666666">best.vu=
+tbr.cz</font></a>=C2=A0</font><span style=3D"font-size:x-small;font-family:=
+arial,helvetica,sans-serif"><font color=3D"#666666"></font></span></font></=
+font></b><b style=3D"font-size:12.8px"><font color=3D"#666666"><font color=
+=3D"#666666" size=3D"1"><wbr>|</font></font></b><font size=3D"1"><span styl=
+e=3D"font-family:arial,helvetica,sans-serif;line-height:20px"><font color=
+=3D"#999999">=C2=A0</font><a href=3D"http://www.best.eu.org/" style=3D"colo=
+r:rgb(17,85,204)" target=3D"_blank"><b><font color=3D"#666666">www.best.eu.=
+org</font></b></a><font color=3D"#999999">=C2=A0</font></span></font></div>=
+<div style=3D"font-size:12.8px"><span style=3D"font-size:x-small;font-famil=
+y:arial,helvetica,sans-serif;line-height:20px"><font color=3D"#ff9900">E</f=
+ont></span><span style=3D"color:rgb(153,153,153);font-size:x-small;font-fam=
+ily:arial,helvetica,sans-serif;line-height:20px">uropean</span><span style=
+=3D"font-size:x-small;font-family:arial,helvetica,sans-serif;line-height:20=
+px"><font color=3D"#999999">=C2=A0</font><font color=3D"#ff9900">B</font><f=
+ont color=3D"#999999">EST=C2=A0</font><font color=3D"#ff9900">E</font><font=
+ color=3D"#999999">ngineering=C2=A0</font><font color=3D"#ff9900">C</font><=
+font color=3D"#999999">omp<wbr>etition</font></span><span style=3D"font-siz=
+e:x-small;font-family:arial,helvetica,sans-serif;line-height:20px"><font co=
+lor=3D"#999999">=C2=A0</font></span><font color=3D"#666666"><b style=3D"fon=
+t-size:12.8px"><font size=3D"1">|</font>=C2=A0<span style=3D"font-size:x-sm=
+all;font-family:arial,helvetica,sans-serif"><a href=3D"http://www.ebec.cz/"=
+ style=3D"color:rgb(17,85,204)" target=3D"_blank"><font color=3D"#666666">w=
+ww.ebec.cz</font></a>=C2=A0|=C2=A0</span></b></font><b style=3D"color:rgb(1=
+02,102,102);font-family:arial,helvetica,sans-serif;font-size:x-small"><a hr=
+ef=3D"http://www.facebook.com/ebecbrno" style=3D"color:rgb(17,85,204)" targ=
+et=3D"_blank">www.<wbr>facebook.com/ebecbrno</a></b><b><font color=3D"#6666=
+66"><font color=3D"#666666"><span style=3D"font-size:x-small;font-family:ar=
+ial,helvetica,sans-serif"><br></span></font></font></b></div><div style=3D"=
+font-size:12.8px"><span style=3D"color:rgb(153,153,153);font-family:arial,h=
+elvetica,sans-serif;font-size:x-small">GSM:=C2=A0</span><b style=3D"font-fa=
+mily:arial,helvetica,sans-serif;font-size:x-small"><font color=3D"#666666">=
+<a href=3D"tel:+420%20777%20433%20194" value=3D"+420775392763" style=3D"col=
+or:rgb(17,85,204)" target=3D"_blank">+420 777 433 194</a>=C2=A0</font></b><=
+b style=3D"font-size:12.8px"><font color=3D"#666666">|</font></b><b style=
+=3D"color:rgb(153,153,153);font-family:arial,helvetica,sans-serif;font-size=
+:x-small">=C2=A0</b><span style=3D"color:rgb(153,153,153);font-size:x-small=
+;font-family:arial,helvetica,sans-serif">email: <a href=3D"mailto:ebec.brno=
+@gmail.com" target=3D"_blank">ebec.brno@gmail.com</a>,=C2=A0<a href=3D"mail=
+to:nela.kadanikova@best.eu.org" target=3D"_blank">nela.<wbr>kadanikova@best=
+.eu.org</a></span></div></div></div></div></div></div></div></div></div></d=
+iv></div>
+</div>
+</blockquote></div><br></div>
+
+--94eb2c113682257f1d054c6664a6--
+
+

@@ -1,0 +1,57 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.131 with SMTP id k125csp3135886lfe;
+        Thu, 25 Feb 2016 02:04:03 -0800 (PST)
+X-Received: by 10.28.33.84 with SMTP id h81mr2685872wmh.36.1456394643838;
+        Thu, 25 Feb 2016 02:04:03 -0800 (PST)
+Return-Path: <operator@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id m79si3191062wma.108.2016.02.25.02.04.03
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 25 Feb 2016 02:04:03 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of operator@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of operator@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=operator@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u1PA43JC000467
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Thu, 25 Feb 2016 11:04:03 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u1PA43RG000466
+	for krajnakmatto@gmail.com; Thu, 25 Feb 2016 11:04:03 +0100 (CET)
+	(envelope-from operator@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to operator@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u1PA43DJ000455
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 25 Feb 2016 11:04:03 +0100 (CET)
+Received: from pclibc.fit.vutbr.cz (pclibc.fit.vutbr.cz [147.229.12.244])
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u1PA42vZ094938
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 25 Feb 2016 11:04:02 +0100 (CET)
+Received: from pclibc.fit.vutbr.cz (localhost [127.0.0.1])
+	by pclibc.fit.vutbr.cz (envelope-from operator@pclibc.fit.vutbr.cz) (8.15.2/8.14.4) with ESMTP id u1PA42hs006170
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 25 Feb 2016 11:04:02 +0100 (CET)
+Received: (from root@localhost)
+	by pclibc.fit.vutbr.cz (8.15.2/8.15.2/Submit) id u1PA429p006169;
+	Thu, 25 Feb 2016 11:04:02 +0100 (CET)
+	(envelope-from operator)
+Date: Thu, 25 Feb 2016 11:04:02 +0100 (CET)
+From: System Operator <operator@fit.vutbr.cz>
+Message-Id: <201602251004.u1PA429p006169@pclibc.fit.vutbr.cz>
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: Printer report - ljlibc
+X-Spam-Status: No, score=-1.268 required=7 tests=AWL,BAYES_00,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Loop: to-krajnakmatto@gmail.com
+
+
+Print(ljlibc:94984, 1, 0, 0, 0) 1.50 CZK: Success
+
+

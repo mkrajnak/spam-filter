@@ -1,0 +1,91 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.159.61.203 with SMTP id e11csp2022715uaj;
+        Mon, 25 Sep 2017 05:30:09 -0700 (PDT)
+X-Google-Smtp-Source: AOwi7QCVuZ26imxNrHNGPfZe7L7adOjtIYlbPXqq1wHasBvISEinBQ+AEcXj1Y2p0GAp0ELTjPtf
+X-Received: by 10.28.147.8 with SMTP id v8mr205295wmd.104.1506342609079;
+        Mon, 25 Sep 2017 05:30:09 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1506342609; cv=none;
+        d=google.com; s=arc-20160816;
+        b=X08OF9f+etHevrBHcuCSZKhq2LJh7CbXk2+LoWQVOdJwopYlWeGkz0kFk53XDT8J9s
+         0RSW57dsxqsq2oUl58BHDuhiaeXp+S2CfnHWWvyUJw/bBJ/SIsxYIbLsgKh7e3V2PQlA
+         79SRRgOK98/67jgxnqn2pD1I3RL70vhKgnQsIU9/vj/VVE8HGXvU4ZE3NRfRoyrNImcy
+         tCDTujSDoyJ0ZuAibnpYHVqHo4Na+LPexid1u4fPs3lxKmwaHn2hgeSt5lmmnufSo2hY
+         a4y7Ak4fItNVd8WFJ4AOpsO26ge0X3GYkQfvb+fthye5WqOkhx3nFolCReb6SNg2mDoj
+         mTXQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:date:message-id:subject:to
+         :from:arc-authentication-results;
+        bh=rem2PtN1QT2Eo0FOg/KPnOj43I9i27EU8RDpzQSP5yM=;
+        b=hlOA/YYzMj5ZwYPmqLcMNTmxGr+ZnTEoGqDb/l1mUme81s6n5VSn5UfRj3nYT35L2u
+         3mlxZo2FfI3/8LWAQH9lctcUdCq3ekZp67wsvo26Dsz9ESHeB3X/citzDv1GP4Ur1gCd
+         YcC43P/rpIt301RgUdTHFVpKnE/xfXJ8E+2w2a167+BTHaDC1BobR+/jfBaXiYIL7ULm
+         lmH+FdPeDPdnd2JurCZCzLPwn28izUIBG6cLICXJD1GVTn/nGW2b9Y3H4g/MpcbDp9hL
+         NOFPVuSjbz+/AFunAatS/GC4BKLOm72unViYJwaFG35wGZeN6HgCa3Q7SuKa/QDtTS5v
+         Qwhw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=krivka@fit.vutbr.cz
+Return-Path: <krivka@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id q14si4681758wrd.307.2017.09.25.05.30.08
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 25 Sep 2017 05:30:09 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=krivka@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v8PCU8cB039013
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Mon, 25 Sep 2017 14:30:08 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v8PCU8Jn039012
+	for krajnakmatto@gmail.com; Mon, 25 Sep 2017 14:30:08 +0200 (CEST)
+	(envelope-from krivka@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to krivka@fit.vutbr.cz using -f
+Received: from merlin.fit.vutbr.cz (merlin.fit.vutbr.cz [147.229.176.19])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id v8PCTYUT038382
+	for <xkrajn02@stud.fit.vutbr.cz>; Mon, 25 Sep 2017 14:30:08 +0200 (CEST)
+Received: by merlin.fit.vutbr.cz (Postfix, from userid 601)
+	id 79DD738018D2A; Mon, 25 Sep 2017 14:29:40 +0200 (CEST)
+From: Zbynek Krivka <krivka@fit.vutbr.cz>
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: Two lectures about Stable Marriage Problems, Oct 5+6, 2017
+Message-Id: <20170925122940.79DD738018D2A@merlin.fit.vutbr.cz>
+Date: Mon, 25 Sep 2017 14:29:40 +0200 (CEST)
+X-Spam-Status: No, score=-2.891 required=7 tests=AWL,BAYES_00,PP_MIME_FAKE_ASCII_TEXT,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-2
+Content-Transfer-Encoding: 8bit
+X-Loop: to-krajnakmatto@gmail.com
+
+Dear colleagues,
+
+Dr. László Szabó (Eötvös Loránd University, Budapest, Hungary) is comming to give two lectures about stable marriage problems. 
+
+Lecturer: dr. László Szabó, (Eötvös Loránd University, Hungary)
+Title: Stable Marriage Problems
+Abstract:
+Matching problems arise in numerous applications. Dating services want to pair up compatible couples. Students need to be matched to universities. Other assignment problems involving resource allocation arise frequently, including balancing the traffic load among servers on the Internet. In the following version of the problem suppose we have an equal number of boys and girls. Every boy lists the girls in order of his preference, and every girl lists the boys in order of her preference.
+
+We would like to arrange marriages between the boys and girls so that there is not a boy and a girl who prefer one another to their spouses. In their 1962 paper, Gale and Shapely demonstrated that, given a set of preferences for every boy and girl, there is always such a stable matching; even better, they showed how to find one by applying an elegant algorithm. It is relatively straightforward to extend this algorithm to situations where there are an unequal number of boys and girls and we allow polygamous matchings in which parties in one group may be matched with more than one party from the other group, which applies when, e.g., universities accept more than one student.
+
+For handout, see http://www.fit.vutbr.cz/~meduna/work/doku.php?id=talks:seminar.
+
+These lectures (included in Graph Algorithms course) are organized by the Formal Model Research Group at the Department of Information Systems, Faculty of Information Technology, Brno University of Technology. As its central scientific topic, it discusses formal models and their applications. Recent presentations are to be found at http://www.fit.vutbr.cz/~meduna/work/doku.php?id=talks:seminar.
+
+Both lectures will take place at FIT BUT in Brno, Bo¾etìchova 2.
+
+Room and Date:
+*Thursday, October 5, 2017, 8:00-11:00, room G202: Stable Marriage Problems I*
+*Friday, October 6, 2017, 10:00-12:00, room A112: Stable Marriage Problems II*
+
+Be there,
+Zbynìk Køivka
+
+

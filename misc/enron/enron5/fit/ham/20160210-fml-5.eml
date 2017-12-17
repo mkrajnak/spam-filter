@@ -1,0 +1,85 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.131 with SMTP id k125csp2549422lfe;
+        Wed, 10 Feb 2016 05:16:26 -0800 (PST)
+X-Received: by 10.28.54.197 with SMTP id y66mr10674045wmh.16.1455110186728;
+        Wed, 10 Feb 2016 05:16:26 -0800 (PST)
+Return-Path: <vkondula@gmail.com>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id bm5si4552051wjb.92.2016.02.10.05.16.26
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Feb 2016 05:16:26 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning vkondula@gmail.com does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vkondula@gmail.com does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=vkondula@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u1ADGQwY000109
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Wed, 10 Feb 2016 14:16:26 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u1ADGQCA000107
+	for krajnakmatto@gmail.com; Wed, 10 Feb 2016 14:16:26 +0100 (CET)
+	(envelope-from vkondula@gmail.com)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to vkondula@gmail.com using -f
+Received: from mail-lf0-f54.google.com (mail-lf0-f54.google.com [209.85.215.54])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u1ADGPrV099995
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK);
+	Wed, 10 Feb 2016 14:16:25 +0100 (CET)
+Received: by mail-lf0-f54.google.com with SMTP id j78so11395725lfb.1;
+        Wed, 10 Feb 2016 05:16:25 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=/EkKo7qpRH8DD0p90BRSityx2DBMBGHoJ8L9+W+ZGXw=;
+        b=tC/PplBWNSYR/ekT4V7LYWE1BRkMLFdPVNLm7GrotCOYBa7wAjIFxq2b6/hXzrTH5g
+         a8+OCQ04ZahXpV/iBOrqKJ62VjbnW0cxxc3xULu8G2mSzaNKQmf3GmMbzgP2jaKID64/
+         ZR/ua0vxwc01K/F2VAQV0VhpR79QErEhparQSlpBdLF+U3JTwOzCAydanvkzLMrmkcwb
+         QIT8LlfZS5gqVIUAcm6hPcyZDBx1r68lk15HD+yR0cDkzRH/sgMxUXITET0pzcR3z2Hq
+         dD64ooeDJQGEUWwx7kaISwKFLGxP7lVO8yrfI6CBu60PfL/s+6l4rwRk4FkarmsWo7Nw
+         6OJQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=/EkKo7qpRH8DD0p90BRSityx2DBMBGHoJ8L9+W+ZGXw=;
+        b=WHnap6weO7DT1ynq6vFrs+F1pswxUdS1EVbRBE4a7cy0qVPuKPQ7Y0a3Q/z9Vsv4Ae
+         kr5eHMrjNjUTi/6OkmuXwlIOQbKWprR+i/Qtxmg/MMW/0wCcjyJJpAAbO1QRaREE8BcG
+         wgBzG6pwFu2VB/BrdYYOCoCgFf+g5c6Wg+L86jC9yH4ZtNRmYaM+0Sg43dMREJ/46e4u
+         1GJCJ2LrpEN+StQ9XCRgdzYMAr6I5YdfTADTt0nYtKU4BsHgHHX0/IZ56J0trsvY0sOv
+         Qgmc8vJrCSZviaYUpmLyTcXo94dbaZ0JzoG9R83Y/Y4qIvON11kOLjUOdbUtjFK2ALOW
+         EEDw==
+X-Gm-Message-State: AG10YOQj9hgENj3jirdEjFPf900GnTfi3zceD2QAfxUVCZqTFGGm4Xa9Yn9wofecdcIwwpCPAxKD4Jmy+CySPw==
+MIME-Version: 1.0
+X-Received: by 10.25.210.196 with SMTP id j187mr9895775lfg.75.1455110184594;
+ Wed, 10 Feb 2016 05:16:24 -0800 (PST)
+Received: by 10.25.32.84 with HTTP; Wed, 10 Feb 2016 05:16:24 -0800 (PST)
+Date: Wed, 10 Feb 2016 14:16:24 +0100
+Message-ID: <CAFJXTzwROU_--G4rzB4eRBaduVXz3YN8LZEVt+HEtgBk8GSfoQ@mail.gmail.com>
+Subject: fml
+From: =?UTF-8?Q?V=C3=A1clav_Kondula?= <vkondula@gmail.com>
+To: xkrajn02@stud.fit.vutbr.cz, xkondu00@stud.fit.vutbr.cz
+Content-Type: multipart/alternative; boundary=001a114128b2a979eb052b6a3d93
+X-Spam-Status: No, score=-1.767 required=7 tests=AWL,BAYES_00,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL,TVD_SPACE_RATIO
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+--001a114128b2a979eb052b6a3d93
+Content-Type: text/plain; charset=UTF-8
+
+https://docs.google.com/spreadsheets/d/1gw16Kr2yKNU_4McA7nXCn3jFpOK4-tbci957NRSKxSQ/edit#gid=0
+
+--001a114128b2a979eb052b6a3d93
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr"><a href="https://docs.google.com/spreadsheets/d/1gw16Kr2yKNU_4McA7nXCn3jFpOK4-tbci957NRSKxSQ/edit#gid=0">https://docs.google.com/spreadsheets/d/1gw16Kr2yKNU_4McA7nXCn3jFpOK4-tbci957NRSKxSQ/edit#gid=0</a><br></div>
+
+--001a114128b2a979eb052b6a3d93--
+
+

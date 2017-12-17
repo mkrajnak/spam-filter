@@ -1,0 +1,76 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.203 with SMTP id z194csp287056vsc;
+        Fri, 13 Jan 2017 09:08:42 -0800 (PST)
+X-Received: by 10.223.169.85 with SMTP id u79mr13026244wrc.169.1484327322377;
+        Fri, 13 Jan 2017 09:08:42 -0800 (PST)
+Return-Path: <zpravy-is@ro.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id p10si2752850wmb.167.2017.01.13.09.08.42
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Jan 2017 09:08:42 -0800 (PST)
+Received-SPF: pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=zpravy-is@ro.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v0DH8fq6039298
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Fri, 13 Jan 2017 18:08:41 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v0DH8f6a039297
+	for krajnakmatto@gmail.com; Fri, 13 Jan 2017 18:08:41 +0100 (CET)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to zpravy-is@ro.vutbr.cz using -f
+Received: from ferret.cis.vutbr.cz (ferret.cis.vutbr.cz [147.229.3.145])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v0DH8fPF039291
+	(version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 13 Jan 2017 18:08:41 +0100 (CET)
+Received: from ent.ro.vutbr.cz (ent.ro.vutbr.cz [147.229.2.49])
+	by ferret.cis.vutbr.cz (8.14.9/8.14.7/VUT Brno) with ESMTP id v0DH8f7k052754
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 13 Jan 2017 18:08:41 +0100 (CET)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+Received: from ent.ro.vutbr.cz (localhost.localdomain [127.0.0.1])
+	by ent.ro.vutbr.cz (8.13.8/8.13.8) with ESMTP id v0DH8fcL004686
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 13 Jan 2017 18:08:41 +0100
+Received: (from root@localhost)
+	by ent.ro.vutbr.cz (8.13.8/8.13.8/Submit) id v0DH8f9O004685;
+	Fri, 13 Jan 2017 18:08:41 +0100
+Date: Fri, 13 Jan 2017 18:08:41 +0100
+Message-Id: <201701131708.v0DH8f9O004685@ent.ro.vutbr.cz>
+MIME-Version: 1.0
+From: zpravy-is@ro.vutbr.cz
+Reply-to: zpravy-is@ro.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: =?utf-8?B?W0lTIFZVVF0gQnlsbyBWw6FtIHphc2zDoW5vIHN0aXBlbmRpdW0gMjIwMCBDWksgbmEgw7rEjWV0IDI3Njk2OTcxMzMvMDgwMCBTUzogVlM6MTQxMTE3NTM4Mg==?=
+User-Agent: EmailSend VUTPortal3 shreckdog email_send.pl
+Content-type: text/plain; charset="utf-8"
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.67 on 147.229.3.145
+X-Spam-Status: No, score=-1.14 required=7 tests=AWL,BAYES_00,RCVD_IN_BRBL_LASTEXT,RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from base64 to 8bit by eva.fit.vutbr.cz id v0DH8fPF039291
+X-Loop: to-krajnakmatto@gmail.com
+
+Oznámení Portálu VUT v Brně 
+
+Martin Krajňák, 175382, FIT, *29.12.1994
+
+Dne 12.01.2017 Vám bylo zasláno ubytovací stipendium 2200 CZK za měsíc 2016-12 na Váš bankovní účet 2769697133/0800 SS: VS:1411175382.
+
+Your accommodation scholarship for students 2200 CZK for month 2016-12 was sent on your bank account 2769697133/0800 SS: VS:1411175382
+
+In case of your query, please contact your faculty staff.
+
+Centrum Výpočetních a Informačních Služeb VUT v Brně
+http://is.vutbr.cz
+
+VUT zpráva od: portál VUT automat 
+Odpověď na tuto zprávu není možná. Zprávu odeslal automat.
+
+

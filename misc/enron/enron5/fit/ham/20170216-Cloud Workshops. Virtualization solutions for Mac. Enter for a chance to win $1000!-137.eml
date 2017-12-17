@@ -1,0 +1,448 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.203 with SMTP id z194csp2132958vsc;
+        Wed, 15 Feb 2017 16:08:55 -0800 (PST)
+X-Received: by 10.223.139.220 with SMTP id w28mr32920837wra.172.1487203735018;
+        Wed, 15 Feb 2017 16:08:55 -0800 (PST)
+Return-Path: <bounce-866153_HTML-1375243902-4877226-10017485-2729@bounce.e-mail.microsoft.com>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id 33si6973646wrm.266.2017.02.15.16.08.54
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 15 Feb 2017 16:08:54 -0800 (PST)
+Received-SPF: fail (google.com: domain of bounce-866153_html-1375243902-4877226-10017485-2729@bounce.e-mail.microsoft.com does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email.microsoftemail.com;
+       spf=fail (google.com: domain of bounce-866153_html-1375243902-4877226-10017485-2729@bounce.e-mail.microsoft.com does not designate 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=bounce-866153_HTML-1375243902-4877226-10017485-2729@bounce.e-mail.microsoft.com;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=e-mail.microsoft.com
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v1G08snb045860
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Thu, 16 Feb 2017 01:08:54 +0100 (CET)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v1G08sNv045859
+	for krajnakmatto@gmail.com; Thu, 16 Feb 2017 01:08:54 +0100 (CET)
+	(envelope-from bounce-866153_HTML-1375243902-4877226-10017485-2729@bounce.e-mail.microsoft.com)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to bounce-866153_HTML-1375243902-4877226-10017485-2729@bounce.e-mail.microsoft.com using -f
+Received: from mta28.email.microsoftemail.com (mta28.email.microsoftemail.com [66.231.92.214])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v1G08U8R045683
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 16 Feb 2017 01:08:45 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=102420140131; d=email.microsoftemail.com;
+ h=From:To:Subject:Date:MIME-Version:Reply-To:List-ID:Message-ID:Content-Type;
+ bh=WZe8dIsM7hBVJJp93Lluo4LufLI=;
+ b=PVaDsucRgdodM4Hlt5MCghqn2VXjBE6Ww8xMd3PEANMv5tPA+LWiwWfMuXBSpJXUCHJv44ohhmr8
+   kQbef4DzqXu3j8xrZQRwH0/H0tiq2lP8uEybUoUkOplcCp5BjAJ6gTqRuy0XU9K575dLRjSwQflV
+   YEstOLYU5/VRbH5e/mw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=e-mail.microsoft.com;
+ b=EJ6baIzwCcb4kQLCvWK818Y2fwoHhpCRh8clGO+hi0ivK56ydS2Eps/P+sxsGLO8rnuj2E8U8vSA
+   bzoMu8koMHJoo8ZbbJ7UMT6iwPwYa+g6vvUq98+8euNZCuuIBXFQyp/QMR/64aPS1tW9FrOi3HFf
+   jKOyiLRM9x/X1jfzYT8=;
+Received: by mta28.email.microsoftemail.com id hkjmoq163hsb for <xkrajn02@stud.fit.vutbr.cz>; Wed, 15 Feb 2017 17:42:21 -0600 (envelope-from <bounce-866153_HTML-1375243902-4877226-10017485-2729@bounce.e-mail.microsoft.com>)
+From: "MS Imagine" <MSImagine@e-mail.microsoft.com>
+To: <xkrajn02@stud.fit.vutbr.cz>
+Subject: Cloud Workshops. Virtualization solutions for Mac. Enter for a chance to win $1000!
+Date: Wed, 15 Feb 2017 17:42:21 -0600
+MIME-Version: 1.0
+Reply-To: "Microsoft" <reply-fe8b10787263067f73-866153_HTML-1375243902-10017485-2729@email.microsoftemail.com>
+List-ID: <10017485_4877226.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 10017485_4877226
+Message-ID: <822b57c8-0a1f-4bf0-b5e0-a2c09cb7e5dc@xtinmta4188.xt.local>
+Content-Type: multipart/alternative;
+	boundary="nltcyZ5hxCVb=_?:"
+X-Spam-Status: No, score=-0.096 required=7 tests=AWL,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HTML_MESSAGE,LOTS_OF_MONEY,RCVD_IN_DNSWL_NONE,RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+This is a multi-part message in MIME format.
+
+--nltcyZ5hxCVb=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Microsoft Imagine
+
+https://view.email.microsoftemail.com/?j=fe8b10787263067f73&m=fe651570756503797d11&ls=fdf315727765027f7c1d7976&l=fec21c767365017e&s=fdfb157372610679761d7077&jb=ff2b1677776d&ju= 
+View as a webpage 
+
+http://msdn.microsoft.com/en-us/imagine 
+
+February 2017
+
+https://www.facebook.com/msftimagine 
+ 
+https://twitter.com/MSFTImagine 
+
+Learn
+
+
+https://mva.microsoft.com/en-US/training-courses/azure-developer-workshop-storage-cognitive-ml-stream-analytics-containers-and-docker--17033?l=s9e3FaPND_6606218965 
+Watch Now 
+
+
+Learn what Azure can do for you!
+
+ Increase your development capabilities and save time with Azure. Technical Evangelist Susan Ibach and Wintellect Co-Founder Jeff Prosise will show you how to analyze events streamed from devices, analyze images, make predictions with machine learning, and more. 
+
+Build
+
+
+https://imagine.microsoft.com/en-us/Catalog/Product/528?wt.mc_id=DX_877876 
+Download Now 
+
+
+Parallels Desktop for Mac Pro 
+
+Use Parallels Desktop for Mac Pro to build and test Mac and Windows applications side-by-side without rebooting; Parallels Desktop also integrates with tools including Visual Studio, Chef, Docker, Vagrant Provider, and Jenkins. Sign up via Microsoft Imagine for a free 3-month trial.
+
+
+Grow
+
+
+https://compete.imagine.microsoft.com/en-us/hellocloud?skillLevel=0 
+Register Now 
+
+
+A new year, a new chance to win! 
+ Master cloud computing with Microsoft Azure and win $1,000!Our Hello Cloud sweepstakes challenges you with hands-on, real-world activities; each activity you complete gives you another chance to win; a new winner is selected every month! 
+
+
+Share
+
+Microsoft is offering the chance to win a $100,000 grand prize for the Imagine Cup student innovation challenge.Bring your passion, creativity and code to create the world of tomorrow today. Sign up now!
+
+https://pages.email.microsoftemail.com/Publish.aspx?qs=71b8883ce06d4a8517404b16ed6e8789a358b8c5fcd1dccdf7787c001f2fe4a22dc79b377b296ca896cdd51cdbd36ac1dcc457d03ecf207ff07c55c7de75ef2aac462095479cd6a244dd3aaf0b04b1d30583b788f3b356fb0858729ca9704c3fea2de8aa6e1279e8 
+
+http://twitter.com/intent/tweet?text=@MSFTImagine+is+offering+students+the+chance+to+win+$100,000+in+the+%23ImagineCup2017+innovation+challenge!+https://aka.ms/innovationchallengetw 
+
+You are receiving this newsletter as part of your participation in the Microsoft Imagine program or through your school’s participation. Through Imagine, you get access to free developer tools, online training and resources.Plus, learn how to participate in student competitions like the 
+https://compete.imagine.microsoft.com/category/9?wt.mc_id=DX_874651 
+Imagine Cup contest .
+
+http://www.microsoft.com 
+
+Microsoft respects your privacy. To learn more please read our online 
+https://go.microsoft.com/fwlink/?LinkId=521839 
+Privacy Statement .
+
+If you would prefer to no longer receive this newsletter, please click 
+https://click.email.microsoftemail.com/m_hcp.aspx?qs=4a62fed4fda65625ef5bbcdb3716fc9fc85b12b5502f3d95fb4d4f4f255cda45a258cb52ba0c6737a3e6c3f0c3c19f216003f017bf5810d4c26280bddf74a73431f49325b51de624dab56ff9326271e4085994098d829073&oneClick=newsletter 
+here 
+ 
+To set your contact preferences for other Microsoft communications click 
+https://click.email.microsoftemail.com/m_hcp.aspx?qs=4a62fed4fda65625ef5bbcdb3716fc9fc85b12b5502f3d95fb4d4f4f255cda45a258cb52ba0c6737a3e6c3f0c3c19f216003f017bf5810d4c26280bddf74a73431f49325b51de624dab56ff9326271e4085994098d829073 
+here .
+
+Microsoft Corporation
+One Microsoft Way
+Redmond, WA 98052 USA
+
+
+
+
+
+
+--nltcyZ5hxCVb=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+
+<!--HiDPI Fix -->
+
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]--> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">    <!-- So that mobile webkit will display zoomed in -->
+    <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+
+    <title>Microsoft Imagine</title>
+
+<style type="text/css">
+
+	@media only screen and (max-width: 480px) {
+        
+		table[id='content'] { width: 100% !important; }
+		td[class='column2row'] { display: block; width: 100% !important; }
+         .NoDateLink_Black a {color: #000000 !important; text-decoration: none;}
+		td[class='invisible'] { display:none; }
+         /* Outer-content refers to items outside of the borderd table. Keeps the text from being flush against a device's borders. */
+            td[class='outer-content'] {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+		body { padding: 0 !important; }
+		td[class='visible'] { display:block !important; width : auto !important; max-height: inherit !important; overflow : visible !important; float : none !important;}
+        td[class="CTABoxstyle"] { padding: 20px 10px !important; width:30% !important; }
+		.fleximage { display: block; max-width: 100%; width: 100%; border: 0; outline: none;text-decoration: none; -ms-interpolation-mode: bicubic;" }
+	  
+</style>
+</head><body style="background-color:  #4d4d4d; margin: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height: 100%; width: 100%;">
+
+
+<center>
+ <table style="background-color:  #4d4d4d;" id="content"  width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+        <td height="0"; style="font-size: 1px; line-height: 1px" ><img alt="" src="http://image.email.microsoftemail.com/lib/ffcf14/m/1/spacer.gif" height="1" width="10" border="0" style="display: block;" /></td>
+    </tr>
+     <tr>
+         <td align="center">
+              <table cellpadding="0" cellspacing="0"  id="content" width="600" align="center">
+                  <tr>
+                      <td class="invisible" colspan="2" style="font-family:Arial; font-size:13px; padding-bottom: 8px;" align="right">
+                            <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed999defd3d079b52a32c951d9005bb625deee071c9e24d503281b9ee59e328741f1487f29eeeef9464d3c5ff792c3a81156ade8cb0d852ed00"style="color:#ffffff;">View as a webpage</a>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td colspan="2">
+                        <!-- Header -->
+                            <table cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+                                <tr>
+                                    <td width="600" align="left" valign="top" bgcolor="#ffffff">
+                                       <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed9716876a7f3863f2a55ca68debe29b93840f1f1611fbb0fce4c4e9ddde13ce56f7b59c86de60bd644a0c49469ee24d5c6a4129974c60a01cd" title="Microsoft Imagine" ><img alt="Microsoft Imagine" src="https://image.email.microsoftemail.com/lib/fe651570756503797d11/m/1/MSImagine_EmailNewsletter_Header_600x90.gif" width="600" border="0" class="fleximage" style="display: block;"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="600" align="left" valign="middle" bgcolor="#d2d2d2" style="color:#000000;font-size:11px; padding: 0px 20px 0px 20px;">
+                                        <!-- subheader-->
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr valign="middle" style="padding-top: 2px; padding-bottom: 3px;" >
+        <td width="520" valign="middle" align="left" style="color: #000000; font-family: 'Segoe UI Light','Segoe UI',Arial,sans-serif; font-weight: 300; font-size: 15px; padding: 0px 0px 0px 0px;">February 2017
+        </td>
+        <td width="20" align="right" valign="middle" style="color: #000000;">
+            <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed9c0e94e799319fefc05431b4b1d3c92dc16a417eeda8710d94c4b9a5059bda4240b32cd7b923d269b0c0ef2c2cb8d9bfce82beaf40dfa3287" title="Facebook"  style="text-decoration: none; border: 0px; color: #000000">
+                <img src="https://image.email.microsoftemail.com/lib/fe651570756503797d11/m/1/MSImagine_EmailNewsletter_8-16_Facebook.png" width="16" height="16" border="0" alt="Facebook" style="display: block">
+            </a>
+        </td>
+        <td width="5" align="right" style="color: #ffffff;">&nbsp;</td>
+        <td width="20" align="right" valign="middle" style="color: #000000;">
+            <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed96cee33ee3b4bc41e671137d146e9905743cd30b5e1171229a861b93edc654bc03940a29e9c64459191c9901e6a6f097558416d5fb193d086" title="Twitter"  style="text-decoration: none; border: 0px; color: #000000">
+                <img src="https://image.email.microsoftemail.com/lib/fe651570756503797d11/m/1/MSImagine_EmailNewsletter_8-16_Twitter.png" width="16" height="16" border="0" alt="Twitter" style="display: block">
+            </a>
+        </td>
+    </tr>
+</table>
+
+                                </tr>   
+                            </table>
+
+                      </td>
+                  </tr>                
+                  <tr>
+                      <td colspan="2" align="center" style="background-color: #ffffff; padding-bottom:0px;">
+                          <img src="https://image.email.microsoftemail.com/lib/fe651570756503797d11/m/1/microsoft027.jpg" border="0" alt="" class="fleximage" width="600">
+
+
+                  </tr>
+                 <!-- Learn Section -->
+                 <tr>
+                        <td width="25%" valign="top" align="left" bgcolor="#ffffff" style="color:#000000; font-size:13px; padding:20px 20px; border-bottom: 5px solid #d2d2d2;" class="CTABoxstyle">
+                         <!-- Learn CTA -->
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td width="150" valign="top" align="left" style="color: #000000; font-family: 'Segoe UI Light','Segoe UI',Arial,sans-serif; font-weight: 100; font-size: 30px; line-height: 34px; padding: 0px 0px 0px 0px;">Learn
+            <br><br> 
+            <table cellpadding="0" cellspacing="0" border="0" bgcolor="#b4009e">
+                <tr>
+                    <td style="color: #ffffff; font-family: 'Segoe UI',Arial,sans-serif; font-size: 11px; font-weight: bold; line-height: 11px; padding: 10px 10px; text-transform: uppercase;" class="txtCTA">
+                        <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed95b11bb298dbcd80981cea7c183878c8da221c3316c18a8c1ebb8b61f2de328a7ff094b2447e6d543d4ec469c5c9326079c3b3a627292601e" title="Learn More"  style="color: #fffffe; font-weight: bold; text-decoration: none;">Watch Now</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                       <!-- Right Column -->
+                        <td width="75%" valign="top" align="left" bgcolor="#ffffff" style="color:#000000; font-size:13px; line-height:16px; border-bottom: 5px solid #d2d2d2; padding:20px 20px;">
+                                                    <table cellpadding="0" cellspacing="0" border="0">
+                             <!-- Headline -->
+                            <tr>
+                                <td  valign="middle" align="left"  style="font-size:26px; color:#000000; line-height:30px; font-family:'Segoe UI Light','Segoe UI',Arial,sans-serif; font-weight:100;">
+                                  Learn what Azure can do for you!                                </td>
+                             </tr>
+                             <!-- Subhead-->
+                             
+                            <!-- Body -->
+                            <tr>
+                                 <td  valign="middle" align="left" style="color:#000000; font-family:'Segoe UI',Arial,sans-serif; font-size:13px; line-height:16px;">
+                                     Increase your development capabilities and save time with Azure. Technical Evangelist Susan Ibach and Wintellect Co-Founder Jeff Prosise will show you how to analyze events streamed from devices, analyze images, make predictions with machine learning, and more.                               </td>
+                            </tr>
+                         </table>  
+                    </tr>
+
+            <!-- Build Section -->
+                   <tr>
+                        <td width="25%" valign="top" align="left" bgcolor="#ffffff" style="color:#000000; font-size:13px; padding:20px 20px; border-bottom: 5px solid #d2d2d2;" class="CTABoxstyle">
+                         <!-- Build CTA -->
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td width="150" valign="top" align="left" style="color: #000000; font-family: 'Segoe UI Light','Segoe UI',Arial,sans-serif; font-weight: 100; font-size: 30px; line-height: 34px; padding: 0px 0px 0px 0px;">Build
+            <br><br> 
+            <table cellpadding="0" cellspacing="0" border="0" bgcolor="#b4009e">
+                <tr>
+                    <td style="color: #ffffff; font-family: 'Segoe UI',Arial,sans-serif; font-size: 11px; font-weight: bold; line-height: 11px; padding: 10px 10px; text-transform: uppercase;" class="txtCTA">
+                        <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed9212313ff74025317fc15518edaa6582468d75fdd775173e16b187a22583df15bf98eeb4bbf2da3dcd66b8520d4ac202ef1942095de96ae2b" title="Learn More"  style="color: #fffffe; font-weight: bold; text-decoration: none;">Download Now</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                       <!-- Right Column -->
+                        <td width="75%" valign="top" align="left" bgcolor="#ffffff" style="color:#000000; font-size:13px; line-height:16px; border-bottom: 5px solid #d2d2d2; padding:20px 20px;">
+                                                    <table cellpadding="0" cellspacing="0" border="0">
+                             <!-- Headline -->
+                            <tr>
+                                <td  valign="middle" align="left"  style="font-size:26px; color:#000000; line-height:30px; font-family:'Segoe UI Light','Segoe UI',Arial,sans-serif; font-weight:100;">
+                                  Parallels Desktop for Mac Pro                                 </td>
+                             </tr>
+                             <!-- Subhead-->
+                              
+                            <!-- Body -->
+                            <tr>
+                                 <td  valign="middle" align="left" style="color:#000000; font-family:'Segoe UI',Arial,sans-serif; font-size:13px; line-height:16px;">
+                                  Use Parallels Desktop for Mac Pro to build and test Mac and Windows applications side-by-side without rebooting; Parallels Desktop also integrates with tools including Visual Studio, Chef, Docker, Vagrant Provider, and Jenkins. Sign up via Microsoft Imagine for a free 3-month trial.                              </td>
+                            </tr>
+                         </table>  
+                    </tr>
+             <!-- Grow Section -->
+                     <tr>
+                        <td width="25%" valign="top" align="left" bgcolor="#ffffff" style="color:#000000; font-size:13px; padding:20px 20px; border-bottom: 5px solid #d2d2d2;" class="CTABoxstyle">
+                                                    <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="150" valign="top" align="left" style="color:#000000; font-family:'Segoe UI Light','Segoe UI',Arial,sans-serif; font-weight:100; font-size:30px; line-height:34px; padding:0px 0px 0px 0px;">
+                                    Grow
+                                    <br><br>
+                                    <table cellpadding="0" cellspacing="0" border="0" bgcolor="#b4009e">
+                                        <tr>
+                                
+                                            <td style="color:#ffffff; font-family:'Segoe UI',Arial,sans-serif; font-size:11px; font-weight:bold; line-height:11px; padding:10px 10px; text-transform:uppercase;" class="txtCTA">
+                                                <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed9b1713ec183e1608d1a36bb12359756a159f0e96cb536f4527c4ddf0e48a1d8526b81065f6d88d7ff8b8be45707b98874c4e780a526342efb" title="Watch Now"  style="color:#fffffe; font-weight:bold; text-decoration:none;">Register Now</a>
+                                            </td>
+                                
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                 <!-- Right Column -->
+                        <td width="75%" valign="top" align="left" bgcolor="#ffffff" style="color:#000000; font-size:13px; line-height:16px; padding:20px 20px; border-bottom: 5px solid #d2d2d2;">
+                                                    <table cellpadding="0" cellspacing="0" border="0">
+                             <!-- Headline -->
+                            <tr>
+                                <td  valign="middle" align="left"  style="font-size:26px; color:#000000; line-height:30px; font-family:'Segoe UI Light','Segoe UI',Arial,sans-serif; font-weight:100;">
+                                  A new year, a new chance to win!                               </td>
+                             
+                            <!-- Body -->
+                            <tr>
+                                 <td  valign="middle" align="left" style="color:#000000; font-family:'Segoe UI',Arial,sans-serif; font-size:13px; line-height:16px;">
+                                     Master cloud computing with Microsoft Azure and win $1,000!  Our Hello Cloud sweepstakes challenges you with hands-on, real-world activities; each activity you complete gives you another chance to win; a new winner is selected every month!                                     </td>
+                            </tr>
+                         </table>  
+                   </tr>
+             <!-- Shared Section -->
+                <tr>
+                    <td width="25%" valign="top" align="left" bgcolor="#ffffff" style="color:#000000; font-size:13px; padding: 20px 20px; border-bottom: 0px solid #d2d2d2;" class="CTABoxstyle">
+                                              <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="150" valign="top" align="left" class="txtLZ" style="color:#000000; font-family:'Segoe UI Light','Segoe UI',Arial,sans-serif; font-weight:100; font-size:30px; line-height:34px; padding:0px 0px 0px 0px;">
+                                    Share
+                                </td>
+                            </tr>
+                        </table>
+                    <td width="75%" valign="top" align="left" bgcolor="#ffffff" style="color:#000000; font-size:13px; line-height:16px; padding:20px 20px; border-bottom: 0px solid #d2d2d2;">
+                                                    
+<!-- Creates a link to share this content with facebook -->
+	                                <table cellpadding="0" cellspacing="0" border="0">
+		                                <tr>
+                                             <!-- RegionStart[ name:"Shared content region 1",  
+                                             title:"Microsoft is offering the chance to win a $100,000",
+                                             description:"Microsoft is offering students the chance to win $100,000 in the Imagine Cup innovation challenge! https://aka.ms/innovationchallengefb",  
+                                             csskey:"portfolio css 1"] -->
+                                            <td style="font-family:'Segoe UI',Arial,sans-serif; font-size:13px; line-height:16px;">Microsoft is offering the chance to win a $100,000 grand prize for the Imagine Cup student innovation challenge.  Bring your passion, creativity and code to create the world of tomorrow today. Sign up now!                                    <br><br>
+		                                    </td>
+                                             <!-- RegionEnd[ name:"Shared content region 1"] -->  
+		                                </tr>
+		                                <tr>
+                                            <td>
+                                            <table width="15" bgcolor="#FFFFFF" border="0" bordercolor="">
+                                            <tr>
+			                                <td style="font-family:Arial; font-size:13px; width:10px">
+				                                <a href="https://pages.email.microsoftemail.com/Publish.aspx?qs=71b8883ce06d4a8517404b16ed6e8789a358b8c5fcd1dccdf7787c001f2fe4a22dc79b377b296ca896cdd51cdbd36ac1dcc457d03ecf207ff07c55c7de75ef2aac462095479cd6a244dd3aaf0b04b1d30583b788f3b356fb0858729ca9704c3f83a456155f2c293409cb7f4aa77f3e9973e2a39f9f052962"
+				                                 title="Publish to Facebook">
+				                                <img src="https://image.email.microsoftemail.com/lib/fe651570756503797d11/m/1/fb-share-button.png"  alt="Share on Facebook" border="0">
+				                                </a>
+			                                </td>
+			                    <td style="font-family:Arial; font-size:13px; width:10px">
+     <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed9b3ca09fe52d526776771624d9861d766d719f0fa4c900c5bdcd1af31e4f0c012624cb650de9340a8344a44db95234a85efc95e882eecf967" title="Publish to Twitter" ><img src="https://image.email.microsoftemail.com/lib/fe651570756503797d11/m/1/twitter-share-button.png" border="0" alt="Tweet" /></a>
+</td>
+
+		                                 </tr>
+		                               </table>
+                                     </td>
+		                            </tr>
+	                              </table>  
+ 
+
+                  </tr>
+                  <!-- Magenta Section -->
+                   <tr>
+                      <td colspan="2" bgcolor="#b4009e" width="600" align="left" valign="middle" style="color: #ffffff; font-family: 'Segoe UI',Arial,sans-serif; font-size: 13px; line-height: 16px; padding: 15px 20px;">
+                          You are receiving this newsletter as part of your participation in the Microsoft Imagine program or through your school’s participation. Through Imagine, you get access to free developer tools, online training and resources.  Plus, learn how to participate in student competitions like the <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed9f8a62953271dc16cc1e38aae819bb2db854b485b7b400acbb4ef68ecf60cd31aa170541acee23e751411de008e5ee2a6ebcc4dec54531fec" >Imagine Cup contest</a>.
+                  </tr>  
+                  <tr>
+                        <td colspan="2" width="600" valign="middle" align="left" style="background-color:#d2d2d2; color:#4d4d4d; font-family:'Segoe UI',Arial,sans-serif; font-size:10px; line-height:12px; padding:10px 20px 15px 20px;">
+                            <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed9bd9d57577820b8bc19ffe99e6395f4d3a81e23b1a630fe13a2167389aba9f25cc98201c40486a04150ffb213b5568e13a46184997b43ae3c" title="Microsoft"  style="text-decoration:none;"><img src="https://image.email.microsoftemail.com/lib/fe651570756503797d11/m/1/MSFT_logo_rgb_C-Gray.png" width="110" alt="Microsoft" border="0"></a>
+                           
+                        </td>
+                    </tr>
+                    <tr><td colspan="2" width="600" valign="middle" align="left" style="background-color:#d2d2d2; color:#4d4d4d; font-family:'Segoe UI',Arial,sans-serif; font-size:10px; line-height:12px; padding:0px 20px 20px 20px;">
+                            Microsoft respects your privacy. To learn more please read our online <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed924a3b4be554d8f9b12aaa9129eef62211be80e2209eaea937d2e67e431cd456a52f626b2757700e1bf1fbeafa5777e11ca02b7d89e975d98">Privacy Statement</a>.<br>
+		<br/>
+		If you would prefer to no longer receive this newsletter, please click <a href="https://click.email.microsoftemail.com/?qs=db27ac9990ff4ed9f78b02b37bbd106e820bc9b1e02719de8120ae11f15bdba4ed768c0052116df24b82b88c2578d95827b4b52cda4b54ebbfe5271ea20a04ed">here</a> <br/>
+		<br> 
+		To set your contact preferences for other Microsoft communications click <a href="https://click.email.microsoftemail.com/m_hcp.aspx?qs=4a62fed4fda65625ef5bbcdb3716fc9fc85b12b5502f3d95fb4d4f4f255cda45a258cb52ba0c6737a3e6c3f0c3c19f216003f017bf5810d4c26280bddf74a73431f49325b51de624dab56ff9326271e4b46585b1d180f6dd53b14ae59b37a68a6a1c93a06ac06fd6">here</a>.<br/>
+		<br/>
+		
+		Microsoft Corporation<br/>
+		One Microsoft Way<br/>
+		Redmond, WA 98052 USA
+		</td>
+	</tr>
+</table>
+                    </tr>
+                        
+             </table>
+         </td>
+     </tr>
+    
+  </table>
+</center>
+<img src="https://click.email.microsoftemail.com/open.aspx?ffcb10-fe8b10787263067f73-fdf315727765027f7c1d7976-fe651570756503797d11-fec21c767365017e-fdfb157372610679761d7077-ff2b1677776d" width="1" height="1">
+
+
+</body></html>
+
+--nltcyZ5hxCVb=_?:--
+
+

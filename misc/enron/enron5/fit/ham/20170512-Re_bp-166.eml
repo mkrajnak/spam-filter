@@ -1,0 +1,109 @@
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.213 with SMTP id z204csp287206vsc;
+        Fri, 12 May 2017 02:47:38 -0700 (PDT)
+X-Received: by 10.223.175.46 with SMTP id z43mr2712964wrc.84.1494582458469;
+        Fri, 12 May 2017 02:47:38 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1494582458; cv=none;
+        d=google.com; s=arc-20160816;
+        b=PKkuaNXgnSPvxMKv8ETg2nI7r0wMpF94FajSKLbtTcILNPZMDiRb9cTkw6bFp8exS/
+         qYZ0gG3fz3WOeDoEawxSdvnAL/WYU01CGB7OYCWegLqHn2OIWCuB/ZWiirITkVVcAQg6
+         MUiObVU76cvl/lBTfks94CulE5qQjaJYTuVf76R/MfqOYjnKg/MEE69vV8IicOTEBztW
+         sgQpAclxK+2fk2+sFM/0AZCFB+6N7d7TUzY6YMkODehnTp1nxmpFyfMrFW/0azobwS+8
+         UcXKU8DVStcw0HFBObSmllj5nK4iplTU3+7dQp9iUu7ZrrBfoenxeuceO9ecU3v8AovU
+         HH0g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=dkim-signature:content-transfer-encoding:in-reply-to:mime-version
+         :user-agent:date:message-id:from:references:to:subject
+         :arc-authentication-results;
+        bh=2HwnmFLcuLlR3ZklyC1fLza0bVe6ffg1zqyfqqvG7yk=;
+        b=0hPjFoFRem+uKcJv+U7PkLzawDP+Lv9TVrc2duhZRUAKTaQ98LtcGGfZDKaTRoT2pl
+         SvYUsg+1Lt8CVjLtu3rshRihlXTm0gVPmUFIExCab8c3Bwv78gL302b5P7mvKHRmL79N
+         PFOPsaGI76Utdtd2yU+f2uMgXUig0FvTokmSVVYYnm/Qvws6KVRhQ7A2A5/8gNWgnjSv
+         k+bUtgsp9N7MCPWg6ujzVH3nL0bbru/OEkx1k66RxEFfdZCPWH2TIoxR5jMBkjCQUgHl
+         kCse6r8ICQxISYhtjixzxL69e+Fk4PY4w57p1/6T69Q0iqhculmN+s5ty8bHNg/Mh498
+         uI/g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz;
+       spf=pass (google.com: best guess record for domain of bartik@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=bartik@fit.vutbr.cz
+Return-Path: <bartik@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id g6si3161105wrd.40.2017.05.12.02.47.37
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 12 May 2017 02:47:38 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bartik@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz;
+       spf=pass (google.com: best guess record for domain of bartik@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=bartik@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4C9lbH2089875
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Fri, 12 May 2017 11:47:37 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v4C9lbAM089874
+	for krajnakmatto@gmail.com; Fri, 12 May 2017 11:47:37 +0200 (CEST)
+	(envelope-from bartik@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to bartik@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4C9lbBB089868
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 12 May 2017 11:47:37 +0200 (CEST)
+Received: from [192.168.9.100] (cst-prg-200-23.cust.vodafone.cz [46.135.200.23])
+	(authenticated bits=0)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPSA id v4C9lanP048968
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Fri, 12 May 2017 11:47:37 +0200 (CEST)
+Subject: Re: bp
+To: =?UTF-8?Q?Kraj=c5=88=c3=a1k_Martin?= <xkrajn02@stud.fit.vutbr.cz>
+References: <20170511023656.11424e5vymouzuaw@email.fit.vutbr.cz>
+From: =?UTF-8?B?VmxhZGltw61yIEJhcnTDrWs=?= <bartik@fit.vutbr.cz>
+Message-ID: <591584B9.9090103@fit.vutbr.cz>
+Date: Fri, 12 May 2017 11:47:37 +0200
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101
+ Thunderbird/38.5.0
+MIME-Version: 1.0
+In-Reply-To: <20170511023656.11424e5vymouzuaw@email.fit.vutbr.cz>
+Content-Type: text/plain; charset=iso-8859-2; format=flowed
+Content-Transfer-Encoding: 8bit
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fit.vutbr.cz; h=subject:to:references:from:message-id:date:mime-version:in-reply-to:content-type:content-transfer-encoding; s=mx1; bh=2HwnmFLcuLlR3ZklyC1fLza0bVe6ffg1zqyfqqvG7yk=; b=TYYQWVsB0aR9MlVJmCo+XbsQ+NZaE0kWNyn5viHNkxJXpMMgdY7aRgWgPHK4vKG7q4rjzfAPIS6Dt12D/Ex0RA5DSmTRCmLICPonsKmTWKk1d7bGq9KqULgzJ784IqTShG16839J5niUteFSuPDgs/LiM0asGwxhr7yVdj0sPKM=
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-2.093 required=7 tests=ALL_TRUSTED,AWL,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+Dobrý den,
+myslím, ¾e ohlednì tìch citací jsou oba pøístupy mo¾né. Jen z 
+typografického hlediska by mìla být pøed hranatou závorkou mezera, tj. 
+napø. React [18], ne React[18].
+Ta pøíloha s obsahem média asi není nezbytnì nutná, ale vìt¹inou se tam 
+dává. Tak¾e bych asi doporuèil ji tam dát, i kdy¾ její nepøítomnost by 
+vám pravdìpodobnì nezpùsobila nìjaké problémy s obhajobou:).
+
+S pozdravem,
+V. Bartík
+
+
+Dne 11.5.2017 v 2:36 Krajòák Martin napsal(a):
+> Dobrý deò,
+>
+> posielam, aktualizovanú verziu práce momentálne 32 normostrán, chcem 
+> e¹te prida» jednu/dve uká¾ky zdrojových kódov, finálny obrázok 
+> dialógu, dopísa» dve sekcie a záver.
+> Pí¹em Vám hlavne preto, preto¾e som na pochybách, èi sú v mojej práci 
+> správne uvedené v texte odkazy na citácie.
+> Momentálne mám odkazy uvedené vo väè¹ine odsekov na zaèiatku odseku 
+> pri pojme, ktorý vysvetµujem. V niektorých zverejnených prácach sú ale 
+> citácie umiestòované v¾dy a¾ na konci odseku. Rád by som sa teda 
+> spýtal, ktorá z varianta je správne.
+> Ïal¹ia moja otázka smeruje na Prílohu hovoriacu o obsahu prilo¾eného 
+> média. Je nutné tuto prílohu zahrnú» ?
+>
+> S pozdravom
+> Martin Krajòák
+
+

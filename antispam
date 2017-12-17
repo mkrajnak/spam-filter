@@ -3,8 +3,8 @@
 # Author: Martin Krajnak
 import sys
 import os
-from random import shuffle
 # eml parser and deps
+from random import shuffle
 from eml_parser import eml_parser
 # classification libraries
 from sklearn.feature_extraction.text import CountVectorizer
@@ -22,7 +22,7 @@ def check_args(args):
         help()
 
 
-def spam_print(email,reason=None):
+def spam_print(email, reason=None):
     if reason:
         print(email,"- SPAM -", reason)
     else:
@@ -66,15 +66,6 @@ def get_header(email):
             return False
 
 
-def is_czechoslovak(email):
-    header = get_header(email)
-    import ipdb; ipdb.set_trace()
-    if header and 'content-language' in header.keys():
-        if 'cs' in header['content-language'] or 'sk' in header['content-language']:
-            return True
-    return False
-
-
 def get_message(email):
     '''
     Open mail as a binary file pass it to eml_parser to get content
@@ -111,7 +102,10 @@ def walk_through_files(dir_name):
     messages = []
     for root, dirs, files in os.walk(dir_name, topdown=False):
         for name in files:
-            messages.append(classify_message(os.path.join(root, name)))
+            try:
+                messages.append(classify_message(os.path.join(root, name)))
+            except:
+                continue
     return messages
 
 
@@ -119,8 +113,8 @@ def learn_on_dataset(messages):
     shuffle(messages)
     msg = [x['msg'] for x in messages]
     classification = [x['spam'] for x in messages]
-    pipeline = Pipeline([('vectorizer',CountVectorizer()),
-                         ('classifier',MultinomialNB())])
+    pipeline = Pipeline([('vectorizer', CountVectorizer()),
+                         ('classifier', MultinomialNB())])
     return pipeline.fit(msg, classification)
 
 
@@ -137,6 +131,7 @@ def verify_mail(pipeline, msg):
     return predict[0]
 
 
+# F used for dataset testing
 def pipeline_test(pipeline, folder):
     msgs_to_validate = walk_through_files(folder)
     msgs = [x['msg'] for x in msgs_to_validate]
@@ -155,7 +150,6 @@ Function responsible for learning
 def learn(path):
     messages = walk_through_files(path)
     pipeline = learn_on_dataset(messages)
-    # pipeline_test(pipeline, path)
     save_classifier(pipeline)
     exit(0)
 
@@ -165,13 +159,15 @@ Main
 '''
 emails = sys.argv[1:]
 check_args(emails)
-
 # if os.path.isdir(emails[0]):
-#     learn(emails[0])
-
-pipeline = load_classifier()
-
-
+#       learn(emails[0])
+#       #pipeline = load_classifier()
+#       #pipeline_test(pipeline, emails[0])
+#       exit(0)
+try:
+    pipeline = load_classifier()
+except:
+    print(email,"- FAIL - clasifier not found")
 
 for email in emails:
     try:

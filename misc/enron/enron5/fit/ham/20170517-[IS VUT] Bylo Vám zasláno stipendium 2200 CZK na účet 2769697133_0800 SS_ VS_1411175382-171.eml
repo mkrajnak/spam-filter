@@ -1,0 +1,91 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.213 with SMTP id z204csp134906vsc;
+        Wed, 17 May 2017 03:25:24 -0700 (PDT)
+X-Received: by 10.28.65.213 with SMTP id o204mr10571413wma.43.1495016724857;
+        Wed, 17 May 2017 03:25:24 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1495016724; cv=none;
+        d=google.com; s=arc-20160816;
+        b=K9c8GrIyfdSdojYZ2p2nkQ1tMoHGaZMFNLUjicZyxcqepyQDTtfDX3Pd4ekIVU/YcB
+         /4b/n49gfOth/b+I18INdG67aU/Pz3f3Rt6qAARhPiQnmpNxeyScPs+WecPX4oDJwg/u
+         xlXIxcmaeAV4YIyDQqNpU3IQgSDyW0UJMuhe2aeFjTio+J7BPnmDXQbX0zwegjObiEAO
+         LwG0wAQl+hNIRt30lN4ru4ROwx3slHRdmflCW/r96U9HK99xUNga8Ya0qgsnMn2+1ebB
+         46f0xZSDDwKRL9Y2iilA0L1dF7NYO5mvm3X+m4pChybq9Orw4tlBpv45/rsKzIbpsdEz
+         HIBw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:date:message-id:user-agent:subject:to
+         :reply-to:from:mime-version:arc-authentication-results;
+        bh=IACIDDWkl7/jGS6dVHs18IqoJ5amNS3FM9oCq1ZS8JE=;
+        b=P228dcwoCBeBEs1MSl7NYuJJxrfD4tKsxBaXcDq7QkNYV3lURzPCw4SHrRVoGRVaRq
+         EyWS3Z7LDkWTOWXw3vgA27//Dkje5tkuc50LgXoameFp+assWzr0v7obXQJfvYnZdo0y
+         YiwwK5hOGk3e/muVkmzKXX96HKcfzYBSJQloiVgdVAtcYWA2GfzjqUb4u+CpDp1rQYMW
+         eRKVkBV6+onsdoCpo6Tq9aY0wTJlK2JTFEM4Exq8jSoWM6yCrIZJr8plKM6xg5eDp8hy
+         vx8O1pnLidXVQgp50w14w3TD7n9GaV+NyXI9TXpRoc5ufDkRZxyYRMsknK67YFI0kem5
+         j+Kw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=zpravy-is@ro.vutbr.cz
+Return-Path: <zpravy-is@ro.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id b74si16926951wmb.146.2017.05.17.03.25.24
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 May 2017 03:25:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of zpravy-is@ro.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=zpravy-is@ro.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4HAPOJb039403
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Wed, 17 May 2017 12:25:24 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v4HAPOwU039402
+	for krajnakmatto@gmail.com; Wed, 17 May 2017 12:25:24 +0200 (CEST)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to zpravy-is@ro.vutbr.cz using -f
+Received: from ferret.cis.vutbr.cz (ferret.cis.vutbr.cz [147.229.3.145])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4HAPN7Y039396
+	(version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <xkrajn02@stud.fit.vutbr.cz>; Wed, 17 May 2017 12:25:23 +0200 (CEST)
+Received: from emu.ro.vutbr.cz (emu.ro.vutbr.cz [100.64.24.49])
+	by ferret.cis.vutbr.cz (8.14.9/8.14.7/VUT Brno) with ESMTP id v4HAPNjN060031
+	for <xkrajn02@stud.fit.vutbr.cz>; Wed, 17 May 2017 12:25:23 +0200 (CEST)
+	(envelope-from zpravy-is@ro.vutbr.cz)
+Received: by emu.ro.vutbr.cz (Postfix, from userid 1028)
+	id 236A0303650F; Wed, 17 May 2017 12:25:23 +0200 (CEST)
+MIME-Version: 1.0
+From: zpravy-is@ro.vutbr.cz
+Reply-to: zpravy-is@ro.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: =?utf-8?B?W0lTIFZVVF0gQnlsbyBWw6FtIHphc2zDoW5vIHN0aXBlbmRpdW0gMjIwMCBDWksgbmEgw7rEjWV0IDI3Njk2OTcxMzMvMDgwMCBTUzogVlM6MTQxMTE3NTM4Mg==?=
+User-Agent: EmailSend VUTPortal3 shreckdog email_send.pl
+Content-type: text/plain; charset="utf-8"
+Message-Id: <20170517102523.236A0303650F@emu.ro.vutbr.cz>
+Date: Wed, 17 May 2017 12:25:23 +0200 (CEST)
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.67 on 147.229.3.145
+X-Spam-Status: No, score=0.654 required=7 tests=AWL,RCVD_IN_BRBL_LASTEXT,RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from base64 to 8bit by eva.fit.vutbr.cz id v4HAPN7Y039396
+X-Loop: to-krajnakmatto@gmail.com
+
+Oznámení Portálu VUT v Brně 
+
+Martin Krajňák, 175382, FIT, *29.12.1994
+
+Dne 16.05.2017 Vám bylo zasláno ubytovací stipendium 2200 CZK za měsíc 2017-05 na Váš bankovní účet 2769697133/0800 SS: VS:1411175382.
+
+Your accommodation scholarship for students 2200 CZK for month 2017-05 was sent on your bank account 2769697133/0800 SS: VS:1411175382
+
+In case of your query, please contact your faculty staff.
+
+Centrum Výpočetních a Informačních Služeb VUT v Brně
+http://is.vutbr.cz
+
+VUT zpráva od: portál VUT automat 
+Odpověď na tuto zprávu není možná. Zprávu odeslal automat.
+
+

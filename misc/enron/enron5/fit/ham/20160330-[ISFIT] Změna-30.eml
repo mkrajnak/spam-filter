@@ -1,0 +1,48 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.81 with SMTP id k78csp2455604lfe;
+        Wed, 30 Mar 2016 01:37:02 -0700 (PDT)
+X-Received: by 10.194.75.164 with SMTP id d4mr7760171wjw.15.1459327022130;
+        Wed, 30 Mar 2016 01:37:02 -0700 (PDT)
+Return-Path: <xkrajn02@stud.fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id vu8si3680074wjc.28.2016.03.30.01.37.01
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 30 Mar 2016 01:37:02 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=xkrajn02@stud.fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u2U8b14J090604
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Wed, 30 Mar 2016 10:37:01 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u2U8b1MO090603
+	for krajnakmatto@gmail.com; Wed, 30 Mar 2016 10:37:01 +0200 (CEST)
+	(envelope-from xkrajn02@stud.fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to xkrajn02@stud.fit.vutbr.cz using -f
+Received: from wis.fit.vutbr.cz (agata.fit.vutbr.cz [147.229.9.21])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id u2U8b1EF090593
+	for <xkrajn02@stud.fit.vutbr.cz>; Wed, 30 Mar 2016 10:37:01 +0200 (CEST)
+X-Received-From: phpmailer
+Date: Wed, 30 Mar 2016 10:37:01 +0200
+To: xkrajn02@stud.fit.vutbr.cz
+From: =?iso-8859-2?Q?Kraj=F2=E1k_Martin?= <xkrajn02@stud.fit.vutbr.cz>
+Subject: =?iso-8859-2?Q?[ISFIT]_Zm=ECna?=
+Message-ID: <44bd2fd6ac331a62b53692469cfb931f@wis.fit.vutbr.cz>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.73pl]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-2"
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+IZG/2015L: 9 b -> 12 b, nezap 2016-05-06, 4F
+
+
+

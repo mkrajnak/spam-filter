@@ -1,0 +1,121 @@
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.213 with SMTP id z204csp636455vsc;
+        Thu, 18 May 2017 04:24:01 -0700 (PDT)
+X-Received: by 10.28.15.14 with SMTP id 14mr2599067wmp.51.1495106641229;
+        Thu, 18 May 2017 04:24:01 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1495106641; cv=none;
+        d=google.com; s=arc-20160816;
+        b=DrygtroZ7EawUyimCe8toM7hEi8yXNCAtTHUMIvO3pSzS/nMUBXPTU0B6coSuHOPDp
+         BV9+ynXzym+WeT1Wl/3vlKzhAbcO5VVLasZWyv73YoXwWPoCOpFxklEaBLqu8krZzJNY
+         N15xpfK9187v4ro0ahIowevuBPF2HjEL+2IF4XHcVe35wIobqinsJQu0TL6Shes3fqoN
+         hW19Qy1HULv5zqeHIihDEunA/iRNM1Q8Rr/ZP4BHQkoU0OUTY/P21gYPXvOaPgQ8b5/J
+         1SJre1X5ZWp1zlffZ60BoJ1+QuDAveLk0yGRNPCpREqHWXeqyLkp68Iaabbg7jBUIdKm
+         jdcg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=user-agent:content-transfer-encoding:content-disposition
+         :mime-version:in-reply-to:references:subject:to:from:date:message-id
+         :arc-authentication-results;
+        bh=46LDqrBhcOMVtLznbiUwM0Tu/5u9HXvY+AQV7QWXsbM=;
+        b=DMAmMJVLcDZZjlkxefSOFztJLGsPv1VJZsdS7ArkQHykSPxjb4+jzm5zWBI70nGzAI
+         Tlq8HYYN/QZDP+aMNqhFKbyUENfqinzmL9teEDUOkqpobH4zT/wO+tQVTIet4QebL/4b
+         RAVZoQnWNjLRifyxqYdMCTLn1jym/vsTPIKB0lGXI2Af19nOljucIYhmaFkxCfcSLw9W
+         bmRG2C8zxhBv1R0L03FMOcjiJ8ZkgZXF9tWeL8cWt8RpplFMwjyaP3xfG6DiRfgz2qa8
+         cWll68cRwCKHaOzL5V0tgFiwBo5TVKaCrbUJ2nl7FqfBF7z3O5tUGWqI3+AOvG0IyyPK
+         mmyw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=xkrajn02@stud.fit.vutbr.cz
+Return-Path: <xkrajn02@stud.fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id e133si10873227wma.1.2017.05.18.04.24.00
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 18 May 2017 04:24:01 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of xkrajn02@stud.fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=xkrajn02@stud.fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v4IBO0os001876
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Thu, 18 May 2017 13:24:00 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v4IBO02f001875
+	for krajnakmatto@gmail.com; Thu, 18 May 2017 13:24:00 +0200 (CEST)
+	(envelope-from xkrajn02@stud.fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to xkrajn02@stud.fit.vutbr.cz using -f
+Received: from fit.vutbr.cz (hermina.fit.vutbr.cz [147.229.9.15])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id v4IBO055001863
+	for <xkrajn02@stud.fit.vutbr.cz>; Thu, 18 May 2017 13:24:00 +0200 (CEST)
+Message-ID: <20170518132400.17927wlm1dkjwksw@email.fit.vutbr.cz>
+Date: Thu, 18 May 2017 13:24:00 +0200
+From: =?iso-8859-2?b?S3JhavLhaw==?= Martin <xkrajn02@stud.fit.vutbr.cz>
+To: =?iso-8859-2?b?S3JhavLhaw==?= Martin <xkrajn02@stud.fit.vutbr.cz>
+Subject: Re: zapocet ITY
+References: <20170517015857.2036513obyltj58h@email.fit.vutbr.cz>
+In-Reply-To: <20170517015857.2036513obyltj58h@email.fit.vutbr.cz>
+MIME-Version: 1.0
+Content-Type: text/plain;
+ charset=ISO-8859-2;
+ DelSp="Yes";
+ format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.3.7)
+X-Client-IP: 213.175.37.10
+X-Auth-Login: xkrajn02
+X-Remote-Browser: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
+ Firefox/52.0
+X-Spam-Status: No, score=-1.996 required=7 tests=ALL_TRUSTED,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+Vá¾ený pán prodekan,
+
+uvedomil som si, ¾e na rie¹enie tejto situácie u¾ je neskoro,
+keï¾e zápoèty do ITY boli podµa WIS do 7.5.2017 a tak som u¾ bol
+poda» na ¹tudijnom oddelení ¾iados» o odhlásenie SZZ. Môj  
+predchádzajúci mail teda nemusíte bra» na vedomie.
+
+S pozdravom
+Martin Krajòák
+
+Cituji Krajòák Martin <xkrajn02@stud.fit.vutbr.cz>:
+
+> Vá¾ený pán prodekan,
+>
+> na úvod sa chcem ospravedlni», ¾e Vám pí¹em vo veci, ktorú sme u¾   
+> spolu uzavreli. Po dlhom uva¾ovaní som sa rozhodol napísa» Vám e¹te  
+> raz.
+>
+> Po náv¹teve u Vás som si e¹te vymenil pár mailov s pánom doktorom   
+> Rozmanom v ktorých mi pripomenul u¾ Vami spomínanú mo¾nos» spísa»   
+> dokument, v ktorom napí¹em ako som daný projekt vypracoval, na  
+> základe  èoho by molo mo¾né opätovne projekt posúdi». Dlho som o tom  
+> premý¹µal  a my¹lienka nato, ¾e by som nevyu¾itie tejto mo¾nosti  
+> µutoval poèas  celého ïal¹ieho roka ma doviedla k tomu, ¾e som tento  
+> dokument  vypracoval a zaslal dr. Rozmanovi. Obratom mi zaslal mail,  
+> v ktorom ma  ¾iadal aby som mu doniesol podpísanú verziu dokumentu.
+>
+> Dr. Rozmana som vèera nav¹tívil, no pred odovzdaním dokumentu som si  
+>  vybavil rozhovor s Vami a nadobudol som obavu, ¾e odovzdanie   
+> podpísaného dokumentu by ma mohlo dosta» do e¹te hor¹ej situácie ako  
+>  je tá, v ktorej sa nachádzam teraz. Po uvedení tejto skutoènosti ma  
+>  dr. Rozman poslal za Vami s tým, ¾e sa následne poradíte a uvediete  
+>  finálne hodnotenie. ®iaµ nepodarilo sa mi Vás zastihnú», a tak som  
+> sa  rozhodol napísa» tento mail.
+>
+> Chcel by som Vás posledný krát poprosi», èi by ste si mohli dokument  
+>  zaslaný v prílohe preèíta» a na základe toho posúdi», èi by to  
+> mohlo  spôsobi» zmenu mo¾nú zmenu v hodnotení. Ak to je potrebné,  
+> viem sa za  Vami kedykoµvek zastavi».
+>
+> S pozdravom
+> Martin Krajòák
+
+
+
+

@@ -1,0 +1,83 @@
+X-Mozilla-Status: 0013
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.103.126.69 with SMTP id z66csp15196vsc;
+        Tue, 25 Apr 2017 13:37:19 -0700 (PDT)
+X-Received: by 10.28.186.3 with SMTP id k3mr14285576wmf.74.1493152639486;
+        Tue, 25 Apr 2017 13:37:19 -0700 (PDT)
+Return-Path: <dytrych@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id 2si274519wrh.283.2017.04.25.13.37.19
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 25 Apr 2017 13:37:19 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of dytrych@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@fit.vutbr.cz;
+       spf=pass (google.com: best guess record for domain of dytrych@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=dytrych@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v3PKbI8G056177
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Tue, 25 Apr 2017 22:37:18 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id v3PKbIVr056176
+	for krajnakmatto@gmail.com; Tue, 25 Apr 2017 22:37:18 +0200 (CEST)
+	(envelope-from dytrych@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to dytrych@fit.vutbr.cz using -f
+Received: from kazi.fit.vutbr.cz (kazi.fit.vutbr.cz [147.229.8.12])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id v3PKbIgb056170
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Tue, 25 Apr 2017 22:37:18 +0200 (CEST)
+Received: from [10.0.0.2] (105.152.broadband9.iol.cz [90.176.152.105])
+	(authenticated bits=0)
+	by kazi.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPSA id v3PKbIhi040357
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK)
+	for <xkrajn02@stud.fit.vutbr.cz>; Tue, 25 Apr 2017 22:37:18 +0200 (CEST)
+Subject: =?UTF-8?Q?Re:_odovzdanie_bakalarskej_pr=c3=a1ce?=
+To: =?UTF-8?Q?Kraj=c5=88=c3=a1k_Martin?= <xkrajn02@stud.fit.vutbr.cz>
+References: <20170425211239.84072b7aypmo9x2f@email.fit.vutbr.cz>
+From: Jaroslav Dytrych <dytrych@fit.vutbr.cz>
+Message-ID: <b3b89d23-0712-3058-31e9-19fa8880666f@fit.vutbr.cz>
+Date: Tue, 25 Apr 2017 22:37:18 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101
+ Thunderbird/45.2.0
+MIME-Version: 1.0
+In-Reply-To: <20170425211239.84072b7aypmo9x2f@email.fit.vutbr.cz>
+Content-Type: text/plain; charset=iso-8859-2; format=flowed
+Content-Transfer-Encoding: 8bit
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fit.vutbr.cz; h=subject:to:references:from:message-id:date:mime-version:in-reply-to:content-type:content-transfer-encoding; s=mx1; bh=66xtZTR7zlOh8/23fqKVQdCloNXEkRt+vbH4f/txD3c=; b=aCZtbYa6inmNjQBEjdNQS2ALKcSns4tXGCB2HGrUtVPlrczbvILWv8YH6VC3kiMG9VSPqiYFc+l5ujFZevmvkTnASpAtZZnRWrxDarJzJ1CJ3fSMnW+q+FCTlpoC4j6z7OaKqwIFh3f9xyewNn/c9eNlfQVsCPTLgl+8wuZSaJg=
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.8.12
+X-Spam-Status: No, score=-2.095 required=7 tests=ALL_TRUSTED,AWL,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Loop: to-krajnakmatto@gmail.com
+
+Vá¾ený pane Krajòák,
+
+pokud nedosáhnete dostateèného poètu kreditù, je potøeba si zru¹it ISZ a 
+jít ke státnicím a¾ za rok. Práci mù¾ete odevzdat tzv. "do ¹uplíku" - 
+tzn. normálnì ji v termínu odevzdáte a pak neztratíte termín obhajoby (i 
+kdy¾ obhajoba asi bude a¾ za rok se státnicemi).
+
+Pøeji pìkný den
+
+Jaroslav Dytrych
+
+
+Dne 25.4.2017 v 21:12 Krajòák Martin napsal(a):
+> Vá¾ený pán Dytrych,
+>
+> som ¹tudentom 3.roèníka a momentálne mi bohu¾iaµ hrozí, ¾e nedostanem 
+> zápoèet z voliteµného predmetu a nebudem ma» teda dostatoèné mno¾stvo 
+> kreditov na ukonèenie ¹túdia. Chcel by som sa Vás spýta», èi budem 
+> môc» odovzda» bakalársku prácu v tomto roku za predpokladu, ¾e 
+> nedosiahnem dané mno¾stvo kreditov. A ako to je prosím Vás so 
+> ¹tátnicami ?
+>
+> Ïakujem
+> Martin Krajòák
+>
+
+

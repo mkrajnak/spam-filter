@@ -1,0 +1,153 @@
+X-Mozilla-Status: 0003
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: krajnakmatto@gmail.com
+Received: by 10.25.161.81 with SMTP id k78csp2428606lfe;
+        Tue, 12 Apr 2016 22:35:22 -0700 (PDT)
+X-Received: by 10.194.166.228 with SMTP id zj4mr7104491wjb.99.1460525722484;
+        Tue, 12 Apr 2016 22:35:22 -0700 (PDT)
+Return-Path: <krivka@fit.vutbr.cz>
+Received: from eva.fit.vutbr.cz (eva6.fit.vutbr.cz. [2001:67c:1220:8b0::93e5:b00e])
+        by mx.google.com with ESMTPS id w19si37833783wjr.196.2016.04.12.22.35.22
+        for <krajnakmatto@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 12 Apr 2016 22:35:22 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) client-ip=2001:67c:1220:8b0::93e5:b00e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of krivka@fit.vutbr.cz designates 2001:67c:1220:8b0::93e5:b00e as permitted sender) smtp.mailfrom=krivka@fit.vutbr.cz
+Received: from eva.fit.vutbr.cz (localhost [127.0.0.1])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTPS id u3D5ZL2j054557
+	(version=TLSv1.2 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO)
+	for <krajnakmatto@gmail.com>; Wed, 13 Apr 2016 07:35:21 +0200 (CEST)
+Received: (from xkrajn02@localhost)
+	by eva.fit.vutbr.cz (8.15.2/8.14.8/Submit) id u3D5ZLP6054556
+	for krajnakmatto@gmail.com; Wed, 13 Apr 2016 07:35:21 +0200 (CEST)
+	(envelope-from krivka@fit.vutbr.cz)
+X-Authentication-Warning: eva.fit.vutbr.cz: xkrajn02 set sender to krivka@fit.vutbr.cz using -f
+Received: from merlin.fit.vutbr.cz (merlin.fit.vutbr.cz [147.229.176.19])
+	by eva.fit.vutbr.cz (8.15.2/8.15.2) with ESMTP id u3D5ZLjt054549;
+	Wed, 13 Apr 2016 07:35:21 +0200 (CEST)
+Received: by merlin.fit.vutbr.cz (Postfix, from userid 601)
+	id 43996503145CA; Wed, 13 Apr 2016 07:35:21 +0200 (CEST)
+Date: Wed, 13 Apr 2016 07:35:21 +0200
+From: krivka@fit.vutbr.cz
+To: xkrajn02@stud.fit.vutbr.cz
+Subject: IPP - =?utf-8?Q?Pokusn=C3=A9?= =?utf-8?Q?_hodnocen=C3=AD?=
+ =?utf-8?Q?_=C3=BAlohy?= 2 - xkrajn02
+Message-ID: <570dda99.Bpju74LEAg9tedbo%krivka@fit.vutbr.cz>
+User-Agent: Heirloom mailx 12.4 7/29/08
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: No, score=-2.867 required=7 tests=AWL,BAYES_00,RP_MATCHES_RCVD
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on eva.fit.vutbr.cz
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Scanned-By: MIMEDefang 2.78 on 147.229.176.14
+X-Loop: to-krajnakmatto@gmail.com
+
+Dobrý den,
+jelikož jste provedl/a pokusné odevzdání rozpracované úlohy 2 projektu do IPP 2015/2016, zasíláme Vám zpětnou vazbu.
+
+Následující procentuální rozmezí hodnocení NENÍ finální hodnocení Vaší úlohy, ale má za úkol Vám poskytnout přibližnou zpětnou vazbu ohledně aktuální kvality Vaší implementace projektu. Před závěrečným testováním mohou být testy pozměněny například kvůli odhalení chyb v testech a doplněny o nové testy.
+Předběžné hodnocení úlohy také neobsahuje testování implementovaných rozšíření. Odevzdání bylo dobrovolné a námi zaslanou zpětnou vazbou Vám nevzniká žádný nárok na body za finální odevzdání úlohy. 
+
+Úloha byla nejdříve automaticky rozbalena z odevzdaného archivu (ve výpisu si všimněte případných hlášení chyb a varování, které pro finální odevzdání ve vlastním zájmu opravte) a pak byly spuštěny testy. Testovací příklady nebudou zveřejněny.
+Zpětná vazba obsahuje pouze výsledek od automatického testování skripty (tedy nezahrnuje hodnocení rozšíření, dokumentace, kvality zdrojových kódů, komentářů, plagiátorství či podvodné výstupy) na serveru Merlin.
+Reklamaci pokusného odevzdání nelze nárokovat.
+
+Především nečekané a velmi špatné mezivýsledky (0 až 10%) lze konzultovat s cvičícím.
+   Ing. Láznička (úlohy CLS, XQR; po domluvě emailem)
+   Ing. Kocman (úlohy CHA, XTD; po domluvě emailem)
+   Ing. Kučera (úloha SYN; po domluvě emailem)
+   Dr. Křivka (úlohy CSV, MKA; viz http://merlin.fit.vutbr.cz/wiki/index.php/Konzultace-Krivka (na konzultaci IPP je možné zmenšit bloky na 10 minut) či domluva emailem)
+Individuální dotazy ke konkrétní úloze vždy směřujte ke správnému zodpovědnému cvičícímu, jinak nemusíte dostat odpověď.  Děkuji za pochopení.
+
+
+Hodnocení pokusného odevzdání skriptu:
+======================================
+
+Login studenta: xkrajn02
+Hodnocená úloha 2: MKA
+
+Dekomprimace archivu: OK
+
+Předběžné vyhodnocení za implementaci je v rozmezí 0-10 %.
+
+Protože je Váš skript téměř nefunkční, následuje výpis Vašeho chybového výstupu provedených testů:
+
+Chybove vystupy spousteni testovacich souboru se skriptem xkrajn02/mka.py:
+-- test02.log ------------------------------------------------------------
+-- test03.log ------------------------------------------------------------
+-- test04.log ------------------------------------------------------------
+Traceback (most recent call last):
+  File "mka.py", line 320, in get_input
+    f = open(args.input[0], 'r')
+PermissionError: [Errno 13] Permission denied: '/home/users/lampa/test04.in'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "mka.py", line 380, in <module>
+    mka.buffer = get_input(args)
+  File "mka.py", line 322, in get_input
+    error('Cannot open file %s' %args.input)
+TypeError: error() missing 1 required positional argument: 'code'
+-- test05.log ------------------------------------------------------------
+-- test06.log ------------------------------------------------------------
+-- test07.log ------------------------------------------------------------
+-- test08.log ------------------------------------------------------------
+-- test09.log ------------------------------------------------------------
+-- test10.err ------------------------------------------------------------
+ERR:Cannot open file:['test10.in']
+-- test11.err ------------------------------------------------------------
+-- test12.err ------------------------------------------------------------
+-- test13.err ------------------------------------------------------------
+-- test16.err ------------------------------------------------------------
+-- test17.err ------------------------------------------------------------
+-- test18.err ------------------------------------------------------------
+-- test19.err ------------------------------------------------------------
+-- test20.err ------------------------------------------------------------
+-- test22.err ------------------------------------------------------------
+ERR:Cannot use this combination of arguments
+-- test23.err ------------------------------------------------------------
+Traceback (most recent call last):
+  File "mka.py", line 395, in <module>
+    ma = mka.minimize()
+  File "mka.py", line 280, in minimize
+    if temp[0] in other_states:
+IndexError: list index out of range
+-- test26.err ------------------------------------------------------------
+-- test27.err ------------------------------------------------------------
+-- test28.err ------------------------------------------------------------
+-- test29.err ------------------------------------------------------------
+-- test30.err ------------------------------------------------------------
+-- test31.err ------------------------------------------------------------
+-- test32.err ------------------------------------------------------------
+-- test33.err ------------------------------------------------------------
+-- test34.err ------------------------------------------------------------
+Traceback (most recent call last):
+  File "mka.py", line 395, in <module>
+    ma = mka.minimize()
+  File "mka.py", line 300, in minimize
+    ma.ka_start = ma.ka_states[0]
+IndexError: list index out of range
+-- test35.err ------------------------------------------------------------
+-- test36.err ------------------------------------------------------------
+ERR:symbol: '' in rules is not defined
+-- test39.err ------------------------------------------------------------
+-- test48.err ------------------------------------------------------------
+ERR:symbol: '' in rules is not defined
+-- test49.err ------------------------------------------------------------
+-- test50.err ------------------------------------------------------------
+-- test51.err ------------------------------------------------------------
+-- test52.err ------------------------------------------------------------
+ERR:symbol: '10' in rules is not defined
+-- test53.err ------------------------------------------------------------
+-- test54.err ------------------------------------------------------------
+ERR:start state is not defined
+-- test57.err ------------------------------------------------------------
+
+S pozdravem,
+Zbyněk Křivka
+
+
