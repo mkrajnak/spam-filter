@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/env python3.6
 # Antispam filter - project for BIS course at FIT BUT
 # Author: Martin Krajnak
 import sys
