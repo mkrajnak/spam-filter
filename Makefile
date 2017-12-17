@@ -1,6 +1,6 @@
 all:
 	pip3 install --user scipy
-	chmod u+x antispam
+	chmod +x antispam
 
 zip:
 	rm -rf *.zip
@@ -10,4 +10,4 @@ zip:
 # filter is not functional because of missing clasifier
 wis:
 	rm -rf *.zip
-	zip -r xkrajn02.zip antispam Makefile xkrajn02.odt.pdf
+	zip -r xkrajn02.zip antispam Makefile xkrajn02.pdf
