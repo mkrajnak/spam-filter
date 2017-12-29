@@ -7,7 +7,7 @@ import os
 from random import shuffle
 from eml_parser import eml_parser
 # classification libraries
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.externals import joblib
 from sklearn.pipeline import Pipeline
@@ -114,6 +114,7 @@ def learn_on_dataset(messages):
     msg = [x['msg'] for x in messages]
     classification = [x['spam'] for x in messages]
     pipeline = Pipeline([('vectorizer', CountVectorizer()),
+                         ('tfidf', TfidfTransformer()),
                          ('classifier', MultinomialNB())])
     return pipeline.fit(msg, classification)
 
@@ -128,7 +129,8 @@ def load_classifier():
 
 def verify_mail(pipeline, msg):
     predict = pipeline.predict_proba([msg])
-    return predict[0] > 0.7
+    # import ipdb; ipdb.set_trace()
+    return predict[0][1] > 0.85
 
 
 # F used for dataset testing
@@ -159,11 +161,11 @@ Main
 '''
 emails = sys.argv[1:]
 check_args(emails)
-# if os.path.isdir(emails[0]):
-#       learn(emails[0])
-#       #pipeline = load_classifier()
-#       #pipeline_test(pipeline, emails[0])
-#       exit(0)
+if os.path.isdir(emails[0]):
+      learn(emails[0])
+      #pipeline = load_classifier()
+      #pipeline_test(pipeline, emails[0])
+      exit(0)
 try:
     pipeline = load_classifier()
 except:
