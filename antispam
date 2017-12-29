@@ -130,7 +130,7 @@ def load_classifier():
 def verify_mail(pipeline, msg):
     predict = pipeline.predict_proba([msg])
     # import ipdb; ipdb.set_trace()
-    return predict[0][1] > 0.85
+    return predict[0][1] > 0.9
 
 
 # F used for dataset testing
@@ -161,11 +161,11 @@ Main
 '''
 emails = sys.argv[1:]
 check_args(emails)
-if os.path.isdir(emails[0]):
-      learn(emails[0])
-      #pipeline = load_classifier()
-      #pipeline_test(pipeline, emails[0])
-      exit(0)
+# if os.path.isdir(emails[0]):
+#       learn(emails[0])
+#       #pipeline = load_classifier()
+#       #pipeline_test(pipeline, emails[0])
+#       exit(0)
 try:
     pipeline = load_classifier()
 except:
@@ -180,6 +180,6 @@ for email in emails:
         else:
             ok_print(email)
 
-    except Exception as e:
+    except:
         print(email,"- FAIL - failed to open email file")
         continue
