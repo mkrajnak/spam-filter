@@ -127,8 +127,8 @@ def load_classifier():
 
 
 def verify_mail(pipeline, msg):
-    predict = pipeline.predict([msg])
-    return predict[0]
+    predict = pipeline.predict_proba([msg])
+    return predict[0] > 0.7
 
 
 # F used for dataset testing
